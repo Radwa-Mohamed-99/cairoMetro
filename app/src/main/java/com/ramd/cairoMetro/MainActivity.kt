@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
     var start="";var arrival=""
     var allPaths:List<List<String>> = listOf(emptyList())
     var shortPath:List<String>? = emptyList()
+    val paths = mutableListOf<List<String>>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,6 +87,9 @@ class MainActivity : AppCompatActivity() {
     fun getDetails(view: View) {
         indexPlus=0
         indexMins = 0
+        nextPath.isEnabled=false
+        perviousPath.isEnabled=false
+        shortestPath.isEnabled=false
 
         if(startStation.selectedItemPosition == 0 ||arrivalStation.selectedItemPosition == 0 )
         {
@@ -107,16 +111,23 @@ class MainActivity : AppCompatActivity() {
             }
             val stationCount = shortPath?.size ?: 0
             stationNo.text= "Station NO \n $stationCount "
-            val fees = calculatePrice(stationCount, "")
+            val fees = calculatePrice(stationCount)
             price.text= "Price \n$fees"
             time.text= "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
 
          if (allPaths.count()>1)
          {
              nextPath.isEnabled=true
+             for (path in allPaths) {
+                 if(path==shortPath)continue
+                  paths += listOf(path)
+
+             }
+
          }
 
     }
+
     @SuppressLint("SetTextI18n")
     fun shortest(view: View) {
         station.text= "The Shortest Path:\n  ${shortPath?.joinToString(",")}"
@@ -125,18 +136,17 @@ class MainActivity : AppCompatActivity() {
         }
         val stationCount = shortPath?.size ?: 0
         stationNo.text= "Station NO \n $stationCount "
-        val fees = calculatePrice(stationCount, "")
-        price.text= "Price \n$fees"
         time.text= "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
     }
-    @SuppressLint("SetTextI18n")
-    fun next (view: View) {
 
-            if (allPaths[indexPlus] == shortPath && indexMins < allPaths.size-2) indexPlus++
-            else if( allPaths[indexPlus] == shortPath  && indexMins == allPaths.size-1) {nextPath.isEnabled=false;perviousPath.isEnabled=true ;return}
-            station.text = "Another Path:\n  ${allPaths[indexPlus].joinToString(",")}"
-            direction.text = " direction: \n " + direction(allPaths[indexPlus],lines)
-            val stationCount = allPaths[indexPlus].count()
+
+    @SuppressLint("SetTextI18n")
+    fun next (view: View)  {
+
+
+            station.text = "Another Path:\n  ${paths[indexPlus].joinToString(",")}"
+            direction.text = " direction: \n " + direction(paths[indexPlus],lines)
+            val stationCount = paths[indexPlus].count()
             stationNo.text= "Station NO \n $stationCount "
             time.text= "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
             indexMins=indexPlus
@@ -144,29 +154,27 @@ class MainActivity : AppCompatActivity() {
             shortestPath.isEnabled=true
             if(indexPlus>1)
             {
-                shortestPath.isEnabled=true
                 perviousPath.isEnabled=true
             }
-        if(indexPlus > (allPaths.size-1)) {
+        if(indexPlus > (paths.size-1)) {
             nextPath.isEnabled = false
+            return
+
         }
+
     }
 
     @SuppressLint("SetTextI18n")
     fun pervious(view: View) {
-
-
+            nextPath.isEnabled=true ;
             indexPlus=indexMins
             indexMins--
-            if (allPaths[indexMins] == shortPath  && indexMins > 1) indexMins--
-            else if( allPaths[indexMins] == shortPath  && indexMins == 0) {perviousPath.isEnabled=false;nextPath.isEnabled=true ;indexPlus++;return}
-            station.text = "Another Path:\n  ${allPaths[indexMins].joinToString(",")}"
-            direction.text = " direction: \n " + direction(allPaths[indexMins], lines)
-            val stationCount = allPaths[indexMins].count()
+            station.text = "Another Path:\n  ${paths[indexMins].joinToString(",")}"
+            direction.text = " direction: \n " + direction(paths[indexMins], lines)
+            val stationCount = paths[indexMins].count()
             stationNo.text = "Station NO \n $stationCount "
             time.text = "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
-        if(indexMins == 1){ perviousPath.isEnabled=false ;nextPath.isEnabled=true ;indexPlus++}
-
+        if(indexMins < 1){ perviousPath.isEnabled=false ;indexPlus++ ;return}
 
     }
 
@@ -219,22 +227,15 @@ class MainActivity : AppCompatActivity() {
         path.removeAt(path.size - 1)
     }
 
-    private fun calculatePrice(stationCount: Int, userType: String): Int {
-        return when (userType) {
-            "special" -> 5
-            "old" -> when {
-                stationCount <= 9 -> 4
-                stationCount <= 16 -> 5
-                stationCount <= 23 -> 8
-                else -> 10
-            }
-            else -> when {
-                stationCount <= 9 -> 8
-                stationCount <= 16 -> 10
-                stationCount <= 23 -> 15
-                else -> 20
-            }
+    private fun calculatePrice(stationCount: Int): Int {
+
+       return when {
+            stationCount <= 9 -> 8
+            stationCount <= 16 -> 10
+            stationCount <= 23 -> 15
+            else -> 20
         }
+
     }
 
     private fun direction(path:List<String>, lineSearch:List<List<String>>):String{
