@@ -142,15 +142,13 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     fun next (view: View)  {
-
-
             station.text = "Another Path:\n  ${paths[indexPlus].joinToString(",")}"
             direction.text = " direction: \n " + direction(paths[indexPlus],lines)
             val stationCount = paths[indexPlus].count()
             stationNo.text= "Station NO \n $stationCount "
             time.text= "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
             indexMins=indexPlus
-            indexPlus++
+             indexPlus++
             shortestPath.isEnabled=true
             if(indexPlus>1)
             {
@@ -161,7 +159,6 @@ class MainActivity : AppCompatActivity() {
             return
 
         }
-
     }
 
     @SuppressLint("SetTextI18n")
@@ -174,7 +171,7 @@ class MainActivity : AppCompatActivity() {
             val stationCount = paths[indexMins].count()
             stationNo.text = "Station NO \n $stationCount "
             time.text = "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
-        if(indexMins < 1){ perviousPath.isEnabled=false ;indexPlus++ ;return}
+           if(indexMins <= 0){ perviousPath.isEnabled=false ;indexPlus=1 ;return}
 
     }
 
