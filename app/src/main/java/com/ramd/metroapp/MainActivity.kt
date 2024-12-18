@@ -1,5 +1,4 @@
-package com.`as`.cairometro
-
+package com.ramd.metroapp
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
@@ -144,51 +143,13 @@ class MainActivity : AppCompatActivity() {
         var line = searchLine (path[1] ,path[0], lineSearch)
 
 
-//        val intersectionStations = listOf("sadat", "nasser", "orabi", "al shohadaa", "attaba", "kit kat", "cairo university")
-//        for (index in path.indices) {
-//            val station = path[index]
-//            if (station in intersectionStations && index + 1 < path.size && !lineSearch[line].contains(path[index + 1])) {
-//                direction += "intersection at: \"$station\","
-//                line = searchLine(station, path[index + 1], lineSearch)
-//            }
-//        }
+        val intersectionStations = listOf("sadat", "nasser", "orabi", "al shohadaa", "attaba", "kit kat", "cairo university")
         for (index in path.indices) {
-            if(path[index]=="sadat" && path[path.size-1]!="sadat" && !lineSearch[line].contains(path[index+1]) )
-            {
-                print("intersection in :\" sadat \",")
-                line = searchLine ("sadat" ,path[index+1], lineSearch)
+            val station = path[index]
+            if (station in intersectionStations && index + 1 < path.size && !lineSearch[line].contains(path[index + 1])) {
+                direction += "intersection at: \"$station\","
+                line = searchLine(station, path[index + 1], lineSearch)
             }
-            if(path[index]=="nasser"  && path[path.size-1]!="nasser" && !lineSearch[line].contains(path[index+1]))
-            {
-                print("intersection in :\" nasser \",")
-                line = searchLine ("nasser" ,path[index+1], lineSearch)
-            }
-            if(path[index]=="orabi" && path[path.size-1]!="orabi"&& !lineSearch[line].contains(path[index+1]) )
-            {
-                print("intersection in :\" orabi \",")
-                line = searchLine ("orabi" ,path[index+1], lineSearch)
-            }
-            if(path[index]=="al shohadaa" && path[path.size-1]!="al shohadaa" && !lineSearch[line].contains(path[index+1]) )
-            {
-                print("intersection in :\" al shohadaa \",")
-                line = searchLine ("al shohadaa" ,path[index+1], lineSearch)
-            }
-            if(path[index]=="attaba"  && path[path.size-1]!="attaba" && !lineSearch[line].contains(path[index+1]))
-            {
-                print("intersection in :\" attaba \",")
-                line = searchLine ("attaba" ,path[index+1], lineSearch)
-            }
-            if(path[index]=="kit kat" && path[path.size-1]!="kit kat" && !lineSearch[line].contains(path[index+1]) )
-            {
-                print("intersection in :\"kit kat \",")
-                line = searchLine ("kit kat" ,path[index+1], lineSearch)
-            }
-            if(path[index]=="cairo university" && path[path.size-1]!="cairo university" && !lineSearch[line].contains(path[index+1]) )
-            {
-                print("intersection in :\"cairo university \",")
-                line = searchLine ("cairo university" ,path[index+1], lineSearch)
-            }
-
         }
 
 
