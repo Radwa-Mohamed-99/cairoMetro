@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ramd.metroapp'
+    namespace 'com.ramd.cairoMetro'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.ramd.metroapp"
+        applicationId "com.ramd.cairoMetro"
         minSdk 24
         targetSdk 35
         versionCode 1
