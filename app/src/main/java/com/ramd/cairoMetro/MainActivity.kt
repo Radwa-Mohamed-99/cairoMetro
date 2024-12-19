@@ -244,15 +244,15 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            val intersectionStations = listOf("sadat", "nasser", "orabi", "al shohadaa", "attaba", "kit kat", "cairo university")
-            for (index in path.indices) {
-                val station = path[index]
-                if (station in intersectionStations && (index + 1 )< path.size && !lineSearch[line].contains(path[index + 1])) {
-                    guide += "intersection at: \"$station\","
-                    line = searchLine(station, path[index + 1], lineSearch)
-                    found=true
-                }
+        val intersectionStations = listOf("sadat", "nasser", "orabi",  "ataba", "al shohadaa","kit kat", "cairo university")
+        for (index in path.indices) {
+            val station = path[index]
+            if (station in intersectionStations && (index + 1 )< path.size && !lineSearch[line].contains(path[index + 1])) {
+                guide += "intersection at: \"$station\","
+                line = searchLine(station, path[index + 1], lineSearch)
+                found=true
             }
+        }
 
 
         if (found) {
@@ -262,54 +262,41 @@ class MainActivity : AppCompatActivity() {
         else {
             guide += "and there are no intersections \n"
         }
-     return guide
+        return guide
     }
 
     private fun directionSearch (station1:String, station2:String, lineSearch: List<List<String>>): Array<String> {
-        var station1Index=0; var station2Last =0 ;
-        val directionAndLine = Array(2){""}
+        val directions = listOf(
+            Pair("helwan", "new marg"),
+            Pair("el monib", "shubra el khaimah"),
+            Pair("rod el farag corridor", "adly mansour"),
+            Pair("el monib", "rod el farag corridor")
+        )
 
-        if( (station1 in lineSearch[0] && station2 in lineSearch[0] ))
-        {    station1Index = lineSearch[0].indexOf(station1)
-            station2Last = lineSearch[0].indexOf(station2)
-            directionAndLine[1]= "line one"
-            directionAndLine[0] = if( station1Index > station2Last ) "helwan" else "new marg"
-        }
-        if(station1 in lineSearch[1] && station2 in lineSearch[1] )
-        {
-            station1Index = lineSearch[1].indexOf(station1)
-            station2Last = lineSearch[1].indexOf(station2)
-            directionAndLine[1]= "line two"
-            directionAndLine[0] = if(station1Index > station2Last) "el monib" else "shubra el khaimah"
-        }
-        if(station1 in lineSearch[2] && station2 in lineSearch[2] )
-        {
-            station1Index = lineSearch[2].indexOf(station1)
-            station2Last = lineSearch[2].indexOf(station2)
-            directionAndLine[1]= "line three"
-            directionAndLine[0] = if(station1Index > station2Last) "rod el farag corridor" else "adly mansour"
-        }
-        if(station1 in lineSearch[3] && station2 in lineSearch[3] )
-        {
-            station1Index = lineSearch[3].indexOf(station1)
-            station2Last = lineSearch[3].indexOf(station2)
-            directionAndLine[1]= "line three"
-            directionAndLine[0] = if( station1Index > station2Last) "el monib" else "rod el farag corridor"
+        val lineNames = listOf("line one", "line two", "line three", "line three")
+        val directionAndLine = Array(2) { "" }
+
+        for (i in lineSearch.indices) {
+            if (station1 in lineSearch[i] && station2 in lineSearch[i]) {
+                val station1Index = lineSearch[i].indexOf(station1)
+                val station2Index = lineSearch[i].indexOf(station2)
+
+                directionAndLine[1] = lineNames[i]
+                directionAndLine[0] = if (station1Index > station2Index) directions[i].first else directions[i].second
+                break
+            }
         }
 
         return directionAndLine
-
     }
 
     private fun searchLine (first:String ,second:String, lineSearch: List<List<String>>):Int{
-
-        var lineIndex = 0
-        if( (first in lineSearch[0] && second in lineSearch[0] )) lineIndex =0
-        if( (first in lineSearch[1] && second in lineSearch[1] )) lineIndex =1
-        if( (first in lineSearch[2] && second in lineSearch[2] )) lineIndex =2
-        if( (first in lineSearch[3] && second in lineSearch[3] )) lineIndex =3
-
-        return lineIndex
+        for (i in lineSearch.indices) {
+            if (first in lineSearch[i] && second in lineSearch[i]) {
+                return i
+            }
+        }
+        return -1
     }
 
 
