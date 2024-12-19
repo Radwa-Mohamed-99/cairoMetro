@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.ramd.metroapp",
+  "applicationId": "com.ramd.cairoMetro",
   "variantName": "debug",
   "elements": [
     {

@@ -1,4 +1,4 @@
-com.ramd.metroapp
+com.ramd.cairoMetro
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -77,6 +77,12 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array arrival
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
+array start
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1437,6 +1443,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3033,6 +3040,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable images
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3109,6 +3117,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font allerta
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3184,7 +3193,6 @@ id add
 id alertTitle
 id aligned
 id all
-id allPathText
 id allStates
 id always
 id animateToEnd
@@ -3192,6 +3200,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id arrivalStation
 id asConfigured
 id async
 id auto
@@ -3244,7 +3253,6 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
-id countStationText
 id counterclockwise
 id cradle
 id currentState
@@ -3266,7 +3274,7 @@ id design_navigation_view
 id dialog_button
 id dimensions
 id direct
-id directionText
+id direction
 id disableHome
 id disableIntraAutoTransition
 id disablePostScroll
@@ -3291,7 +3299,6 @@ id edit_text_id
 id elastic
 id embed
 id end
-id endStationText
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
@@ -3304,7 +3311,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id findPathButton
 id fitCenter
 id fitEnd
 id fitStart
@@ -3317,6 +3323,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id getDetails
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3339,6 +3346,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3360,6 +3368,7 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3429,6 +3438,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextPath
 id noScroll
 id noState
 id none
@@ -3468,10 +3478,12 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id perviousPath
 id pin
 id position
 id postLayout
 id pressed
+id price
 id progress_circular
 id progress_horizontal
 id radio
@@ -3510,9 +3522,8 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
-id shortPathText
 id shortcut
-id showAllPathsButton
+id shortestPath
 id showCustom
 id showHome
 id showTitle
@@ -3539,11 +3550,13 @@ id src_over
 id standard
 id start
 id startHorizontal
-id startStationText
+id startStation
 id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id station
+id stationNo
 id stop
 id stretch
 id submenuarrow
@@ -3570,8 +3583,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView5
 id textView6
 id text_input_end_icon
 id text_input_error_icon
@@ -3582,9 +3593,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id ticketPriceText
 id time
-id timeJourneyText
 id title
 id titleDividerNoCustom
 id title_template
@@ -3822,6 +3831,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3871,11 +3881,13 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string enter_your_trip
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string get_details
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3917,6 +3929,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string metrologo
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3979,15 +3992,19 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string next_path
+string other_path
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pervious_path
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string shortest_path
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
@@ -4080,6 +4097,7 @@ style Base_Theme_AppCompat_Light_Dialog_Alert
 style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
+style Base_Theme_CairoMetro
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog
 style Base_Theme_Material3_Dark_Dialog
@@ -4111,7 +4129,6 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
-style Base_Theme_Metroapp
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4537,6 +4554,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
+style Theme_CairoMetro
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light
@@ -4620,7 +4638,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_Metroapp
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
