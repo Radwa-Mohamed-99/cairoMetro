@@ -24,27 +24,26 @@
     <Spinner
         android:id="@+id/startStation"
         android:layout_width="379dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="9dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="108dp"
         android:entries="@array/start"
-        app:layout_constraintBottom_toTopOf="@+id/arrivalStation"
         app:layout_constraintEnd_toEndOf="@+id/arrivalStation"
         app:layout_constraintStart_toStartOf="@+id/arrivalStation"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/arrivalStation"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="76dp"
         android:entries="@array/arrival"
         app:layout_constraintBottom_toBottomOf="@+id/getDetails"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toTopOf="@+id/startStation" />
 
     <TextView
         android:id="@+id/stationNo"
@@ -74,7 +73,7 @@
         android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
+        android:layout_marginEnd="17dp"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/time"
@@ -99,9 +98,9 @@
     <TextView
         android:id="@+id/direction"
         android:layout_width="0dp"
-        android:layout_height="93dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="14dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,10 +111,10 @@
 
     <TextView
         android:id="@+id/station"
-        android:layout_width="383dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginBottom="19dp"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="133dp"
+        android:layout_marginBottom="134dp"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/perviousPath"
@@ -128,14 +127,13 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
         android:fontFamily="@font/allerta"
         android:text="@string/enter_your_trip"
         android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/startStation"
-        app:layout_constraintStart_toStartOf="@+id/startStation"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/startStation"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <Button
         android:id="@+id/nextPath"
@@ -183,12 +181,12 @@
         android:id="@+id/count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
+        android:layout_marginBottom="19dp"
         android:fontFamily="@font/allerta"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#53483A"
-        app:layout_constraintBottom_toBottomOf="@+id/station"
+        app:layout_constraintBottom_toTopOf="@+id/shortestPath"
         app:layout_constraintEnd_toEndOf="@+id/station"
         app:layout_constraintStart_toStartOf="@+id/station"
         tools:text="count" />

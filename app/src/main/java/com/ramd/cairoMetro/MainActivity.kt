@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity() {
         nextPath.isEnabled=false
         perviousPath.isEnabled=false
         shortestPath.isEnabled=false
+        count.text = ""
 
         if(startStation.selectedItemPosition == 0 ||arrivalStation.selectedItemPosition == 0 )
         {
