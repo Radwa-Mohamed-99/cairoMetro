@@ -3252,6 +3252,7 @@ int id contiguous 0x7f0a0083
 int id continuousVelocity 0x7f0a0084
 int id coordinator 0x7f0a0085
 int id cos 0x7f0a0086
+int id count 0x7f0a0207
 int id counterclockwise 0x7f0a0087
 int id cradle 0x7f0a0088
 int id currentState 0x7f0a0089

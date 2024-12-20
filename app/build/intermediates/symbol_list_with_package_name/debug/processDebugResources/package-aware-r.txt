@@ -3253,6 +3253,7 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id count
 id counterclockwise
 id cradle
 id currentState

@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var stationNo:TextView
     lateinit var direction:TextView
     lateinit var station:TextView
+    lateinit var count:TextView
 
 
      val graph = mutableMapOf<String, MutableList<String>>()
@@ -55,11 +56,10 @@ class MainActivity : AppCompatActivity() {
      var indexPlus = 0
     var  indexMins = 0
     var start="";var arrival=""
-    var allPaths:List<List<String>> = listOf(emptyList())
-    var shortPath:List<String>? = emptyList()
+
     val paths = mutableListOf<List<String>>()
 
-
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -79,35 +79,37 @@ class MainActivity : AppCompatActivity() {
         stationNo = findViewById(R.id.stationNo)
         direction = findViewById(R.id.direction)
         station = findViewById(R.id.station)
+        count = findViewById(R.id.count)
 
 
     }
 
     @SuppressLint("SetTextI18n")
-    fun getDetails(view: View) {
+    fun getDetails(view: View)  {
         indexPlus=0
         indexMins = 0
+        paths.clear()
         nextPath.isEnabled=false
         perviousPath.isEnabled=false
         shortestPath.isEnabled=false
 
         if(startStation.selectedItemPosition == 0 ||arrivalStation.selectedItemPosition == 0 )
         {
-            Toast.makeText(this, "select a station", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "select a station", Toast.LENGTH_SHORT).show()
             return
         }
         if(startStation.selectedItem == arrivalStation.selectedItem) {
-            Toast.makeText(this, "arrival and start station can't be the same ", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "arrival and start station can't be the same ", Toast.LENGTH_SHORT).show()
             return
         }
 
             start = startStation.selectedItem.toString().lowercase()
             arrival = arrivalStation.selectedItem.toString().lowercase()
-            allPaths = findAllPaths(start, arrival)
-            shortPath = allPaths.minByOrNull { it.size }
+            val allPaths = findAllPaths(start, arrival)
+            val shortPath = allPaths.minByOrNull { it.size }
             station.text= "The Shortest Path:\n  ${shortPath?.joinToString(",")}"
             if (shortPath != null) {
-                direction.text = " direction: \n " + direction(shortPath!!,lines)
+                direction.text = " direction: \n " + direction(shortPath,lines)
             }
             val stationCount = shortPath?.size ?: 0
             stationNo.text= "Station NO \n $stationCount "
@@ -123,16 +125,18 @@ class MainActivity : AppCompatActivity() {
                   paths += listOf(path)
 
              }
-
+             count.text= "${0} / ${paths.size}"
          }
 
     }
 
     @SuppressLint("SetTextI18n")
     fun shortest(view: View) {
+        val allPaths = findAllPaths(start, arrival)
+        val shortPath = allPaths.minByOrNull { it.size }
         station.text= "The Shortest Path:\n  ${shortPath?.joinToString(",")}"
         if (shortPath != null) {
-            direction.text = " direction: \n " + direction(shortPath!!,lines)
+            direction.text = " direction: \n " + direction(shortPath,lines)
         }
         val stationCount = shortPath?.size ?: 0
         stationNo.text= "Station NO \n $stationCount "
@@ -148,6 +152,7 @@ class MainActivity : AppCompatActivity() {
             stationNo.text= "Station NO \n $stationCount "
             time.text= "time \n ${(stationCount * 3) / 60} hrs ${(stationCount * 3) % 60} mins"
             indexMins=indexPlus
+            count.text= "${indexMins+1} / ${paths.size}"
              indexPlus++
             shortestPath.isEnabled=true
             if(indexPlus>1)
@@ -165,6 +170,7 @@ class MainActivity : AppCompatActivity() {
     fun pervious(view: View) {
             nextPath.isEnabled=true ;
             indexPlus=indexMins
+             count.text= "${indexMins} / ${paths.size}"
             indexMins--
             station.text = "Another Path:\n  ${paths[indexMins].joinToString(",")}"
             direction.text = " direction: \n " + direction(paths[indexMins], lines)
