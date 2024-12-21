@@ -26,10 +26,10 @@ com.ramd.cairoMetro.app-lifecycle-viewmodel-2.6.2-24 C:\Users\rradw\.gradle\cach
 com.ramd.cairoMetro.app-lifecycle-livedata-core-2.6.2-25 C:\Users\rradw\.gradle\caches\8.9\transforms\ee361e5770188c9bed1f3559c85bbfe0\transformed\lifecycle-livedata-core-2.6.2\res
 com.ramd.cairoMetro.app-core-runtime-2.2.0-26 C:\Users\rradw\.gradle\caches\8.9\transforms\f553241f4839d05e032861b7fad08c96\transformed\core-runtime-2.2.0\res
 com.ramd.cairoMetro.app-core-ktx-1.15.0-27 C:\Users\rradw\.gradle\caches\8.9\transforms\f8b7d9217167aee1e55b690b0f84f1d4\transformed\core-ktx-1.15.0\res
-com.ramd.cairoMetro.app-pngs-28 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\generated\res\pngs\debug
-com.ramd.cairoMetro.app-resValues-29 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\generated\res\resValues\debug
-com.ramd.cairoMetro.app-packageDebugResources-30 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.ramd.cairoMetro.app-packageDebugResources-31 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.ramd.cairoMetro.app-debug-32 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.ramd.cairoMetro.app-debug-33 C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\debug\res
-com.ramd.cairoMetro.app-main-34 C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\res
+com.ramd.cairoMetro.app-pngs-28 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\pngs\debug
+com.ramd.cairoMetro.app-resValues-29 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\resValues\debug
+com.ramd.cairoMetro.app-packageDebugResources-30 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ramd.cairoMetro.app-packageDebugResources-31 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ramd.cairoMetro.app-debug-32 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.ramd.cairoMetro.app-debug-33 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\debug\res
+com.ramd.cairoMetro.app-main-34 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\res
