@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="115dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/metrologo"
@@ -23,26 +23,30 @@
 
     <Spinner
         android:id="@+id/startStation"
-        android:layout_width="383dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:entries="@array/start"
         app:layout_constraintBottom_toTopOf="@+id/arrivalStation"
-        app:layout_constraintEnd_toEndOf="@+id/textView6"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Spinner
         android:id="@+id/arrivalStation"
-        android:layout_width="383dp"
-        android:layout_height="48dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="105dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="104dp"
         android:entries="@array/arrival"
         app:layout_constraintBottom_toBottomOf="@+id/price"
-        app:layout_constraintEnd_toEndOf="@+id/startStation"
-        app:layout_constraintStart_toStartOf="@+id/startStation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView6" />
 
     <TextView
@@ -111,7 +115,7 @@
 
     <TextView
         android:id="@+id/station"
-        android:layout_width="374dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="133dp"
         android:layout_marginBottom="134dp"
