@@ -3,6 +3,7 @@ package com.ramd.cairoMetro
 import android.annotation.SuppressLint
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.telecom.Call.Details
 import android.view.View
 import android.widget.Button
 import android.widget.Spinner
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var direction:TextView
     lateinit var station:TextView
     lateinit var count:TextView
-    lateinit var file : SharedPreferences
+    lateinit var file:SharedPreferences
 
      val graph = mutableMapOf<String, MutableList<String>>()
      val lines = listOf(
@@ -50,15 +51,14 @@ class MainActivity : AppCompatActivity() {
             "el nozha", "nadi el shams", "alf maskan", "heliopolis square", "haroun",
             "al ahram", "koleyet el banat", "stadium", "fair zone", "abbasseya",
             "abdou pasha", "el geish", "bab el shaaria", "ataba", "nasser", "maspero",
-            "safa hegazy", "kit kat", "sudan", "imbaba", "el bohy", "el qawmia", "ring road","rod el farag corridor"
-        ),
+            "safa hegazy", "kit kat", "sudan", "imbaba", "el bohy", "el qawmia", "ring road","rod el farag corridor"),
         listOf("kit kat", "tawfikia", "wadi el nile",
             "gamat el dowal", "boulak el dakrour", "cairo university")
 
     )
      var indexPlus = 0
-     var indexMins = 0
-     var start="";var arrival=""
+    var  indexMins = 0
+    var start="";var arrival=""
 
     val paths = mutableListOf<List<String>>()
 
@@ -84,51 +84,71 @@ class MainActivity : AppCompatActivity() {
         station = findViewById(R.id.station)
         count = findViewById(R.id.count)
 
-        file = getSharedPreferences("metro", MODE_PRIVATE)
-        val startStationValue = file.getString("startStation", "")
-        val arrivalStationValue = file.getString("arrivalStation", "")
-        val stationNoValue = file.getString("stationNo", "")
-        val timeValue = file.getString("time", "")
-        val priceValue = file.getString("price", "")
-        val directionValue = file.getString("direction", "")
-        val pathValue = file.getString("path", "")
-        if (startStationValue != null) {
-            var startIndex = -1
-            for (i in 0..startStation.adapter.count){
-                if (startStation.adapter.getItem(i) == startStationValue) {
-                    startIndex = i
-                    break
+        loadData()
+
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun loadData() {
+        file = getSharedPreferences("data", MODE_PRIVATE)
+
+        startStation.setSelection(file.getInt("startStation", 0))
+        arrivalStation.setSelection(file.getInt("arrivalStation", 0))
+        start = file.getString("start" , "").toString()
+        arrival= file.getString("arrival" , "").toString()
+        indexMins = file.getInt("indexMins",0)
+        indexPlus = file.getInt("indexPlus",0)
+        station.text = file.getString("path","")
+        direction.text = file.getString("direction","")
+        stationNo.text = file.getString("stationNumber","")
+        price.text = file.getString("price","")
+        time.text = file.getString("time","")
+        count.text = file.getString("count","")
+        nextPath.isEnabled = file.getBoolean("nextButton",false)
+        perviousPath.isEnabled = file.getBoolean("previousButton",false)
+        shortestPath.isEnabled = file.getBoolean("shortestButton",false)
+
+        if (start != "" && arrival != "") {
+            val allPaths = findAllPaths(start, arrival)
+            if (allPaths.count()>1)
+            {
+                val shortPath = allPaths.minByOrNull { it.size }
+                nextPath.isEnabled=true
+                for (path in allPaths) {
+                    if(path==shortPath)continue
+                    paths += listOf(path)
+
                 }
+
             }
-            startStation.setSelection(startIndex)
         }
-        if (arrivalStationValue != null) {
-            var arrivalIndex = -1
-            for (i in 0..arrivalStation.adapter.count){
-                if (arrivalStation.adapter.getItem(i) == arrivalStationValue){
-                    arrivalIndex = i
-                    break
-                }
-            }
-            arrivalStation.setSelection(arrivalIndex)
+//        Toast.makeText(this, "${paths.size},$indexMins ,$indexPlus", Toast.LENGTH_LONG).show()
+    }
+    private fun saveData() {
+        val indexOfStart = startStation.selectedItemPosition
+        val indexOfArrival = arrivalStation.selectedItemPosition
+        file.edit {
+            putInt("startStation", indexOfStart)
+            putInt("arrivalStation", indexOfArrival)
+            putInt("indexPlus", indexPlus)
+            putInt("indexMins", indexMins)
+            putString("start", start)
+            putString("arrival", arrival)
+            putString("path", station.text.toString())
+            putString("direction", direction.text.toString())
+            putString("stationNumber", stationNo.text.toString())
+            putString("price", price.text.toString())
+            putString("time", time.text.toString())
+            putString("count", count.text.toString())
+            putBoolean("nextButton", nextPath.isEnabled)
+            putBoolean("previousButton", perviousPath.isEnabled)
+            putBoolean("shortestButton", shortestPath.isEnabled)
+
         }
-        stationNo.text = stationNoValue
-        time.text = timeValue
-        price.text = priceValue
-        direction.text = directionValue
-        station.text = pathValue
     }
 
     override fun onDestroy() {
-        file.edit {
-            putString("startStation", startStation.selectedItem.toString())
-            putString("arrivalStation",arrivalStation.selectedItem.toString())
-            putString("stationNo",stationNo.text.toString())
-            putString("time",time.text.toString())
-            putString("price",price.text.toString())
-            putString("direction",direction.text.toString())
-            putString("path",station.text.toString())
-        }
+        saveData()
         super.onDestroy()
     }
 
@@ -140,6 +160,7 @@ class MainActivity : AppCompatActivity() {
         nextPath.isEnabled=false
         perviousPath.isEnabled=false
         shortestPath.isEnabled=false
+        count.text = ""
 
         if(startStation.selectedItemPosition == 0 ||arrivalStation.selectedItemPosition == 0 )
         {
@@ -352,7 +373,10 @@ class MainActivity : AppCompatActivity() {
         }
         return -1
     }
-    
+
+
+
+
 }
 
 

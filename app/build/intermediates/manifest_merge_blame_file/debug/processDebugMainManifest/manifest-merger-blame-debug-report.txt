@@ -6,7 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-9        android:targetSdkVersion="34" />
+9        android:targetSdkVersion="35" />
 10
 11    <permission
 11-->[androidx.core:core:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d2aa31fff3106fe3d846d0536d9124db\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
@@ -45,7 +45,7 @@
 30        <activity
 30-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:15:9-23:20
 31            android:name="com.ramd.cairoMetro.MainActivity"
-31-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:16:13-60
+31-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:16:13-41
 32            android:exported="true" >
 32-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:17:13-36
 33            <intent-filter>

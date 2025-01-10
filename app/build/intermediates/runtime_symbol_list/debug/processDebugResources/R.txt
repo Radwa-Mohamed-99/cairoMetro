@@ -3323,7 +3323,7 @@ int id forever 0x7f0a00ca
 int id fragment_container_view_tag 0x7f0a00cb
 int id frost 0x7f0a00cc
 int id fullscreen_header 0x7f0a00cd
-int id getDetails 0x7f0a00ce
+int id getDetail 0x7f0a00ce
 int id ghost_view 0x7f0a00cf
 int id ghost_view_holder 0x7f0a00d0
 int id gone 0x7f0a00d1
