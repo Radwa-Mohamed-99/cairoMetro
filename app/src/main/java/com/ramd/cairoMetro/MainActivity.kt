@@ -113,7 +113,6 @@ class MainActivity : AppCompatActivity() {
             if (allPaths.count()>1)
             {
                 val shortPath = allPaths.minByOrNull { it.size }
-                nextPath.isEnabled=true
                 for (path in allPaths) {
                     if(path==shortPath)continue
                     paths += listOf(path)
