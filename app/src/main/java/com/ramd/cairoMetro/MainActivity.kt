@@ -1,6 +1,7 @@
 package com.ramd.cairoMetro
 
 import android.annotation.SuppressLint
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -9,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.edit
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -24,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var direction:TextView
     lateinit var station:TextView
     lateinit var count:TextView
-
+    lateinit var file : SharedPreferences
 
      val graph = mutableMapOf<String, MutableList<String>>()
      val lines = listOf(
@@ -48,14 +50,15 @@ class MainActivity : AppCompatActivity() {
             "el nozha", "nadi el shams", "alf maskan", "heliopolis square", "haroun",
             "al ahram", "koleyet el banat", "stadium", "fair zone", "abbasseya",
             "abdou pasha", "el geish", "bab el shaaria", "ataba", "nasser", "maspero",
-            "safa hegazy", "kit kat", "sudan", "imbaba", "el bohy", "el qawmia", "ring road","rod el farag corridor"),
+            "safa hegazy", "kit kat", "sudan", "imbaba", "el bohy", "el qawmia", "ring road","rod el farag corridor"
+        ),
         listOf("kit kat", "tawfikia", "wadi el nile",
             "gamat el dowal", "boulak el dakrour", "cairo university")
 
     )
      var indexPlus = 0
-    var  indexMins = 0
-    var start="";var arrival=""
+     var indexMins = 0
+     var start="";var arrival=""
 
     val paths = mutableListOf<List<String>>()
 
@@ -81,7 +84,52 @@ class MainActivity : AppCompatActivity() {
         station = findViewById(R.id.station)
         count = findViewById(R.id.count)
 
+        file = getSharedPreferences("metro", MODE_PRIVATE)
+        val startStationValue = file.getString("startStation", "")
+        val arrivalStationValue = file.getString("arrivalStation", "")
+        val stationNoValue = file.getString("stationNo", "")
+        val timeValue = file.getString("time", "")
+        val priceValue = file.getString("price", "")
+        val directionValue = file.getString("direction", "")
+        val pathValue = file.getString("path", "")
+        if (startStationValue != null) {
+            var startIndex = -1
+            for (i in 0..startStation.adapter.count){
+                if (startStation.adapter.getItem(i) == startStationValue) {
+                    startIndex = i
+                    break
+                }
+            }
+            startStation.setSelection(startIndex)
+        }
+        if (arrivalStationValue != null) {
+            var arrivalIndex = -1
+            for (i in 0..arrivalStation.adapter.count){
+                if (arrivalStation.adapter.getItem(i) == arrivalStationValue){
+                    arrivalIndex = i
+                    break
+                }
+            }
+            arrivalStation.setSelection(arrivalIndex)
+        }
+        stationNo.text = stationNoValue
+        time.text = timeValue
+        price.text = priceValue
+        direction.text = directionValue
+        station.text = pathValue
+    }
 
+    override fun onDestroy() {
+        file.edit {
+            putString("startStation", startStation.selectedItem.toString())
+            putString("arrivalStation",arrivalStation.selectedItem.toString())
+            putString("stationNo",stationNo.text.toString())
+            putString("time",time.text.toString())
+            putString("price",price.text.toString())
+            putString("direction",direction.text.toString())
+            putString("path",station.text.toString())
+        }
+        super.onDestroy()
     }
 
     @SuppressLint("SetTextI18n")
@@ -92,7 +140,6 @@ class MainActivity : AppCompatActivity() {
         nextPath.isEnabled=false
         perviousPath.isEnabled=false
         shortestPath.isEnabled=false
-        count.text = ""
 
         if(startStation.selectedItemPosition == 0 ||arrivalStation.selectedItemPosition == 0 )
         {
@@ -305,10 +352,7 @@ class MainActivity : AppCompatActivity() {
         }
         return -1
     }
-
-
-
-
+    
 }
 
 
