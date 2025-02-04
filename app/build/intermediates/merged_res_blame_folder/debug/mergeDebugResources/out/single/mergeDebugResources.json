@@ -1,102 +1,114 @@
 [
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\drawable_images.png.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\drawable\\images.png"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/font_allerta.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/font/allerta.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-34:/layout/activity_main.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_ic_notification.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/layout_activity_home.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_circle_background.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\font_allerta.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\font\\allerta.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\xml\\backup_rules.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\layout\\activity_main.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_images.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/images.png"
     },
     {
-        "merged": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-debug-32:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\rradw\\.gradle\\daemon\\8.9\\com.ramd.cairoMetro.app-main-34:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-35:/drawable_ic_location.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-37:/drawable/ic_location.png"
     }
 ]

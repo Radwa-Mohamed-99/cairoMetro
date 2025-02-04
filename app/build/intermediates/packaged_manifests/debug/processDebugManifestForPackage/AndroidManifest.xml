@@ -28,7 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.CairoMetro" >
         <activity
-            android:name="com.ramd.cairoMetro.MainActivity"
+            android:name="com.ramd.cairoMetro.ui.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ramd.cairoMetro.ui.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

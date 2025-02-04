@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-30:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-33:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\dea2e9c8a54f345461e1fb83fcff9a9a\\transformed\\appcompat-1.7.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\8.9\\transforms\\6193a01dd5cad6caf3422b6eb6c9ea83\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

@@ -1,10 +1,16 @@
-#Sat Jan 11 01:16:00 EET 2025
-base.0=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+#Wed Feb 05 00:50:29 EET 2025
+base.0=D\:\\DEPI\\Technical\\Team Projects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\DEPI\\Technical\\Team Projects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\DEPI\\Technical\\Team Projects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=D\:\\DEPI\\Technical\\Team Projects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.4=D\:\\DEPI\\Technical\\Team Projects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=6/classes.dex
+path.2=12/classes.dex
+path.3=9/classes.dex
+path.4=15/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
