@@ -36,9 +36,11 @@ class Paths(private val metroLines: MetroLines){
             result.add(ArrayList(path))
         }
         else {
-            metroLines.graph[current]?.forEach{ neighbor ->
-                if (!visited.contains(neighbor)) {
-                    dfs(neighbor, end, visited, path, result)
+            if (metroLines.stations[current] != null){
+                metroLines.stations[current]!!.neighbors.forEach{ neighbor ->
+                    if (!visited.contains(neighbor)) {
+                        dfs(neighbor, end, visited, path, result)
+                    }
                 }
             }
         }

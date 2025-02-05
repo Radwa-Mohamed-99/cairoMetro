@@ -1,7 +1,7 @@
 package com.ramd.cairoMetro.pojo
 
 open class MetroLines {
-    val graph = mutableMapOf<String, MutableList<String>>()
+    val stations = mutableMapOf<String, Station>()
     val intersectionStations = listOf("sadat", "nasser", "orabi",  "ataba", "al shohadaa","kit kat", "cairo university")
     val lines = listOf(
         listOf(
@@ -33,10 +33,12 @@ open class MetroLines {
         makeMetroGraph()
     }
     private fun addEdge(station1: String, station2: String) {
-        graph.putIfAbsent(station1, mutableListOf())
-        graph.putIfAbsent(station2, mutableListOf())
-        graph[station1]?.add(station2)
-        graph[station2]?.add(station1)
+        val isIntersection1 = station1 in intersectionStations
+        val isIntersection2 = station2 in intersectionStations
+        stations.putIfAbsent(station1,Station(station1, isIntersection = isIntersection1))
+        stations.putIfAbsent(station2, Station(station2, isIntersection = isIntersection2))
+        stations[station1]?.addNeighbor(station2)
+        stations[station2]?.addNeighbor(station1)
     }
     private fun makeMetroGraph() {
         lines.forEach { line ->
