@@ -1,0 +1,724 @@
+[
+
+
+  {
+    "name":"new marg",
+    "line": "line one",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": ["el marg"],
+    "coordinates": [30.1636, 31.3382]
+  },
+  {
+    "name":"el marg",
+    "line": "line one",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["ezbet el nakhl","new marg"],
+    "coordinates": [30.1522, 31.3357]
+  },
+  {
+    "name":"ezbet el nakhl",
+    "line": "line one",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["ain shams","el marg"],
+    "coordinates": [30.1393, 31.3245]
+  },
+  {
+    "name":"ain shams",
+    "line": "line one",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": ["el matareyya","ezbet el nakhl"],
+    "coordinates": [30.1311, 31.3466]
+  },
+  {
+    "name":"el matareyya",
+    "line": "line one",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["helmeyet el zaitoun","ain shams"],
+    "coordinates": [30.1214, 31.3139]
+  },
+  {
+    "name":"helmeyet el zaitoun",
+    "line": "line one",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": ["hadayeq el zaitoun","el matareyya"],
+    "coordinates": [30.1145, 31.3139]
+  },
+  {
+    "name":"hadayeq el zaitoun",
+    "line": "line one",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": ["saray el qobba","helmeyet el zaitoun" ],
+    "coordinates": [30.1053, 31.3099]
+  },
+  {
+    "name":"saray el qobba",
+    "line": "line one",
+    "intersection": false,
+    "id": 8,
+    "neighbourStations": ["hammamat el qobba","hadayeq el zaitoun" ],
+    "coordinates": [30.0981, 31.3048]
+  },
+  {
+    "name":"hammamat el qobba",
+    "line": "line one",
+    "intersection": false,
+    "id": 9,
+    "neighbourStations": ["kobri el qobba","saray el qobba" ],
+    "coordinates":[30.0904, 31.2981]
+  },
+  {
+    "name":"kobri el qobba",
+    "line": "line one",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["hammamat el qobba","mansheiet el sadr" ],
+    "coordinates":[30.087, 31.2939]
+  },
+  {
+    "name":"mansheiet el sadr",
+    "line": "line one",
+    "intersection": false,
+    "id": 11,
+    "neighbourStations": ["el demerdash","kobri el qobba" ],
+    "coordinates":[30.0822, 31.2878]
+  },
+  {
+    "name":"el demerdash",
+    "line": "line one",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["ghamra","mansheiet el sadr" ],
+    "coordinates":[30.0773, 31.2778]
+  },
+  {
+    "name":"ghamra",
+    "line": "line one",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": [ "al shohadaa","el demerdash"],
+    "coordinates":[30.069, 31.2646]
+  },
+  {
+    "name":"al shohadaa",
+    "line": "line one",
+    "intersection": true,
+    "id": 14,
+    "neighbourStations": ["orabi","ghamra"],
+    "coordinates":[30.0619, 31.2461]
+  },
+  {
+    "name":"orabi",
+    "line": "line one",
+    "intersection": false,
+    "id": 15,
+    "neighbourStations": ["nasser","al shohadaa" ],
+    "coordinates":[30.0574,  31.2426]
+  },
+  {
+    "name":"nasser",
+    "line": "line one",
+    "intersection": true,
+    "id": 16,
+    "neighbourStations": ["sadat","orabi" ],
+    "coordinates":[30.0536, 31.2389]
+  },
+  {
+    "name":"sadat",
+    "line": "line one",
+    "intersection": true,
+    "id": 17,
+    "neighbourStations": ["saad zaghloul","nasser" ],
+    "coordinates":[30.0444, 31.2356]
+  },
+  {
+    "name":"saad zaghloul",
+    "line": "line one",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": ["al sayeda zeinab","sadat" ],
+    "coordinates": [30.0366, 31.2382]
+  },
+  {
+    "name":"al sayeda zeinab",
+    "line": "line one",
+    "intersection": false,
+    "id": 19,
+    "neighbourStations": ["el malek el saleh","saad zaghloul" ],
+    "coordinates": [30.0293, 31.2354]
+  },
+  {
+    "name":"el malek el saleh",
+    "line": "line one",
+    "intersection": false,
+    "id": 20,
+    "neighbourStations": ["mar girgis","al sayeda zeinab" ],
+    "coordinates": [30.017, 31.231]
+  },
+  {
+    "name":"mar girgis",
+    "line": "line one",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": [ "el zahraa","el malek el saleh"],
+    "coordinates": [30.0059, 31.2296]
+  },
+  {
+    "name":"el zahraa",
+    "line": "line one",
+    "intersection": false,
+    "id": 22,
+    "neighbourStations": ["dar el salam","mar girgis" ],
+    "coordinates": [29.9953, 31.2315]
+  },
+  {
+    "name":"dar el salam",
+    "line": "line one",
+    "intersection": false,
+    "id": 23,
+    "neighbourStations": ["hadayek el maadi","el zahraa" ],
+    "coordinates": [29.9821, 31.2423]
+  },
+  {
+    "name":"hadayek el maadi",
+    "line": "line one",
+    "intersection": false,
+    "id": 24,
+    "neighbourStations": ["maadi","dar el salam" ],
+    "coordinates": [29.9702, 31.2507]
+  },
+  {
+    "name": "maadi",
+    "line": "line one",
+    "intersection": false,
+    "id": 25,
+    "neighbourStations": ["sakanat el maadi","hadayek el maadi" ],
+    "coordinates": [29.9599, 31.2581]
+  },
+  {
+    "name": "sakanat el maadi",
+    "line": "line one",
+    "intersection": false,
+    "id": 26,
+    "neighbourStations": ["tora el balad","maadi"],
+    "coordinates": [29.9529, 31.2634]
+  },
+  {
+    "name": "tora el balad",
+    "line": "line one",
+    "intersection": false,
+    "id": 27,
+    "neighbourStations": [ "kozzika","sakanat el maadi"],
+    "coordinates": [29.9464, 31.2735]
+  },
+  {
+    "name": "kozzika",
+    "line": "line one",
+    "intersection": false,
+    "id": 28,
+    "neighbourStations": ["tura el esmant","tora el balad" ],
+    "coordinates": [29.9363, 31.2818]
+  },
+  {
+    "name": "tura el esmant",
+    "line": "line one",
+    "intersection": false,
+    "id": 29,
+    "neighbourStations": ["el maasraa","kozzika"],
+    "coordinates": [29.926, 31.2878]
+  },
+  {
+    "name": "el maasraa",
+    "line": "line one",
+    "intersection": false,
+    "id": 30,
+    "neighbourStations": ["hadayek helwan","tura el esmant"],
+    "coordinates": [29.9062,  31.2998]
+  },
+  {
+    "name": "hadayek helwan",
+    "line": "line one",
+    "intersection": false,
+    "id": 31,
+    "neighbourStations": ["wadi hof", "el maasraa"],
+    "coordinates": [29.8973, 31.3041]
+  },
+  {
+    "name": "wadi hof",
+    "line": "line one",
+    "intersection": false,
+    "id": 32,
+    "neighbourStations": ["helwan university","hadayek helwan" ],
+    "coordinates": [29.8796, 31.3134]
+  },
+  {
+    "name": "helwan university",
+    "line": "line one",
+    "intersection": false,
+    "id": 33,
+    "neighbourStations": [ "ain helwan","wadi hof"],
+    "coordinates": [29.8692,  31.3204]
+  },
+  {
+    "name": "ain helwan",
+    "line": "line one",
+    "intersection": false,
+    "id": 34,
+    "neighbourStations": [ "helwan","helwan university"],
+    "coordinates": [29.8628, 31.325]
+  },
+  {
+    "name": "helwan",
+    "line": "line one",
+    "intersection": false,
+    "id": 35,
+    "neighbourStations": ["ain helwan" ],
+    "coordinates": [29.8489, 31.3343]
+  },
+  {
+    "name": "shubra el khaimah",
+    "line": "line two",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": [  "koliet el zeraa"],
+    "coordinates":  [30.1225, 31.2445]
+  },
+  {
+    "name": "koliet el zeraa",
+    "line": "line two",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["mezallat","shubra el khaimah" ],
+    "coordinates":  [30.1139, 31.2486]
+  },
+  {
+    "name": "mezallat",
+    "line": "line two",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["khalafawy","koliet el zeraa"],
+    "coordinates":  [30.1051,  31.2467]
+  },
+  {
+    "name": "khalafawy",
+    "line": "line two",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": ["st. teresa", "mezallat"],
+    "coordinates":  [30.098, 31.2454]
+  },
+  {
+    "name": "st. teresa",
+    "line": "line two",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["rod el farag", "khalafawy"],
+    "coordinates":  [30.0883,  31.2454]
+  },
+  {
+    "name": "rod el farag",
+    "line": "line two",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": ["masarra","st. teresa"],
+    "coordinates":  [30.0806, 31.2454]
+  },
+  {
+    "name": "masarra",
+    "line": "line two",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": ["al shohadaa","rod el farag" ],
+    "coordinates":  [30.0711, 31.245]
+  },
+  {
+    "name":"al shohadaa",
+    "line": "line two",
+    "intersection": true,
+    "id": 8,
+    "neighbourStations": ["ataba","masarra"],
+    "coordinates":[30.0619, 31.2461]
+  },
+  {
+    "name": "ataba",
+    "line": "line two",
+    "intersection": true,
+    "id": 9,
+    "neighbourStations": ["mohamed naguib", "al shohadaa"],
+    "coordinates":  [30.0525, 31.2469]
+  },
+  {
+    "name": "mohamed naguib",
+    "line": "line two",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["sadat", "ataba"],
+    "coordinates":  [30.0455, 31.2442]
+  },
+  {
+    "name":"sadat",
+    "line": "line two",
+    "intersection": true,
+    "id": 10,
+    "neighbourStations": ["opera","mohamed naguib"],
+    "coordinates":[30.0444,  31.2356]
+  },
+  {
+    "name": "opera",
+    "line": "line two",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["sadat","dokki" ],
+    "coordinates":[30.0421,  31.2253]
+  },
+  {
+    "name": "dokki",
+    "line": "line two",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": ["opera" ,"el bohooth"],
+    "coordinates":[30.0383, 31.2121]
+  },
+  {
+    "name": "el bohooth",
+    "line": "line two",
+    "intersection": false,
+    "id": 14,
+    "neighbourStations": ["dokki" ,"cairo university"],
+    "coordinates":[30.0359, 31.2002]
+  },
+  {
+    "name": "cairo university",
+    "line": "line two",
+    "intersection": true,
+    "id": 15,
+    "neighbourStations": ["el bohooth","faisal"],
+    "coordinates":[30.0261, 31.2013]
+  },
+  {
+    "name": "faisal",
+    "line": "line two",
+    "intersection": false,
+    "id": 17,
+    "neighbourStations": ["cairo university", "giza" ],
+    "coordinates":[30.0173, 31.204]
+  },
+  {
+    "name": "giza",
+    "line": "line two",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": [ "faisal","omm el masryeen"],
+    "coordinates":[30.0106, 31.2071]
+  },
+  {
+    "name": "omm el masryeen",
+    "line": "line two",
+    "intersection": false,
+    "id": 19,
+    "neighbourStations": ["giza" ,"saqiyet makky"],
+    "coordinates":[30.0053, 31.208]
+  },
+  {
+    "name": "saqiyet makky",
+    "line": "line two",
+    "intersection": false,
+    "id": 20,
+    "neighbourStations": [ "el monib","omm el masryeen"],
+    "coordinates":[29.9956, 31.2086]
+  },
+  {
+    "name": "el monib",
+    "line": "line two",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": ["saqiyet makky" ],
+    "coordinates":[29.9813, 31.2117]
+  },
+  {
+    "name": "adly mansour",
+    "line": "line three",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": ["haykestep" ],
+    "coordinates":[30.1471, 31.4215]
+  },
+  {
+    "name": "haykestep",
+    "line": "line three",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["adly mansour" ,"omar ibn el khattab"],
+    "coordinates":[30.1439, 31.4047]
+  },
+  {
+    "name": "omar ibn el khattab",
+    "line": "line three",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": [ "haykestep","qubaa"],
+    "coordinates":[30.1405, 31.3942]
+  },
+  {
+    "name": "qubaa",
+    "line": "line three",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": [ "omar ibn el khattab","hesham barakat"],
+    "coordinates":[30.1348, 31.3839]
+  },
+  {
+    "name": "hesham barakat",
+    "line": "line three",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["qubaa" ,"el nozha"],
+    "coordinates":[30.1311, 31.3729]
+  },
+  {
+    "name": "el nozha",
+    "line": "line three",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": [ "hesham barakat","nadi el shams"],
+    "coordinates":[30.1283, 31.36]
+  },
+  {
+    "name": "nadi el shams",
+    "line": "line three",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": [ "el nozha","alf maskan"],
+    "coordinates":[30.1223, 31.3439]
+  },
+  {
+    "name": "alf maskan",
+    "line": "line three",
+    "intersection": false,
+    "id": 8,
+    "neighbourStations": [ "nadi el shams","heliopolis square"],
+    "coordinates":[30.1182, 31.3398]
+  },
+  {
+    "name": "heliopolis square",
+    "line": "line three",
+    "intersection": false,
+    "id": 9,
+    "neighbourStations": [ "alf maskan","haroun"],
+    "coordinates":[30.1081, 31.3382]
+  },
+  {
+    "name": "haroun",
+    "line": "line three",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["heliopolis square" ,"al ahram"],
+    "coordinates":[30.1013, 31.3328]
+  },
+  {
+    "name": "al ahram",
+    "line": "line three",
+    "intersection": false,
+    "id": 11,
+    "neighbourStations": ["haroun","koleyet el banat" ],
+    "coordinates":[30.0914, 31.3266]
+  },
+  {
+    "name": "koleyet el banat",
+    "line": "line three",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["al ahram","stadium" ],
+    "coordinates": [30.0837,  31.3288]
+  },
+  {
+    "name": "stadium",
+    "line": "line three",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": ["koleyet el banat", "fair zone"],
+    "coordinates":  [30.073,  31.3175]
+  },
+  {
+    "name": "fair zone",
+    "line": "line three",
+    "intersection": false,
+    "id": 14,
+    "neighbourStations": ["stadium","abbasseya" ],
+    "coordinates":  [30.0733, 31.3012]
+  },
+  {
+    "name": "abbasseya",
+    "line": "line three",
+    "intersection": false,
+    "id": 15,
+    "neighbourStations": ["fair zone" ,"abdou pasha"],
+    "coordinates": [30.0698, 31.2809]
+  },
+  {
+    "name": "abdou pasha",
+    "line": "line three",
+    "intersection": false,
+    "id": 16,
+    "neighbourStations": ["abbasseya", "el geish"],
+    "coordinates": [30.0649, 31.2747]
+  },
+  {
+    "name": "el geish",
+    "line": "line three",
+    "intersection": false,
+    "id": 17,
+    "neighbourStations": ["abdou pasha", "bab el shaaria"],
+    "coordinates": [30.062, 31.2668]
+  },
+  {
+    "name":"bab el shaaria",
+    "line": "line three",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": ["el geish" ,"ataba"],
+    "coordinates": [30.054, 31.256]
+  },
+  {
+    "name": "ataba",
+    "line": "line three",
+    "intersection": true,
+    "id": 19,
+    "neighbourStations": [ "nasser","bab el shaaria"],
+    "coordinates":  [30.0525,31.2469]
+  },
+  {
+    "name":"nasser",
+    "line": "line three",
+    "intersection": true,
+    "id": 20,
+    "neighbourStations": ["ataba","maspero"],
+    "coordinates":[30.0536, 31.2389]
+  },
+  {
+    "name": "maspero",
+    "line": "line three",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": ["nasser","safa hegazy" ],
+    "coordinates": [30.0556, 31.2322]
+  },
+  {
+    "name": "safa hegazy",
+    "line": "line three",
+    "intersection": false,
+    "id": 22,
+    "neighbourStations": ["maspero" ,"kit kat"],
+    "coordinates": [30.0625,  31.2225]
+  },
+  {
+    "name": "kit kat",
+    "line": "line three",
+    "intersection": true,
+    "id": 23,
+    "neighbourStations": ["sudan","safa hegazy"],
+    "coordinates":[30.0668, 31.2129]
+  },
+  {
+    "name": "sudan",
+    "line": "line three",
+    "intersection": false,
+    "id": 24,
+    "neighbourStations": ["kit kat","imbaba" ],
+    "coordinates": [30.0699, 31.2054]
+  },
+  {
+    "name": "imbaba",
+    "line": "line three",
+    "intersection": false,
+    "id": 25,
+    "neighbourStations": ["sudan","el bohy" ],
+    "coordinates": [30.0759, 31.2074]
+  },
+  {
+    "name": "el bohy",
+    "line": "line three",
+    "intersection": false,
+    "id": 26,
+    "neighbourStations": [ "imbaba","el qawmia"],
+    "coordinates": [30.0822, 31.2105]
+  },
+  {
+    "name": "el qawmia",
+    "line": "line three",
+    "intersection": false,
+    "id": 27,
+    "neighbourStations": [ "el bohy","ring road"],
+    "coordinates": [30.0932, 31.2088]
+  },
+  {
+    "name": "ring road",
+    "line": "line three",
+    "intersection": false,
+    "id": 28,
+    "neighbourStations": ["el qawmia","rod el farag corridor" ],
+    "coordinates": [30.0965,  31.1995]
+  },
+  {
+    "name": "rod el farag corridor",
+    "line": "line three",
+    "intersection": false,
+    "id": 29,
+    "neighbourStations": ["ring road" ],
+    "coordinates":[30.102, 31.1841]
+  },
+  {
+    "name": "kit kat",
+    "line": "line three1",
+    "intersection": true,
+    "id": 1,
+    "neighbourStations": ["tawfikia","sudan","safa hegazy"],
+    "coordinates":[30.0668,  31.2129]
+  },
+  {
+    "name": "tawfikia",
+    "line": "line three1",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["kit kat","wadi el nile" ],
+    "coordinates":[30.0655, 31.2023]
+  },
+  {
+    "name": "wadi el nile",
+    "line": "line three1",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["tawfikia" ,"gamat el dowal"],
+    "coordinates":[30.0585, 31.2011]
+  },
+  {
+    "name": "gamat el dowal",
+    "line": "line three1",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": [ "wadi el nile","boulak el dakrour"],
+    "coordinates":[30.051, 31.1997]
+  },
+  {
+    "name": "boulak el dakrour",
+    "line": "line three1",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["gamat el dowal","cairo university" ],
+    "coordinates":[30.0363, 31.1965]
+  },
+  {
+    "name": "cairo university",
+    "line":"line three1",
+    "intersection": true,
+    "id": 6,
+    "neighbourStations": ["faisal","boulak el dakrour" ],
+    "coordinates":[30.0261, 31.2013]
+  }
+]

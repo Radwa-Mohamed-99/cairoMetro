@@ -7,11 +7,12 @@
     android:layout_height="match_parent"
     android:background="#FDFDFE"
     android:backgroundTint="#FDFDFE"
+    android:elevation="5dp"
     tools:context=".ui.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
+        android:layout_width="115dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/metrologo"
@@ -22,32 +23,16 @@
         app:srcCompat="@drawable/images" />
 
     <Spinner
-        android:id="@+id/startStation"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:entries="@array/start"
-        app:layout_constraintBottom_toTopOf="@+id/arrivalStation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <Spinner
         android:id="@+id/arrivalStation"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="383dp"
+        android:layout_height="48dp"
         android:layout_marginTop="105dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="104dp"
-        android:entries="@array/arrival"
+        android:entries="@array/stations"
+        android:spinnerMode="dialog"
         app:layout_constraintBottom_toBottomOf="@+id/price"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView6" />
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        tools:layout_editor_absoluteX="14dp" />
 
     <TextView
         android:id="@+id/stationNo"
@@ -92,7 +77,9 @@
         android:layout_marginBottom="9dp"
         android:backgroundTint="#A6433D"
         android:onClick="getDetails"
-        android:text="@string/get_details"
+        android:rotation="0"
+        android:rotationX="0"
+        android:text="@string/getdetails"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/time"
@@ -115,7 +102,7 @@
 
     <TextView
         android:id="@+id/station"
-        android:layout_width="0dp"
+        android:layout_width="374dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="133dp"
         android:layout_marginBottom="134dp"
@@ -195,4 +182,26 @@
         app:layout_constraintEnd_toEndOf="@+id/station"
         app:layout_constraintStart_toStartOf="@+id/station"
         tools:text="count" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/startStation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_box"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:dropDownHeight="wrap_content"
+        android:hint="start station"
+        android:includeFontPadding="false"
+        android:popupBackground="@drawable/round_box"
+        app:layout_constraintBottom_toTopOf="@+id/arrivalStation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

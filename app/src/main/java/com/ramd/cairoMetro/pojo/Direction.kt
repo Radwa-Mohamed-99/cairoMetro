@@ -1,55 +1,59 @@
 package com.ramd.cairoMetro.pojo
 
-data class Direction(private val metroLines: MetroLines){
-    fun direction(path:List<String>, lineSearch:List<List<String>>):String{
+import android.util.Log
 
-        val directionStart=directionSearch (path[1],path[0],lineSearch)
-        var guide = "take ${directionStart[1]} in direction of ${directionStart[0]} ,"
-        var line = metroLines.searchLine (path[1] ,path[0], lineSearch)
-        var found = false
+class Direction( val data:Array<DataItem> ) {
 
 
+    fun shortByIntersections(paths:List<List<String>>):List<String>{
+        var min = 20
+        var shortPath = emptyList<String>()
+        for (path in paths) {
+            val intersection = findIntersections(path)
+            if( intersection.size < min)
+            {
+                min = intersection.size
+                shortPath = path
+            }
+        }
+        return shortPath
+    }
+
+    fun findLine (first:String,second:String ):String{
+        var lineName =""
+        val firstStation = data.filter { it.name == first }
+        val secondStation = data.filter { it.name == second }
+
+        for (dataItem1 in firstStation) {
+            for (dataItem2 in secondStation) {
+                if(dataItem2.line == dataItem1.line)
+                {
+                    lineName = dataItem2.line
+
+                }
+            }
+        }
+        return lineName
+    }
+
+
+    fun findIntersections(path:List<String>):MutableList<String>{
+        val intersections = mutableListOf<String>()
+        var lineName = findLine(path[0],path[1])
+        val intersectionStations = data.filter { it.intersection }.map { it.name }.toSet()
         for (index in path.indices) {
-            val station = path[index]
-            if (station in metroLines.intersectionStations && (index + 1 )< path.size && !lineSearch[line].contains(path[index + 1])) {
-                guide += "intersection at: \"$station\","
-                line = metroLines.searchLine(station, path[index + 1], lineSearch)
-                found=true
+            if((index + 1 )< path.size) {
+                val nextStation = data.filter { it.name == path[index + 1] }.map { it.line }
+                val station = path[index]
+                if (station in intersectionStations && !nextStation.contains(lineName)) {
+                    intersections.add(station)
+                    lineName = findLine(station, path[index + 1])
+                }
             }
         }
-
-
-        if (found) {
-            val directionEnd = directionSearch(path[path.size - 1], path[path.size - 2], lineSearch)
-            guide += "to ${directionEnd[1]} in direction of : ${directionEnd[0]} \n"
-        }
-        else {
-            guide += "and there are no intersections \n"
-        }
-        return guide
+        return intersections
     }
-    private fun directionSearch (station1:String, station2:String, lineSearch: List<List<String>>): Array<String> {
-        val directions = listOf(
-            Pair("helwan", "new marg"),
-            Pair("el monib", "shubra el khaimah"),
-            Pair("rod el farag corridor", "adly mansour"),
-            Pair("el monib", "rod el farag corridor")
-        )
 
-        val lineNames = listOf("line one", "line two", "line three", "line three")
-        val directionAndLine = Array(2) { "" }
 
-        for (i in lineSearch.indices) {
-            if (station1 in lineSearch[i] && station2 in lineSearch[i]) {
-                val station1Index = lineSearch[i].indexOf(station1)
-                val station2Index = lineSearch[i].indexOf(station2)
 
-                directionAndLine[1] = lineNames[i]
-                directionAndLine[0] = if (station1Index > station2Index) directions[i].first else directions[i].second
-                break
-            }
-        }
-
-        return directionAndLine
-    }
 }

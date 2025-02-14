@@ -1,5 +1,7 @@
 package com.ramd.cairoMetro.pojo
 
+import android.util.Log
+
 class Paths(private val metroLines: MetroLines){
     fun findAllPaths(start: String, end: String): List<List<String>> {
         val visited = mutableSetOf<String>()
@@ -37,7 +39,9 @@ class Paths(private val metroLines: MetroLines){
         }
         else {
             if (metroLines.stations[current] != null){
+                Log.d("nieghbour","${metroLines.stations[current]!!.neighbors}")
                 metroLines.stations[current]!!.neighbors.forEach{ neighbor ->
+
                     if (!visited.contains(neighbor)) {
                         dfs(neighbor, end, visited, path, result)
                     }

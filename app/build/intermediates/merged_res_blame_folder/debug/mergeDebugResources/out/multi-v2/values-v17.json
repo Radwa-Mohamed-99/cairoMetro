@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-33:/values-v17/values-v17.xml",
+            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-34:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ahmed\\.gradle\\caches\\8.9\\transforms\\6193a01dd5cad6caf3422b6eb6c9ea83\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\dea2e9c8a54f345461e1fb83fcff9a9a\\transformed\\appcompat-1.7.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,0 +1,199 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F3F3"
+    tools:context=".ui.AllRoutes">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_box"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/startBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/StationsLV"
+            android:layout_width="348dp"
+            android:layout_height="512dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="313dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#FEA613"
+        android:onClick="start"
+        android:text="Start"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/allRoutesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:text="All routes"
+            android:textAlignment="center"
+            android:textColor="#FEA613"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notesText"
+            android:layout_width="413dp"
+            android:layout_height="31dp"
+            android:background="#BAF1BC"
+            android:gravity="center"
+            android:text="Shortest Route"
+            android:textAlignment="center"
+            android:textColor="#F4F3F3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/control"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="19dp"
+                android:backgroundTint="#FEA613"
+                android:onClick="next"
+                android:text="Next"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/numberText"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginBottom="26dp"
+                android:layout_toStartOf="@+id/nextBtn"
+                android:background="@drawable/round_box"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="112dp"
+                tools:text="2/6" />
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="102dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="19dp"
+                android:layout_toStartOf="@+id/numberText"
+                android:backgroundTint="#FEA613"
+                android:enabled="false"
+                android:onClick="back"
+                android:text="back"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="130dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="86dp"
+                android:layout_height="75dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/round_box"
+                android:fontFamily="@font/alatsi"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:text="10 EG" />
+
+            <TextView
+                android:id="@+id/timeText"
+                android:layout_width="86dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_toStartOf="@+id/priceText"
+                android:layout_toEndOf="@+id/stationText"
+                android:background="@drawable/round_box"
+                android:fontFamily="@font/alatsi"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:text="30 minute" />
+
+            <TextView
+                android:id="@+id/stationText"
+                android:layout_width="86dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="39dp"
+                android:background="@drawable/round_box"
+                android:fontFamily="@font/alatsi"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:text="15 station" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

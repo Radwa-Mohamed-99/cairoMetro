@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">cairoMetro</string>
     <string name="other_path">Other Path</string>
-    <string name="get_details">Get Details</string>
     <string name="metrologo">metrologo</string>
     <string name="shortest_path">Shortest path</string>
     <string name="pervious_path">Pervious path</string>
     <string name="next_path">Next path</string>
     <string name="enter_your_trip">🚇Enter your trip🚇</string>
+    <string name="getdetails">get details</string>
 
-    <string-array name="start">
-        <item>select start station</item>
+    <string-array name="stations">
         <item>new marg</item>
         <item>el marg</item>
         <item>ezbet el nakhl</item>
@@ -95,91 +94,5 @@
         <item>boulak el dakrour</item>
         <item>cairo university</item>
     </string-array>
-    <string-array name="arrival">
-        <item>select arrival station</item>
-        <item>new marg</item>
-        <item>el marg</item>
-        <item>ezbet el nakhl</item>
-        <item>ain shams</item>
-        <item>el matareyya</item>
-        <item>helmeyet el zaitoun</item>
-        <item>hadayeq el zaitoun</item>
-        <item>saray el qobba</item>
-        <item>hammamat el qobba</item>
-        <item>kobri el qobba</item>
-        <item>mansheiet el sadr</item>
-        <item>el demerdash</item>
-        <item>ghamra</item>
-        <item>al shohadaa</item>
-        <item>orabi</item>
-        <item>nasser</item>
-        <item>sadat</item>
-        <item>saad zaghloul</item>
-        <item>al sayeda zeinab</item>
-        <item>el malek el saleh</item>
-        <item>mar girgis</item>
-        <item>el zahraa</item>
-        <item>dar el salam</item>
-        <item>hadayek el maadi</item>
-        <item>maadi</item>
-        <item>sakanat el maadi</item>
-        <item>tora el balad</item>
-        <item>kozzika</item>
-        <item>tura el esmant</item>
-        <item>el maasraa</item>
-        <item>hadayek helwan</item>
-        <item>wadi hof</item>
-        <item>helwan university</item>
-        <item>ain helwan</item>
-        <item>helwan</item>
-        <item>shubra el khaimah</item>
-        <item>koliet el zeraa</item>
-        <item>mezallat</item>
-        <item>khalafawy</item>
-        <item>st. teresa</item>
-        <item>rod el farag</item>
-        <item>masarra</item>
-        <item>ataba</item>
-        <item>mohamed naguib</item>
-        <item>opera</item>
-        <item>dokki</item>
-        <item>el bohooth</item>
-        <item>faisal</item>
-        <item>giza</item>
-        <item>omm el masryeen</item>
-        <item>saqiyet makky</item>
-        <item>el monib</item>
-        <item>adly mansour</item>
-        <item>haykestep</item>
-        <item>omar ibn el khattab</item>
-        <item>qubaa</item>
-        <item>hesham barakat</item>
-        <item>el nozha</item>
-        <item>nadi el shams</item>
-        <item>alf maskan</item>
-        <item>heliopolis square</item>
-        <item>haroun</item>
-        <item>al ahram</item>
-        <item>koleyet el banat</item>
-        <item>stadium</item>
-        <item>fair zone</item>
-        <item>abbasseya</item>
-        <item>abdou pasha</item>
-        <item>el geish</item>
-        <item>bab el shaaria</item>
-        <item>maspero</item>
-        <item>safa hegazy</item>
-        <item>sudan</item>
-        <item>imbaba</item>
-        <item>el bohy</item>
-        <item>el qawmia</item>
-        <item>ring road</item>
-        <item>rod el farag corridor</item>
-        <item>kit kat</item>
-        <item>tawfikia</item>
-        <item>wadi el nile</item>
-        <item>gamat el dowal</item>
-        <item>boulak el dakrour</item>
-        <item>cairo university</item>
-    </string-array>
+
 </resources>

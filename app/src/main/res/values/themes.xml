@@ -5,5 +5,11 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.CairoMetro" parent="Base.Theme.CairoMetro" />
+    <style name="Theme.CairoMetro" parent="Base.Theme.CairoMetro" >
+        <item name="radioButtonStyle">@style/Widget.App.RadioButton</item>
+    </style>
+    <style name="Widget.App.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/radio_button</item>
+    </style>
+
 </resources>
