@@ -29,7 +29,6 @@ class LocationCalculations {
     }
 
     fun nearestStationPath(data: Array<DataItem>, path:List<String>,lat: Double, long: Double):String{
-        var shortestDistance = 1F
         var station = ""
         for (s in path) {
             val stationCoordinate = data.first { it.name == s }.coordinates
@@ -39,9 +38,8 @@ class LocationCalculations {
             val location2 = Location("")
             location2.latitude = lat
             location2.longitude = long
-            val distance = (location1.distanceTo(location2)) / 1000
-            if (distance < shortestDistance) {
-                shortestDistance = distance
+            val distance = (location1.distanceTo(location2))
+            if (100<=distance || distance <= 200) {
                 station = data.first { it.coordinates == stationCoordinate }.name
             }
         }

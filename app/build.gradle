@@ -36,6 +36,10 @@ android {
 }
 
 dependencies {
+    implementation libs.androidx.ui.graphics.android
+    def work_version = "2.10.0"
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+    implementation "androidx.core:core-ktx:1.15.0"
     implementation 'com.google.code.gson:gson:2.12.1'
     implementation "com.github.lisawray.groupie:groupie:2.10.1"
     implementation "com.github.lisawray.groupie:groupie-viewbinding:2.10.1"

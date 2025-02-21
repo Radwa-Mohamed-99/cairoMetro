@@ -1,39 +1,53 @@
-com.ramd.cairoMetro.app-activity-1.9.3-0 C:\Users\rradw\.gradle\caches\8.9\transforms\026f8a5593119fc675f0afe42b169f4d\transformed\activity-1.9.3\res
-com.ramd.cairoMetro.app-annotation-experimental-1.4.1-1 C:\Users\rradw\.gradle\caches\8.9\transforms\06344122d1a51b9a681d30ed8ea98225\transformed\annotation-experimental-1.4.1\res
-com.ramd.cairoMetro.app-fragment-1.5.4-2 C:\Users\rradw\.gradle\caches\8.9\transforms\0b36e1b995584734558caa264aa38481\transformed\fragment-1.5.4\res
-com.ramd.cairoMetro.app-emoji2-views-helper-1.3.0-3 C:\Users\rradw\.gradle\caches\8.9\transforms\26ff4601ef705d16ec588f5095ad8c37\transformed\emoji2-views-helper-1.3.0\res
-com.ramd.cairoMetro.app-savedstate-1.2.1-4 C:\Users\rradw\.gradle\caches\8.9\transforms\28f7f2b3fb34deb899832b4862eec8ab\transformed\savedstate-1.2.1\res
-com.ramd.cairoMetro.app-transition-1.5.0-5 C:\Users\rradw\.gradle\caches\8.9\transforms\3d1f646c25ad35b4fe055be3fe992d38\transformed\transition-1.5.0\res
-com.ramd.cairoMetro.app-material-1.12.0-6 C:\Users\rradw\.gradle\caches\8.9\transforms\41729b40b6f2a02f61f58e01fab92bcf\transformed\material-1.12.0\res
-com.ramd.cairoMetro.app-tracing-1.2.0-7 C:\Users\rradw\.gradle\caches\8.9\transforms\501bae27afc53b170dece705866ea66a\transformed\tracing-1.2.0\res
-com.ramd.cairoMetro.app-lifecycle-viewmodel-savedstate-2.6.2-8 C:\Users\rradw\.gradle\caches\8.9\transforms\5291fb3b79c5c05dc5f5f3d71f694e81\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
-com.ramd.cairoMetro.app-startup-runtime-1.1.1-9 C:\Users\rradw\.gradle\caches\8.9\transforms\767e103d54b43e83f788abfb5a75dc68\transformed\startup-runtime-1.1.1\res
-com.ramd.cairoMetro.app-viewpager2-1.0.0-10 C:\Users\rradw\.gradle\caches\8.9\transforms\7d5b6e46d646bcd0584e8eeabca59a74\transformed\viewpager2-1.0.0\res
-com.ramd.cairoMetro.app-play-services-basement-17.0.0-11 C:\Users\rradw\.gradle\caches\8.9\transforms\88a77f58316a16496d72ee59a0f36f04\transformed\play-services-basement-17.0.0\res
-com.ramd.cairoMetro.app-recyclerview-1.2.1-12 C:\Users\rradw\.gradle\caches\8.9\transforms\97aff188b47047c5adbefa09cdab51e6\transformed\recyclerview-1.2.1\res
-com.ramd.cairoMetro.app-coordinatorlayout-1.1.0-13 C:\Users\rradw\.gradle\caches\8.9\transforms\9a4d2de82ce9da05e537d1333299a8c0\transformed\coordinatorlayout-1.1.0\res
-com.ramd.cairoMetro.app-profileinstaller-1.4.0-14 C:\Users\rradw\.gradle\caches\8.9\transforms\a02702daa319fcf0bf92f7bf931cb3bd\transformed\profileinstaller-1.4.0\res
-com.ramd.cairoMetro.app-appcompat-resources-1.7.0-15 C:\Users\rradw\.gradle\caches\8.9\transforms\a1e00f4f2ca584e0997a7239300c6653\transformed\appcompat-resources-1.7.0\res
-com.ramd.cairoMetro.app-lifecycle-livedata-2.6.2-16 C:\Users\rradw\.gradle\caches\8.9\transforms\a3ccfede0cc77ef7e890e4ea1fc20328\transformed\lifecycle-livedata-2.6.2\res
-com.ramd.cairoMetro.app-constraintlayout-2.2.0-17 C:\Users\rradw\.gradle\caches\8.9\transforms\a9549fa8cf5cf42c56ae3c5d90b2c126\transformed\constraintlayout-2.2.0\res
-com.ramd.cairoMetro.app-play-services-base-17.0.0-18 C:\Users\rradw\.gradle\caches\8.9\transforms\a97c814a04679b9361eaa38b284f4b44\transformed\play-services-base-17.0.0\res
-com.ramd.cairoMetro.app-lifecycle-process-2.6.2-19 C:\Users\rradw\.gradle\caches\8.9\transforms\bd46828218bde7a723aa76e1001e6ab5\transformed\lifecycle-process-2.6.2\res
-com.ramd.cairoMetro.app-cardview-1.0.0-20 C:\Users\rradw\.gradle\caches\8.9\transforms\bf28c71ecbc505fc53831cd4a2214233\transformed\cardview-1.0.0\res
-com.ramd.cairoMetro.app-AirPermissionsLibraryProject-3.1-21 C:\Users\rradw\.gradle\caches\8.9\transforms\c6a2fd62ac6f92734f45997ba8298726\transformed\AirPermissionsLibraryProject-3.1\res
-com.ramd.cairoMetro.app-core-1.15.0-22 C:\Users\rradw\.gradle\caches\8.9\transforms\d2aa31fff3106fe3d846d0536d9124db\transformed\core-1.15.0\res
-com.ramd.cairoMetro.app-lifecycle-runtime-2.6.2-23 C:\Users\rradw\.gradle\caches\8.9\transforms\da35f900553662f30db2e120c31eb35b\transformed\lifecycle-runtime-2.6.2\res
-com.ramd.cairoMetro.app-emoji2-1.3.0-24 C:\Users\rradw\.gradle\caches\8.9\transforms\dc94a0e6f43292a70ce02b08f28fc9ef\transformed\emoji2-1.3.0\res
-com.ramd.cairoMetro.app-appcompat-1.7.0-25 C:\Users\rradw\.gradle\caches\8.9\transforms\dea2e9c8a54f345461e1fb83fcff9a9a\transformed\appcompat-1.7.0\res
-com.ramd.cairoMetro.app-AirLocation-2.5.2-26 C:\Users\rradw\.gradle\caches\8.9\transforms\e0a716886b1c5f26fdb3a6a0644767ad\transformed\AirLocation-2.5.2\res
-com.ramd.cairoMetro.app-drawerlayout-1.1.1-27 C:\Users\rradw\.gradle\caches\8.9\transforms\e9d14a5ad7f67d0a619e7548915eb58b\transformed\drawerlayout-1.1.1\res
-com.ramd.cairoMetro.app-lifecycle-viewmodel-2.6.2-28 C:\Users\rradw\.gradle\caches\8.9\transforms\eda9d27e2d65991257c41431f35a5f91\transformed\lifecycle-viewmodel-2.6.2\res
-com.ramd.cairoMetro.app-lifecycle-livedata-core-2.6.2-29 C:\Users\rradw\.gradle\caches\8.9\transforms\ee361e5770188c9bed1f3559c85bbfe0\transformed\lifecycle-livedata-core-2.6.2\res
-com.ramd.cairoMetro.app-core-runtime-2.2.0-30 C:\Users\rradw\.gradle\caches\8.9\transforms\f553241f4839d05e032861b7fad08c96\transformed\core-runtime-2.2.0\res
-com.ramd.cairoMetro.app-core-ktx-1.15.0-31 C:\Users\rradw\.gradle\caches\8.9\transforms\f8b7d9217167aee1e55b690b0f84f1d4\transformed\core-ktx-1.15.0\res
-com.ramd.cairoMetro.app-pngs-32 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\pngs\debug
-com.ramd.cairoMetro.app-resValues-33 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\resValues\debug
-com.ramd.cairoMetro.app-packageDebugResources-34 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.ramd.cairoMetro.app-packageDebugResources-35 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.ramd.cairoMetro.app-debug-36 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.ramd.cairoMetro.app-debug-37 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\debug\res
-com.ramd.cairoMetro.app-main-38 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\res
+com.ramd.cairoMetro.app-material-1.12.0-0 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\0bdeb69f6bfa3f3bf06c747784010b02\transformed\material-1.12.0\res
+com.ramd.cairoMetro.app-sqlite-2.4.0-1 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\114db4ab02fcb89b65b7a7841884a49e\transformed\sqlite-2.4.0\res
+com.ramd.cairoMetro.app-lifecycle-runtime-2.6.2-2 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\138623ca16dcf1d3d1fab954da3d104f\transformed\lifecycle-runtime-2.6.2\res
+com.ramd.cairoMetro.app-play-services-base-17.0.0-3 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\13c2936c0d27ab6856a3ad79520485e2\transformed\play-services-base-17.0.0\res
+com.ramd.cairoMetro.app-transition-1.5.0-4 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\16f32932fc501d10f5adb767d045699e\transformed\transition-1.5.0\res
+com.ramd.cairoMetro.app-ui-graphics-release-5 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\1af4db641bf7cbc7c82dd84ab0889955\transformed\ui-graphics-release\res
+com.ramd.cairoMetro.app-runtime-release-6 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\23bf6441ef64bbd815e126c0344b080e\transformed\runtime-release\res
+com.ramd.cairoMetro.app-profileinstaller-1.4.0-7 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\266be6f4bfab3c09f36ed19e3d9ad9fd\transformed\profileinstaller-1.4.0\res
+com.ramd.cairoMetro.app-constraintlayout-2.2.0-8 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\28c4dbf0d1dd765902ae36241e5ed98f\transformed\constraintlayout-2.2.0\res
+com.ramd.cairoMetro.app-savedstate-1.2.1-9 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\2d4f69686e060d0ed230234ddc4569f3\transformed\savedstate-1.2.1\res
+com.ramd.cairoMetro.app-appcompat-resources-1.7.0-10 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\330d6f07a11f3ba9c10c3c061d87f42a\transformed\appcompat-resources-1.7.0\res
+com.ramd.cairoMetro.app-sqlite-framework-2.4.0-11 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\35f859132dba6063388895f9ce3013b0\transformed\sqlite-framework-2.4.0\res
+com.ramd.cairoMetro.app-appcompat-1.7.0-12 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\3f95e9562028fc4a4d2843becd9579ac\transformed\appcompat-1.7.0\res
+com.ramd.cairoMetro.app-AirPermissionsLibraryProject-3.1-13 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\47eb96db96634175216950d489243488\transformed\AirPermissionsLibraryProject-3.1\res
+com.ramd.cairoMetro.app-emoji2-1.3.0-14 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\49c2f855afe2c997a83dd605a88bee04\transformed\emoji2-1.3.0\res
+com.ramd.cairoMetro.app-annotation-experimental-1.4.1-15 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\50d4d7e5a4e1f75e5167519c00c5f7f5\transformed\annotation-experimental-1.4.1\res
+com.ramd.cairoMetro.app-tracing-1.2.0-16 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\5185c9b7f2dae902f9df3babf429f3b1\transformed\tracing-1.2.0\res
+com.ramd.cairoMetro.app-tracing-ktx-1.2.0-17 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\5ca45f8faac434dfbed75a6d8f0d262d\transformed\tracing-ktx-1.2.0\res
+com.ramd.cairoMetro.app-room-runtime-2.6.1-18 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\60f28ba64927a6b60b7fbae81adf9561\transformed\room-runtime-2.6.1\res
+com.ramd.cairoMetro.app-work-runtime-ktx-2.10.0-19 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\6be94694f2df1e9c0e34050543ea48be\transformed\work-runtime-ktx-2.10.0\res
+com.ramd.cairoMetro.app-graphics-path-1.0.1-20 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\724420c76109b74d46862b2deef1aba1\transformed\graphics-path-1.0.1\res
+com.ramd.cairoMetro.app-lifecycle-viewmodel-savedstate-2.6.2-21 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\737018ca337fb7c22c54c105fea21f49\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.ramd.cairoMetro.app-viewpager2-1.0.0-22 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\75fa68d6e20b5d6816f7205428cb274e\transformed\viewpager2-1.0.0\res
+com.ramd.cairoMetro.app-core-1.15.0-23 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\7635b39e86e525aa5f1a6486968bf71b\transformed\core-1.15.0\res
+com.ramd.cairoMetro.app-ui-util-release-24 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\867dd93b1b0e2a839fb682c29e19486e\transformed\ui-util-release\res
+com.ramd.cairoMetro.app-drawerlayout-1.1.1-25 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\876945dd9a1e0d1d4b0c482b38a6f602\transformed\drawerlayout-1.1.1\res
+com.ramd.cairoMetro.app-startup-runtime-1.1.1-26 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\93b61f0df326b9e120c4fcfd95f905d2\transformed\startup-runtime-1.1.1\res
+com.ramd.cairoMetro.app-AirLocation-2.5.2-27 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\9cd2cc1e5c3a3570ffcc4d843c5b16b9\transformed\AirLocation-2.5.2\res
+com.ramd.cairoMetro.app-activity-1.9.3-28 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\a781e1d08ca440dcab1de811cb628ad2\transformed\activity-1.9.3\res
+com.ramd.cairoMetro.app-room-ktx-2.6.1-29 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\aacb561df1ba3e46f07176c8a9675d5e\transformed\room-ktx-2.6.1\res
+com.ramd.cairoMetro.app-ui-unit-release-30 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\af01eb8ab4091155a821460a5476412a\transformed\ui-unit-release\res
+com.ramd.cairoMetro.app-lifecycle-livedata-2.6.2-31 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\b4556ab6f09c8ce27642e02528dfde49\transformed\lifecycle-livedata-2.6.2\res
+com.ramd.cairoMetro.app-ui-geometry-release-32 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\b5f3336ab25d5f83531a27dec0847d42\transformed\ui-geometry-release\res
+com.ramd.cairoMetro.app-lifecycle-service-2.6.2-33 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\b6176efff8cc2c6517b0e5302b9866d5\transformed\lifecycle-service-2.6.2\res
+com.ramd.cairoMetro.app-coordinatorlayout-1.1.0-34 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\ba79bc3fc64ea8dfef1dffe712f7e53d\transformed\coordinatorlayout-1.1.0\res
+com.ramd.cairoMetro.app-lifecycle-process-2.6.2-35 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\bed6fbbd21da22fabc9491b6ede0c9c5\transformed\lifecycle-process-2.6.2\res
+com.ramd.cairoMetro.app-work-runtime-2.10.0-36 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\c2b274b5ff95f15ea9a62d3ace9fa912\transformed\work-runtime-2.10.0\res
+com.ramd.cairoMetro.app-cardview-1.0.0-37 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\c4947095d8c1628a4c56d2fb9a11fdbd\transformed\cardview-1.0.0\res
+com.ramd.cairoMetro.app-emoji2-views-helper-1.3.0-38 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\cd3e33b828247223b8e7281359c782a4\transformed\emoji2-views-helper-1.3.0\res
+com.ramd.cairoMetro.app-lifecycle-viewmodel-2.6.2-39 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\d915ff54e5cf01d63c67cfc24382babb\transformed\lifecycle-viewmodel-2.6.2\res
+com.ramd.cairoMetro.app-recyclerview-1.2.1-40 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\dd3a21841b7af7b19dddf63a19cd4616\transformed\recyclerview-1.2.1\res
+com.ramd.cairoMetro.app-core-ktx-1.15.0-41 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\dd46082e504cda406c19c6e19a5a83cb\transformed\core-ktx-1.15.0\res
+com.ramd.cairoMetro.app-core-runtime-2.2.0-42 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\ed9fa3269171f9aa27894beab88e8530\transformed\core-runtime-2.2.0\res
+com.ramd.cairoMetro.app-play-services-basement-17.0.0-43 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\eebebc6364244f3ebf084ab5ef1f86f0\transformed\play-services-basement-17.0.0\res
+com.ramd.cairoMetro.app-lifecycle-livedata-core-2.6.2-44 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\fa424cf5a9576c52c2036cd50257b331\transformed\lifecycle-livedata-core-2.6.2\res
+com.ramd.cairoMetro.app-fragment-1.5.4-45 C:\Users\Laptop Market\.gradle\caches\8.9\transforms\fb87a670a159cc50d2d2b776bbe35b34\transformed\fragment-1.5.4\res
+com.ramd.cairoMetro.app-pngs-46 E:\me\mobile\Depi\material\projects\cairoMetro\app\build\generated\res\pngs\debug
+com.ramd.cairoMetro.app-resValues-47 E:\me\mobile\Depi\material\projects\cairoMetro\app\build\generated\res\resValues\debug
+com.ramd.cairoMetro.app-packageDebugResources-48 E:\me\mobile\Depi\material\projects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ramd.cairoMetro.app-packageDebugResources-49 E:\me\mobile\Depi\material\projects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ramd.cairoMetro.app-debug-50 E:\me\mobile\Depi\material\projects\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.ramd.cairoMetro.app-debug-51 E:\me\mobile\Depi\material\projects\cairoMetro\app\src\debug\res
+com.ramd.cairoMetro.app-main-52 E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\res

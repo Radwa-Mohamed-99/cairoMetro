@@ -1,5 +1,9 @@
 package com.ramd.cairoMetro.ui
+import android.Manifest
 import android.annotation.SuppressLint
+import android.app.Activity
+import android.content.Context
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -7,13 +11,20 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.work.Constraints
+import androidx.work.Data
+import androidx.work.NetworkType
+import androidx.work.OneTimeWorkRequest
+import androidx.work.WorkManager
 import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.R
 import com.ramd.cairoMetro.databinding.ActivityMainBinding
 import com.ramd.cairoMetro.pojo.Direction
 import com.ramd.cairoMetro.pojo.DataHandling
+import com.ramd.cairoMetro.pojo.MyWork
 import com.ramd.cairoMetro.pojo.PathsCalculations
 import com.ramd.cairoMetro.pojo.Price
 
@@ -257,6 +268,276 @@ class MainActivity : AppCompatActivity() {
 //    }.start()
 
 
-    }
+//    private fun showNotification( stationName: String, stationType: String) {
+//        if (ActivityCompat.checkSelfPermission(
+//                this,
+//                Manifest.permission.POST_NOTIFICATIONS
+//            ) != PackageManager.PERMISSION_GRANTED
+//        ) {
+//
+//            ActivityCompat.requestPermissions(
+//                this,
+//                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+//                1
+//            )
+//        } else {
+//            val constraints = Constraints.Builder()
+//                .setRequiredNetworkType(NetworkType.CONNECTED)
+//                .build()
+//
+//            val data = Data.Builder()
+//                .putString("STATION_NAME", stationName)
+//                .putString("STATION_TYPE", stationType)
+//                .build()
+//
+//            val request = OneTimeWorkRequest.Builder(MyWork::class.java)
+//                .setConstraints(constraints)
+//                .setInputData(
+//                    data
+//                )
+//                .setInitialDelay(
+//                    15,
+//                    TimeUnit.SECONDS
+//                )
+//                .build()
+//
+//            WorkManager.getInstance(this).enqueue(request)
+//        }
+//    }
+
+
+//object : CountDownTimer(timer, 3000) {
+//    override fun onTick(millisUntilFinished: Long) {
+//        val layoutManager = binding.recyclerView.layoutManager as LinearLayoutManager
+//        items.clear()
+//
+//        var locations: ArrayList<Location> = arrayListOf(Location(""))
+//
+//        val station = location.nearestStationPath(
+//            stationData,
+//            path,
+//            locations[0].latitude,
+//            locations[0].longitude
+//        )
+//        val intersections = Direction(stationData).findIntersections(path)
+//        var currentFlag = false
+//        for (index in path.indices) {
+//            if (station == path[index]) currentFlag = true
+//            if (index == 0) {
+//                items.add(StationItem(path[index], start = true, stationState = currentFlag))
+//                showNotification(station, "Start")
+//            } else if (index == path.size - 1) {
+//                items.add(StationItem(path[index], end = true, stationState = currentFlag))
+//                showNotification(station, "End")
+//            } else {
+//                if (path[index] in intersections) {
+//                    items.add(StationItem(path[index], change = true, stationState = currentFlag))
+//                    showNotification(station, "Change")
+//                } else {
+//                    items.add(StationItem(path[index], stationState = currentFlag))
+//                }
+//            }
+//        }
+//        adapter.clear()
+//        adapter.update(items)
+//        val state = items.indexOfFirst { it.stationState }
+//        binding.recyclerView.adapter = adapter
+//        layoutManager.scrollToPosition(state)
+//    }
+//
+//    override fun onFinish() {
+//
+//    }
+//}.start()
+
+
+
+
+
+
+    //    private fun notifyUsingDistance(locations: ArrayList<Location>) {
+//        for (stationName in path) {
+//            Log.e("i=>", "$i")
+//            i++
+//            val stationCoordinates = stationData.firstOrNull { it.name == stationName }?.coordinates
+//            Log.e("stCs=>", "$stationCoordinates")
+//
+//            if (stationCoordinates == null) continue
+//
+//            val stationLocation = Location("").apply {
+//                latitude = stationCoordinates[0]
+//                longitude = stationCoordinates[1]
+//            }
+//
+//            val distance = locations[0].distanceTo(stationLocation) / 1000
+//
+//            val d = 450F
+//            Log.e("Location", "Distance to $stationName: $distance km val d= $d ")
+//
+//
+//            val stationItem = items.find { it.station == stationName }
+//            if (stationItem != null) {
+//                Log.e("stationItem=>",
+//                    "start:${stationItem.start} end:${stationItem.end} $stationName"
+//                )
+//                if (stationItem.start) {
+//                    Log.e("send=>", "start")
+//                    showNotification(this, stationName, "Start")
+//                } else {
+//                    if (distance <= d) {
+//                        when {
+//                            stationItem.end -> {
+//                                Log.e("send=>", "end")
+//                                showNotification(this, stationName, "End")
+//                            }
+//
+//                            stationItem.change -> {
+//                                Log.e("send=>", "change")
+//                                showNotification(this, stationName, "change")
+//                            }
+//                            else -> {
+//                                Log.e("send=>", "normal")
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+////            break
+//        }
+//
+//    }
+
+
+//        val notif = NotificationCompat.Builder(applicationContext, "default")
+//            .setSmallIcon(R.drawable.ic_launcher_foreground)
+//            .setContentTitle("You Now at $stationType Station")
+//            .setContentText("$stationName")
+//            .setStyle(NotificationCompat.BigTextStyle()
+//            .bigText("You have arrived at $stationName.\nHave a great trip!"))
+//            .setColor(Color.parseColor("#FFA500"))
+//            .setVibrate(longArrayOf(0, 500, 250, 500))
+//            .setLights(Color.BLUE, 500, 2000)
+
+//            .setAutoCancel(true)
+//            .setContentIntent(pe)
+//            .build()
+
+//        try {
+//            NotificationManagerCompat.from(applicationContext).notify(1, notif)
+//        } catch (e: SecurityException) {
+//            Log.e("NotificationError", "Failed to show notification: ${e.message}")
+//        }
+
+
+//    private fun showNotification(context: Context, stationName: String, stationType: String) {
+//        if (ActivityCompat.checkSelfPermission(
+//                context,
+//                Manifest.permission.POST_NOTIFICATIONS
+//            ) != PackageManager.PERMISSION_GRANTED
+//        ) {
+//            ActivityCompat.requestPermissions(
+//                context as Activity,
+//                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+//                1
+//            )
+//            return
+//        }
+//
+//
+////        Log.e("showmessageFun","yes")
+////        val channelId = "station_alerts"
+////        val notificationManager =
+////            context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+////
+////        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+////            val channel = NotificationChannel(
+////                channelId,
+////                "Station Alerts",
+////                NotificationManager.IMPORTANCE_HIGH
+////            )
+////            channel.description = "Notifications for nearby metro stations"
+////            notificationManager.createNotificationChannel(channel)
+////        }
+//
+//        val constraints = Constraints.Builder()
+//            .setRequiredNetworkType(NetworkType.CONNECTED)
+//            .build()
+//
+//        val data = Data.Builder()
+//            .putString("STATION_NAME", stationName)
+//            .putString("STATION_TYPE", stationType)
+//            .build()
+//
+//        val request = OneTimeWorkRequest.Builder(MyWork::class.java)
+//            .setConstraints(constraints)
+//            .setInputData(data)
+////                .setInitialDelay(15,TimeUnit.SECONDS)
+//            .build()
+//
+//        WorkManager.getInstance(this).enqueue(request)
+//
+////        val a = Intent(this, TripProgress::class.java)
+////        a.apply {
+////            flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+////        }
+////
+////        val requestCode = System.currentTimeMillis().toInt()
+////
+////        val pe = PendingIntent.getActivity(
+////            this, requestCode, a, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+////        )
+////
+////        val smallIcon = R.drawable.ic_launcher_foreground
+////        val bigPicture = BitmapFactory.decodeResource(context.resources, R.drawable.station_image)
+////        if (bigPicture != null) {
+////            val resizedImage = Bitmap.createScaledBitmap(bigPicture, 600, 400, true)
+////            val builder = NotificationCompat.Builder(context, channelId)
+////                .setSmallIcon(smallIcon)
+////                .setContentTitle("\uD83D\uDE89 Station Alert :")
+////                .setContentText(
+////                    when {
+////                        stationType.equals(
+////                            "Start",
+////                            ignoreCase = true
+////                        ) -> "You Now at ($stationName) Have a nice trip!"
+////
+////                        stationType.equals(
+////                            "change",
+////                            ignoreCase = true
+////                        ) -> "You are 10 meters away from: $stationName ($stationType station)"
+////
+////                        else -> "You soon will arrive at ($stationName) Hope you had a great journey!"
+////                    }
+////                )
+////
+////                .setStyle(
+////                    NotificationCompat.BigPictureStyle()
+////                        .bigLargeIcon(resizedImage)
+////                        .bigPicture(resizedImage)
+////                )
+////                .setPriority(NotificationCompat.PRIORITY_HIGH)
+////                .setAutoCancel(true)
+////                .setContentIntent(pe)
+////                .setWhen(System.currentTimeMillis())
+//////            val notificationId = System.currentTimeMillis().toInt()
+//////
+//////            val notificationId = when {
+//////                stationType.equals("Start",ignoreCase = true) -> 1
+//////                stationType.equals("change",ignoreCase = true) -> 2
+//////                else -> System.currentTimeMillis().toInt()
+//////            }
+//////
+//////            notificationManager.notify(notificationId, builder.build())
+////
+////
+////            notificationManager.notify(1, builder.build())
+////
+////        } else {
+////            Log.e("Notification", "Failed to load station_image")
+////        }
+//    }
+//
+
+}
 
 

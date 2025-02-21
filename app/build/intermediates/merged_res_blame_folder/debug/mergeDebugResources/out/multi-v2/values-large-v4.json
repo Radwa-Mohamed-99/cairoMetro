@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-34:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-48:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\41729b40b6f2a02f61f58e01fab92bcf\\transformed\\material-1.12.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\0bdeb69f6bfa3f3bf06c747784010b02\\transformed\\material-1.12.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\dea2e9c8a54f345461e1fb83fcff9a9a\\transformed\\appcompat-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\3f95e9562028fc4a4d2843becd9579ac\\transformed\\appcompat-1.7.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
