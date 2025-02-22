@@ -1,21 +1,25 @@
 # Cairo Metro app 
-<pre>
-                               🚇✨<strong>Welcome in our cairo metro android application</strong>🚇✨ 
-                   🔥<strong>This application has many features that will help you to arrive your destination</strong>🔥
-</pre>
 
-**💎 Provide you with 💎**                                
-      ⭐  the shortest path to your destination. \
-      ⭐  the price for your trip.\
-      ⭐  the number of stations you will pass.\
-      ⭐  the time, you will take during the trip.\
-      ⭐  other paths to arrive your destination.\
-      ⭐  choose your own route to start a trip.\
-      ⭐  live tracking during trip to arrive your destination.\
-      ⭐  get notifications in start, end and intersections.\
-      ⭐  get which station near to you and set it as a start station.\
-      ⭐  get the route to your start station.\
-      ⭐  know which station near to your location.
+<div align="center">
+    🚇✨<strong>Welcome in our cairo metro android application</strong>🚇✨
+  
+  🔥This application has many features that will help you to arrive your destination🔥
+</div>
+
+
+**💎 Provide you with 💎** 
+     
+  ⭐  the shortest path to your destination. \
+  ⭐  the price for your trip.\
+  ⭐  the number of stations you will pass.\
+  ⭐  the time, you will take during the trip.\
+  ⭐  other paths to arrive your destination.\
+  ⭐  choose your own route to start a trip.\
+  ⭐  live tracking during trip to arrive your destination.\
+  ⭐  get notifications in start, end and intersections.\
+  ⭐  get which station near to you and set it as a start station.\
+  ⭐  get the route to your start station.\
+  ⭐  know which station near to your location.
       
 ## Download apk file: 
  [download metro app](https://raw.githubusercontent.com/Radwa-Mohamed-99/cairoMetro/main/app/build/intermediates/apk/debug/app-debug.apk)
@@ -29,10 +33,11 @@
    * Doaa Abd El-Hafez
    * Mohamed Nosair
 
-<pre>
-                              🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 
-                                     💕😎 **RAMD TEAM**😎💕
-</pre>
+<div align="center">
+🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 
+  
+   💕😎 **RAMD TEAM**😎💕
+</div>
 
       
 
