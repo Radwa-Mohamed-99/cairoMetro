@@ -1,8 +1,8 @@
 #                                                Cairo Metro app 
-                              **🚇✨ Welcome in our cairo metro android application 🚇✨**
-               **🔥 This application has many features that will help you to arrive your destination:🔥**
+                              🚇✨ Welcome in our cairo metro android application 🚇✨
+               🔥 This application has many features that will help you to arrive your destination:🔥
 
-**💎 Provide you with 💎**                                  
+**💎 Provide you with 💎**    \                              
       ⭐  the shortest path to your destination. \
       ⭐  the price for your trip.\
       ⭐  the number of stations you will pass.\
@@ -21,14 +21,14 @@
 ## How to use app:
 
 
-### team members:
-   * Ahmed Saleh\
-   * Radwa Mohamed\ 
-   * Doaa Abd El-Hafez\
-   * Mohamed Nosair\
+## team members:
+   * Ahmed Saleh
+   * Radwa Mohamed
+   * Doaa Abd El-Hafez
+   * Mohamed Nosair
 
- 🌜💥 HOPE IT WILL BE YOUR GUID 💥🌛 
-      💕😎 RAMD TEAM 😎💕
+ 🌜💥 HOPE IT WILL BE YOUR GUID 💥🌛 \
+      💕😎 RAMD TEAM 😎💕\
       
 
             
