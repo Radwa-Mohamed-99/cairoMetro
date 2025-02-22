@@ -2,7 +2,7 @@
                               🚇✨ Welcome in our cairo metro android application 🚇✨
                🔥 This application has many features that will help you to arrive your destination:🔥
 
-**💎 Provide you with 💎**    \                              
+**💎 Provide you with 💎**                                
       ⭐  the shortest path to your destination. \
       ⭐  the price for your trip.\
       ⭐  the number of stations you will pass.\
@@ -13,10 +13,10 @@
       ⭐  get notifications in start, end and intersections.\
       ⭐  get which station near to you and set it as a start station.\
       ⭐  get the route to your start station.\
-      ⭐  know which station near to your location.\
+      ⭐  know which station near to your location.
       
 ## Download apk file: 
- [download metro app](https://github.com/Radwa-Mohamed-99/cairoMetro/blob/main/app/build/intermediates/apk/debug/app-debug.apk](https://github.com/Radwa-Mohamed-99/cairoMetro/raw/refs/heads/main/app/build/intermediates/apk/debug/app-debug.apk)
+ [download metro app](PK)
 
 ## How to use app:
 
@@ -27,8 +27,8 @@
    * Doaa Abd El-Hafez
    * Mohamed Nosair
 
- 🌜💥 HOPE IT WILL BE YOUR GUID 💥🌛 \
-      💕😎 RAMD TEAM 😎💕\
+ 🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 \
+         💕😎 **RAMD TEAM**😎💕
       
 
             
