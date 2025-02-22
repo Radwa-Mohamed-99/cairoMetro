@@ -1,6 +1,6 @@
 # Cairo Metro app 
-                                                                                  🚇✨ Welcome in our cairo metro android application 🚇✨
-                                                                    🔥This application has many features that will help you to arrive your destination🔥
+                               🚇✨**Welcome in our cairo metro android application**🚇✨ 
+                   🔥**This application has many features that will help you to arrive your destination**🔥
 
 **💎 Provide you with 💎**                                
       ⭐  the shortest path to your destination. \
@@ -19,7 +19,7 @@
  [download metro app](https://raw.githubusercontent.com/Radwa-Mohamed-99/cairoMetro/main/app/build/intermediates/apk/debug/app-debug.apk)
 
 ## How to use app:
-
+![home page guide ](https://github.com/Radwa-Mohamed-99/cairoMetro/blob/main/homeInstrcutions.png)
 
 ## Team members:
    * Ahmed Saleh
@@ -27,8 +27,11 @@
    * Doaa Abd El-Hafez
    * Mohamed Nosair
 
- 🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 \
-         💕😎 **RAMD TEAM**😎💕
+<pre>
+                              🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 
+                                     💕😎 **RAMD TEAM**😎💕
+</pre>
+
       
 
             
