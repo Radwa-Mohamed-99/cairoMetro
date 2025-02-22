@@ -21,20 +21,21 @@
   ⭐  get the route to your start station.\
   ⭐  know which station near to your location.
       
-## Download apk file: 
+## Download apk file
  [download metro app](https://raw.githubusercontent.com/Radwa-Mohamed-99/cairoMetro/main/app/build/intermediates/apk/debug/app-debug.apk)
 
-## How to use app:
+## How to use app
 ![home page guide ](https://github.com/Radwa-Mohamed-99/cairoMetro/blob/main/homeInstrcutions.png)
 
-## Team members:
+## Team members
    * Ahmed Saleh
    * Radwa Mohamed
    * Doaa Abd El-Hafez
    * Mohamed Nosair
 
 <div align="center">
-🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 
+    
+  🌜💥 **HOPE IT WILL BE YOUR GUID**💥🌛 
   
    💕😎 **RAMD TEAM**😎💕
 </div>
