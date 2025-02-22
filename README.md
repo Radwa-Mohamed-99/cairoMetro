@@ -1,6 +1,8 @@
 # Cairo Metro app 
-                               🚇✨**Welcome in our cairo metro android application**🚇✨ 
-                   🔥**This application has many features that will help you to arrive your destination**🔥
+<pre>
+                               🚇✨<strong>Welcome in our cairo metro android application</strong>🚇✨ 
+                   🔥<strong>This application has many features that will help you to arrive your destination</strong>🔥
+</pre>
 
 **💎 Provide you with 💎**                                
       ⭐  the shortest path to your destination. \
