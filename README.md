@@ -1,5 +1,5 @@
 # Cairo Metro app 
-🚇✨**Welcome in our cairo metro android application** 🚇✨
+🚇✨**Welcome in our cairo metro android application**\ 🚇✨
 🔥**This application has many features that will help you to arrive your destination**🔥
 
 **💎 Provide you with 💎**                                
@@ -28,7 +28,7 @@
    * Mohamed Nosair
 
  🌜💥 **HOPE IT WILL BE YOUR GUID** 💥🌛 \
- &nbsp;&nbsp;&nbsp;&nbsp;💕😎 **RAMD TEAM**😎💕
+          💕😎 **RAMD TEAM**😎💕
       
 
             
