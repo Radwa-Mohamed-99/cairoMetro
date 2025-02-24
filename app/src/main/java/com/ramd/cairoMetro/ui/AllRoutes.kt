@@ -25,11 +25,11 @@ class AllRoutes : AppCompatActivity() {
     var stationData: Array<DataItem> = emptyArray()
     val dataHandling = DataHandling()
     var paths  = listOf<List<String>>()
-    var shortPath = emptyList<String>()
+    var sorting = emptyList<List<String>>()
     val items = mutableListOf<StationItem>()
     val price = Price()
     var adapter = GroupieAdapter()
-    var index = 0 ; var indexPlus = 0 ;var  indexMins = 0
+    var index =0  ; var indexPlus = 1 ;var  indexMins = 0
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +45,7 @@ class AllRoutes : AppCompatActivity() {
 
         val startStation = intent.getStringExtra("startStation")
         val arrivalStation = intent.getStringExtra("arrivalStation")
-        val shortType = intent.getIntExtra("shortType",-1)
+        val shortType = intent.getBooleanExtra("shortType",false)
         val tripAvailability =  intent.getBooleanExtra("tripAvailability",false)
 
         if(!dataHandling.readUserFromAssets(this,"metro.json").isNullOrEmpty()) {
@@ -60,43 +60,50 @@ class AllRoutes : AppCompatActivity() {
             if (paths.size > 1) {
                 binding.control.isVisible= true
                 binding.nextBtn.isEnabled=true
-                binding.numberText.text = "${0} / ${paths.size}"
+                binding.numberText.text = "${1} / ${paths.size}"
             }
             else {
                 binding.control.isVisible= false
             }
         }
-        if(shortType  != -1 ) {
-            if (shortType == 0) {
-                shortPath = pathsCalculations.findShortByStation(paths)
+        sorting = if (!shortType) {
 
-            } else if (shortType == 1) {
-                shortPath = direction.shortByIntersections(paths)
-            }
-            setRecyclerList(shortPath)
-            binding.priceText.text = "Price \n${price.calculatePrice(shortPath.size)}"
+            pathsCalculations.sortingByStations(paths)
+
+        } else {
+            direction.sortingByIntersections(paths)
         }
 
-        if(!tripAvailability)
-        {
-//            binding.startBtn.isEnabled = false
-        }
+            setRecyclerList(sorting[0])
+            binding.notesText.isVisible =true
+            binding.priceText.text = "Price \n${price.calculatePrice(sorting[0].size)}"
 
+
+           binding.startBtn.isEnabled = tripAvailability
+
+
+    }
+
+    override fun onDestroy() {
+        items.clear()
+        adapter.clear()
+        stationData = emptyArray()
+        super.onDestroy()
     }
 
     @SuppressLint("SetTextI18n")
     fun next(view: View) {
-        binding.notesText.isVisible = paths[indexPlus] == shortPath
+        binding.notesText.isVisible = sorting[indexPlus] == sorting[0]
         index = indexPlus
-        setRecyclerList(paths[indexPlus])
+        setRecyclerList(sorting[indexPlus])
         indexMins=indexPlus
-        binding.numberText.text= "${indexMins+1} / ${paths.size}"
+        binding.numberText.text= "${indexMins+1} / ${sorting.size}"
         indexPlus++
         if(indexPlus>1)
         {
             binding.backBtn.isEnabled=true
         }
-        if(indexPlus > (paths.size-1)) {
+        if(indexPlus > (sorting.size-1)) {
             binding.nextBtn.isEnabled = false
             return
         }
@@ -104,10 +111,10 @@ class AllRoutes : AppCompatActivity() {
     fun back(view: View) {
         binding.nextBtn.isEnabled=true ;
         indexPlus=indexMins
-        binding.numberText.text= "${indexMins} / ${paths.size}"
+        binding.numberText.text= "${indexMins} / ${sorting.size}"
         indexMins--
-        binding.notesText.isVisible = paths[indexMins] == shortPath
-        setRecyclerList(paths[indexMins])
+        binding.notesText.isVisible = sorting[indexMins] == sorting[0]
+        setRecyclerList(sorting[indexMins])
         if(indexMins <= 0){ binding.backBtn.isEnabled=false ;indexPlus=1 ;return}
         index = indexMins
     }
@@ -115,7 +122,7 @@ class AllRoutes : AppCompatActivity() {
 
         dataHandling.saveSimpleData(this,true,"indicator")
         val b = Intent(this,TripProgress::class.java)
-        b.putExtra("trip",paths[index] as ArrayList<String>)
+        b.putExtra("trip",sorting[index] as ArrayList<String>)
         startActivity(b)
 
     }

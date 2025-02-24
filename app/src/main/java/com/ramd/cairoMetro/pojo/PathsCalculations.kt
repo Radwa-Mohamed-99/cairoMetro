@@ -6,11 +6,12 @@ import android.util.Log
 class PathsCalculations (private val data:Array<DataItem>){
 
 
-    fun findShortByStation(paths:List<List<String>>): List<String> {
+    fun sortingByStations(paths:List<List<String>>): List<List<String>>{
 
-          val shortPath = paths.minBy{it.size}
-         return shortPath
-     }
+           val sortedPath = paths.sortedBy { it.size }
+        return sortedPath
+
+    }
 
     fun findAllPaths(start: String, end: String): List<List<String>> {
 

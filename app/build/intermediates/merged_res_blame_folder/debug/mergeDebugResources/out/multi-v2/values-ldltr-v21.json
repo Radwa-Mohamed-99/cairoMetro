@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-48:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-43:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\3f95e9562028fc4a4d2843becd9579ac\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

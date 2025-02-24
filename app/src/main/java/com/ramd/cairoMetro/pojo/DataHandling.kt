@@ -24,9 +24,10 @@ class DataHandling {
 
     fun getSimpleData( context: Context,key:String): Boolean {
         val file: SharedPreferences = context.getSharedPreferences("savedData", MODE_PRIVATE)
-        val boolean = file.getBoolean(key, false)
-        return boolean
+        val data = file.getBoolean(key, false)
+        return data
     }
+
     fun saveSimpleData(context: Context,data:Boolean,key:String) {
         val file: SharedPreferences =context.getSharedPreferences("savedData", MODE_PRIVATE)
         file.edit {

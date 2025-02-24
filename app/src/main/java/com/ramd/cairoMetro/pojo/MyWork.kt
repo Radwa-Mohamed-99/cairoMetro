@@ -40,17 +40,18 @@ class MyWork(context: Context, params: WorkerParameters) :
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        val smallIcon = R.drawable.ic_launcher_foreground
+        val smallIcon = R.drawable.ic_stat_notificon
         val bigPicture = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.station_image)
-        val pic=BitmapFactory.decodeResource(applicationContext.resources,R.drawable.ic_launcher_foreground)
+        val pic=BitmapFactory.decodeResource(applicationContext.resources,R.drawable.ic_stat_notificon)
 
 
         if (bigPicture != null) {
             val resizedImage = Bitmap.createScaledBitmap(bigPicture, 600, 400, true)
-//            val resizedImage2 = Bitmap.createScaledBitmap(bigPicture, 600, 400, true)
+            val resizedImage2 = Bitmap.createScaledBitmap(bigPicture, 600, 400, true)
             val channelId = "station_alerts"
             val builder = NotificationCompat.Builder(applicationContext, channelId)
                 .setSmallIcon(smallIcon)
+                .setColor(Color.BLUE)
                 .setContentTitle("\uD83D\uDE89 Station Alert :")
                 .setContentText(
                     when {

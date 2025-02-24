@@ -15,20 +15,20 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import com.ramd.cairoMetro.R
 import com.ramd.cairoMetro.databinding.ActivityHomeBinding
-import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.pojo.DataHandling
+import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.pojo.LocationCalculations
 import mumayank.com.airlocationlibrary.AirLocation
-import java.util.ArrayList
+
 class Home : AppCompatActivity(),AirLocation.Callback {
     lateinit var binding: ActivityHomeBinding
     val readData = DataHandling()
     var stationData: Array<DataItem> = emptyArray()
     val location = LocationCalculations()
     lateinit var airLocation:AirLocation
-    var canStartTrip = false
     val currentLocation = mutableListOf<Double>()
     var path= emptyList<String>()
+    var station =""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,7 +52,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         val adapter2 = ArrayAdapter(this, layout.simple_dropdown_item_1line, stationNames)
         binding.arrival.setAdapter(adapter2)
 
-    ///????????
+
      airLocation = AirLocation(this, this, true)
      airLocation.start()
 
@@ -60,6 +60,12 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         path = readData.getListData(this,"path") .toList()
 
 
+    }
+
+    override fun onBackPressed() {
+        stationData = emptyArray()
+        finishAffinity()
+        super.onBackPressed()
     }
 
     fun exchangeStations(view: View) {
@@ -74,28 +80,21 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         if(!validateStations())return
         val start = binding.start.text.toString()
         val arrival = binding.arrival.text.toString()
-        var shortRoute=0
-        if (binding.lessTransfer.isChecked )
-        {
-            shortRoute =1
-        }
+
+        val shortRoute =binding.lessTransfer.isChecked
+
         val station = location.nearestLocation(stationData,1F,currentLocation[0],currentLocation[1])
-        Log.d("path","${currentLocation[0]},${currentLocation[1]}")
-        if(station.isNotEmpty())
-        {
-            canStartTrip = true
-        }
+
         val a = Intent(this,AllRoutes::class.java)
         a.putExtra("startStation",start)
         a.putExtra("arrivalStation",arrival)
-        //????
         a.putExtra("shortType",shortRoute)
-        a.putExtra("tripAvailability",canStartTrip)
+        a.putExtra("tripAvailability",station.isNotEmpty())
         startActivity(a)
     }
 
     fun showNearest(view: View) {
-        Log.d("path","${currentLocation[0]},${currentLocation[1]}")
+        airLocation.start()
         val station = location.nearestLocation(stationData,50F,currentLocation[0],currentLocation[1])
         if(station.isEmpty())
                 showToast("no near station from your location")
@@ -134,6 +133,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
 
     fun viewAll(view: View) {
         val a = Intent(this , TripProgress::class.java)
+        a.putExtra("station",station)
         a.putExtra("path",path as ArrayList<String>)
         startActivity(a)
     }
@@ -158,20 +158,31 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     }
 
     private fun stationDialog () {
-        val dataIndicator =  readData.getSimpleData(this,"indicator")
-        if(dataIndicator)
+        var dataIndicator =  readData.getSimpleData(this,"indicator")
+        if(dataIndicator && path.isNotEmpty())
         {
-            binding.status.isVisible = true
-            val station = location.nearestStationPath(stationData,path,currentLocation[0],currentLocation[1])
-            if(station.isNotEmpty()) {
-                binding.currentStation.text = station
-                val stationIndex = path.indexOf(station)
-                if (stationIndex < path.size)
-                    binding.perviousStation.text = path[stationIndex - 1]
-                if (stationIndex > 0)
-                    binding.perviousStation.text = path[stationIndex + 1]
-            }
+            station = location.nearestStationPath(stationData,path,currentLocation[0],currentLocation[1])
+            Log.d("locationaddress", "$station")
 
+            if (station == path[path.size-1] )
+            {
+                readData.saveSimpleData(this,true,"indicator")
+                binding.status.isVisible = false
+            }
+            else if (station != path[path.size-1] && station.isNotEmpty()) {
+                binding.status.isVisible = true
+
+                    binding.currentStation.text = station
+                    val stationIndex = path.indexOf(station)
+                    if (stationIndex < path.size) {
+                        binding.nextStation.text = path[stationIndex + 1]
+                    }
+                    if (stationIndex > 0) {
+                        binding.perviousStation.text = path[stationIndex - 1]
+                    }
+
+
+            }
         }
     }
 

@@ -3087,8 +3087,10 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notification
 drawable ic_search_black_24
+drawable ic_stat_notificon
 drawable images
 drawable indeterminate_static
+drawable language
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3165,7 +3167,6 @@ drawable notify_panel_notification_icon_bg
 drawable round_bottom
 drawable round_box
 drawable round_top
-drawable small_icon
 drawable station_image
 drawable station_image2
 drawable test_level_drawable
@@ -3404,7 +3405,6 @@ id group_divider
 id grouping
 id groups
 id header_title
-id hide_graphics_layer_in_inspector_tag
 id hide_ime_id
 id hideable
 id home
@@ -3420,6 +3420,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id indeterminate
@@ -3944,7 +3945,6 @@ layout select_dialog_singlechoice_material
 layout station_progress
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
-mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -4883,6 +4883,8 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
 style Widget_App_RadioButton
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid

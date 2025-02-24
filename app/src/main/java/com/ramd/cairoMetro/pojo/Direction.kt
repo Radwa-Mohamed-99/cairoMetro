@@ -5,18 +5,10 @@ import android.util.Log
 class Direction( val data:Array<DataItem> ) {
 
 
-    fun shortByIntersections(paths:List<List<String>>):List<String>{
-        var min = 20
-        var shortPath = emptyList<String>()
-        for (path in paths) {
-            val intersection = findIntersections(path)
-            if( intersection.size < min)
-            {
-                min = intersection.size
-                shortPath = path
-            }
-        }
-        return shortPath
+    fun sortingByIntersections(paths:List<List<String>>):List<List<String>>{
+
+        val sortedPaths = paths.sortedBy { findIntersections(it).size }
+        return sortedPaths
     }
 
     fun findLine (first:String,second:String ):String{
