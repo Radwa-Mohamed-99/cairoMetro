@@ -22,7 +22,11 @@
   ⭐  know which station near to your location.
       
 ## Download apk file
+<<<<<<< Updated upstream
  [download metro app](https://raw.github.com/Radwa-Mohamed-99/cairoMetro/blob/main/app-debug.apk)
+=======
+ [download metro app](https://github.com/Radwa-Mohamed-99/cairoMetro/raw/main/app-debug.apk)
+>>>>>>> Stashed changes
 
 ## How to use app
 ![home page guide ](https://github.com/Radwa-Mohamed-99/cairoMetro/blob/main/home.png)

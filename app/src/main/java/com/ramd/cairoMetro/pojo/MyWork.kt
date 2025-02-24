@@ -51,7 +51,6 @@ class MyWork(context: Context, params: WorkerParameters) :
             val channelId = "station_alerts"
             val builder = NotificationCompat.Builder(applicationContext, channelId)
                 .setSmallIcon(smallIcon)
-                .setColor(Color.BLUE)
                 .setContentTitle("\uD83D\uDE89 Station Alert :")
                 .setContentText(
                     when {
