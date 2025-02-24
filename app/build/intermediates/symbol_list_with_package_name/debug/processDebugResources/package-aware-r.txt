@@ -3167,6 +3167,7 @@ drawable notify_panel_notification_icon_bg
 drawable round_bottom
 drawable round_box
 drawable round_top
+drawable small_icon
 drawable station_image
 drawable station_image2
 drawable test_level_drawable
@@ -3945,6 +3946,7 @@ layout select_dialog_singlechoice_material
 layout station_progress
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

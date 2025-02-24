@@ -39,10 +39,10 @@ com.ramd.cairoMetro.app-drawerlayout-1.1.1-37 C:\Users\rradw\.gradle\caches\8.9\
 com.ramd.cairoMetro.app-core-1.15.0-38 C:\Users\rradw\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\res
 com.ramd.cairoMetro.app-room-ktx-2.6.1-39 C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\res
 com.ramd.cairoMetro.app-recyclerview-1.2.1-40 C:\Users\rradw\.gradle\caches\8.9\transforms\feacae83299ed066906dd249f14b0ce2\transformed\recyclerview-1.2.1\res
-com.ramd.cairoMetro.app-pngs-41 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\pngs\debug
-com.ramd.cairoMetro.app-resValues-42 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\generated\res\resValues\debug
-com.ramd.cairoMetro.app-packageDebugResources-43 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.ramd.cairoMetro.app-packageDebugResources-44 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.ramd.cairoMetro.app-debug-45 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.ramd.cairoMetro.app-debug-46 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\debug\res
-com.ramd.cairoMetro.app-main-47 C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\res
+com.ramd.cairoMetro.app-pngs-41 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\generated\res\pngs\debug
+com.ramd.cairoMetro.app-resValues-42 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\generated\res\resValues\debug
+com.ramd.cairoMetro.app-packageDebugResources-43 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ramd.cairoMetro.app-packageDebugResources-44 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ramd.cairoMetro.app-debug-45 C:\Users\rradw\Documents\GitHub\cairoMetro\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.ramd.cairoMetro.app-debug-46 C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\debug\res
+com.ramd.cairoMetro.app-main-47 C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\res

@@ -3166,11 +3166,12 @@ int drawable notify_panel_notification_icon_bg 0x7f080100
 int drawable round_bottom 0x7f080101
 int drawable round_box 0x7f080102
 int drawable round_top 0x7f080103
-int drawable station_image 0x7f080104
-int drawable station_image2 0x7f080105
-int drawable test_level_drawable 0x7f080106
-int drawable tooltip_frame_dark 0x7f080107
-int drawable tooltip_frame_light 0x7f080108
+int drawable small_icon 0x7f080104
+int drawable station_image 0x7f080105
+int drawable station_image2 0x7f080106
+int drawable test_level_drawable 0x7f080107
+int drawable tooltip_frame_dark 0x7f080108
+int drawable tooltip_frame_light 0x7f080109
 int font akaya_kanadaka 0x7f090000
 int font alatsi 0x7f090001
 int font allerta 0x7f090002
@@ -3944,7 +3945,8 @@ int layout select_dialog_singlechoice_material 0x7f0d006e
 int layout station_progress 0x7f0d006f
 int layout support_simple_spinner_dropdown_item 0x7f0d0070
 int mipmap ic_launcher 0x7f0f0000
-int mipmap ic_launcher_round 0x7f0f0001
+int mipmap ic_launcher_foreground 0x7f0f0001
+int mipmap ic_launcher_round 0x7f0f0002
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f110000
 int string abc_action_bar_up_description 0x7f110001

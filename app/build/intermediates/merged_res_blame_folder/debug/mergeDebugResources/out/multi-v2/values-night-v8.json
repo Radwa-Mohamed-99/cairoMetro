@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,39",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "173,243,327,411,507,609,711,3693",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "238,322,406,502,604,706,800,3777"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -37,23 +54,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "168"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,39",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "173,243,327,411,507,609,711,3693",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "238,322,406,502,604,706,800,3777"
                     }
                 }
             ]
