@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\rradw\.gradle\caches\8.9\transforms\b900ae7e8bdf106ea3a457b2b15d4244\transformed\viewbinding-8.7.3\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:2:1-16:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rradw\.gradle\caches\8.9\transforms\811e2b2dfa40fa4932e27925a15d49b7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
@@ -19,8 +19,6 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rradw\.
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\475ac2a65794720b8e29f49b2ac80889\transformed\play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\rradw\.gradle\caches\8.9\transforms\a7beeecfd5f12a43a3e54ceafb7005e4\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\rradw\.gradle\caches\8.9\transforms\946421aa50bc0a8da1184f4cd63bb964\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:17:1-145:12
 MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a675ab33465e7684e999770877c3f031\transformed\groupie-viewbinding-2.10.1\AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.lisawray.groupie:groupie:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\6c942d7efb2644baa67fa840c8b9ca1d\transformed\groupie-2.10.1\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\rradw\.gradle\caches\8.9\transforms\feacae83299ed066906dd249f14b0ce2\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -32,6 +30,8 @@ MERGED from [androidx.transition:transition:1.5.0] C:\Users\rradw\.gradle\caches
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e9e4edd4932a44ffc1b6a36b39aad35e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rradw\.gradle\caches\8.9\transforms\dbc4980e63a7036308064897faa95bba\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rradw\.gradle\caches\8.9\transforms\aa6c4f4598d00679b88221a094e9f431\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\581c440030c827d54ed788acbd736f7a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\745f3fb68e3ed9274642dcfeaaf82eaf\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\2a1b527ddb1de73c724acd1e4a5ab3d3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -43,61 +43,75 @@ MERGED from [androidx.test:core:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transfo
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\2522c4eb897e589df06dbe73d0a1a12e\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7bf4f1ae6443c69febf7f61231ed5727\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\062718ebc7c2c11c9d890b0017c30751\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\5468759855100bf58c627e0c396f5ceb\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7cd1e5b088cd08b9e8c8d560a91c319a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\8cc9e55d1e8226b244adcf5290b75581\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.test:runner:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\29dd7eacedea5f25955361f72e28397a\transformed\runner-1.6.1\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.test.services:storage:1.5.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f6bed9d6a24daa5b2d6391bf0a1273d6\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.test:monitor:1.7.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d9939a790d592d3f6cc3e27739115254\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\ade95ad8c2a3cc5651dd55ab8aa77903\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b8d911b3ddf3a531f790438d5133a0d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\663f155ef572fb111222dbffe3789757\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\40fb5248ea014137ea328d662865498f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\dfd6f2bd40c9c8a3cd2a2f284240e306\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c91d01e0bb4bf575fbb1211cee1369f3\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\913bd14aa06667a6b57735ee8158e379\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\8842fe28dbeaade402b3c2c0d8c9dfbc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\44e3d09bd053ff68cc00037c364309b0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\036f32c451753b4ca54a03311f8ffcca\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d1a699a113f86504ebecb1e3968ef4dc\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:4:5-79
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:4:5-79
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:12:5-79
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:4:22-76
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:4:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:5:5-81
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:13:5-81
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:6:5-77
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:6:22-74
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:7:5-77
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:7:22-74
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:9:5-85
+	android:name
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:9:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:11:5-86
+	android:name
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:11:22-83
 application
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:9:5-42:19
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:9:5-42:19
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:15:5-57:19
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:15:5-57:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rradw\.gradle\caches\8.9\transforms\811e2b2dfa40fa4932e27925a15d49b7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\rradw\.gradle\caches\8.9\transforms\811e2b2dfa40fa4932e27925a15d49b7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e9d6c59bc4e1e9fdcb109da32cb6ae56\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -112,14 +126,14 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rradw\.
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\b0f232118d10616c986e16d1f9f16041\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\475ac2a65794720b8e29f49b2ac80889\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\475ac2a65794720b8e29f49b2ac80889\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
-MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
 MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a675ab33465e7684e999770877c3f031\transformed\groupie-viewbinding-2.10.1\AndroidManifest.xml:9:5-10:19
 MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a675ab33465e7684e999770877c3f031\transformed\groupie-viewbinding-2.10.1\AndroidManifest.xml:9:5-10:19
 MERGED from [com.github.lisawray.groupie:groupie:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\6c942d7efb2644baa67fa840c8b9ca1d\transformed\groupie-2.10.1\AndroidManifest.xml:9:5-10:19
 MERGED from [com.github.lisawray.groupie:groupie:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\6c942d7efb2644baa67fa840c8b9ca1d\transformed\groupie-2.10.1\AndroidManifest.xml:9:5-10:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.core:core:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.test:core:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
@@ -128,80 +142,90 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.test:runner:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\29dd7eacedea5f25955361f72e28397a\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
 MERGED from [androidx.test:runner:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\29dd7eacedea5f25955361f72e28397a\transformed\runner-1.6.1\AndroidManifest.xml:30:5-20
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\40fb5248ea014137ea328d662865498f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\40fb5248ea014137ea328d662865498f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:20:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:18:9-54
 	android:roundIcon
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:21:9-54
 	tools:targetApi
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:18:9-29
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:24:9-29
 	android:icon
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:17:9-48
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:23:9-48
 	android:dataExtractionRules
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:17:9-65
+service#com.ramd.cairoMetro.pojo.LocationService
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:26:9-30:56
+	android:enabled
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:29:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:30:13-53
+	android:name
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:27:13-49
 activity#com.ramd.cairoMetro.ui.AllRoutes
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:19:9-21:39
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:31:9-33:39
 	android:exported
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:32:13-41
 activity#com.ramd.cairoMetro.ui.Home
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:36:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.ramd.cairoMetro.ui.TripProgress
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:32:9-34:39
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:45:9-47:39
 	android:exported
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:46:13-44
 activity#com.ramd.cairoMetro.ui.MainActivity
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:36:9-38:38
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:49:9-51:38
 	android:exported
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:37:13-44
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:50:13-44
 meta-data#preloaded_fonts
-ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:39:9-41:57
+ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:54:9-56:57
 	android:resource
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:13-54
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:56:13-54
 	android:name
-		ADDED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:40:13-43
+		ADDED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml:55:13-43
 uses-sdk
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\rradw\.gradle\caches\8.9\transforms\b900ae7e8bdf106ea3a457b2b15d4244\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\rradw\.gradle\caches\8.9\transforms\b900ae7e8bdf106ea3a457b2b15d4244\transformed\viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:7:5-9:41
@@ -232,10 +256,6 @@ MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\rradw\.gradle\caches\8.9
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\rradw\.gradle\caches\8.9\transforms\a7beeecfd5f12a43a3e54ceafb7005e4\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\rradw\.gradle\caches\8.9\transforms\946421aa50bc0a8da1184f4cd63bb964\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\rradw\.gradle\caches\8.9\transforms\946421aa50bc0a8da1184f4cd63bb964\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
 MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a675ab33465e7684e999770877c3f031\transformed\groupie-viewbinding-2.10.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.lisawray.groupie:groupie-viewbinding:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a675ab33465e7684e999770877c3f031\transformed\groupie-viewbinding-2.10.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.lisawray.groupie:groupie:2.10.1] C:\Users\rradw\.gradle\caches\8.9\transforms\6c942d7efb2644baa67fa840c8b9ca1d\transformed\groupie-2.10.1\AndroidManifest.xml:5:5-7:41
@@ -258,6 +278,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rra
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rradw\.gradle\caches\8.9\transforms\dbc4980e63a7036308064897faa95bba\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rradw\.gradle\caches\8.9\transforms\aa6c4f4598d00679b88221a094e9f431\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rradw\.gradle\caches\8.9\transforms\aa6c4f4598d00679b88221a094e9f431\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\e76469556c5c5ee65f122486c444ea01\transformed\work-runtime-ktx-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\581c440030c827d54ed788acbd736f7a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\581c440030c827d54ed788acbd736f7a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\745f3fb68e3ed9274642dcfeaaf82eaf\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -280,12 +304,12 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7bf4f1ae6443c69febf7f61231ed5727\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7bf4f1ae6443c69febf7f61231ed5727\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\062718ebc7c2c11c9d890b0017c30751\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\062718ebc7c2c11c9d890b0017c30751\transformed\lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\5468759855100bf58c627e0c396f5ceb\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\5468759855100bf58c627e0c396f5ceb\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\52f94499be6f59c1f026b9acf60b0aab\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7cd1e5b088cd08b9e8c8d560a91c319a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\7cd1e5b088cd08b9e8c8d560a91c319a\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\8cc9e55d1e8226b244adcf5290b75581\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
@@ -296,28 +320,26 @@ MERGED from [androidx.test.services:storage:1.5.0] C:\Users\rradw\.gradle\caches
 MERGED from [androidx.test.services:storage:1.5.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f6bed9d6a24daa5b2d6391bf0a1273d6\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test:monitor:1.7.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d9939a790d592d3f6cc3e27739115254\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test:monitor:1.7.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d9939a790d592d3f6cc3e27739115254\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\ade95ad8c2a3cc5651dd55ab8aa77903\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\ade95ad8c2a3cc5651dd55ab8aa77903\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b8d911b3ddf3a531f790438d5133a0d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b8d911b3ddf3a531f790438d5133a0d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\7b7fdfdec9c70aeeed1f77aa469e7d5c\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\48ea5c9cdcc49358d43c0df5f1b5559d\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\663f155ef572fb111222dbffe3789757\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\663f155ef572fb111222dbffe3789757\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\40fb5248ea014137ea328d662865498f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\40fb5248ea014137ea328d662865498f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\fccdca35b8f81bab5489d1c59f2cd821\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\dfd6f2bd40c9c8a3cd2a2f284240e306\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rradw\.gradle\caches\8.9\transforms\dfd6f2bd40c9c8a3cd2a2f284240e306\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c91d01e0bb4bf575fbb1211cee1369f3\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -330,12 +352,14 @@ MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\rradw\.gradle\cach
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\44e3d09bd053ff68cc00037c364309b0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\036f32c451753b4ca54a03311f8ffcca\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\036f32c451753b4ca54a03311f8ffcca\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a58202c71324cafd2fb4eeda05b1b1ab\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d1a699a113f86504ebecb1e3968ef4dc\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.test.espresso:espresso-idling-resource:3.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\d1a699a113f86504ebecb1e3968ef4dc\transformed\espresso-idling-resource-3.6.1\AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rradw\AndroidStudioProjects\cairoMetro\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.github.mumayank:AirLocation:2.5.2] C:\Users\rradw\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:11:5-79
 MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:24:5-79
@@ -360,6 +384,30 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\475ac2a65794720b8e29f49b2ac80889\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\rradw\.gradle\caches\8.9\transforms\475ac2a65794720b8e29f49b2ac80889\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:23:5-68
 	android:name
@@ -368,28 +416,6 @@ uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:25:5-81
 	android:name
 		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:25:22-78
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:5-77
-	android:name
-		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:22-74
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:29:9-37:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\rradw\.gradle\caches\8.9\transforms\9f5ece2eab54eb23fd851575fafb6791\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rradw\.gradle\caches\8.9\transforms\102ac8a1c2093c98aff1a246321fd4e2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:33:13-31
-	android:authorities
-		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:31:13-68
-	android:exported
-		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:30:13-67
 meta-data#androidx.work.WorkManagerInitializer
 ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:34:13-36:52
 	android:value
@@ -598,12 +624,6 @@ action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
 ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:140:17-88
 	android:name
 		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\rradw\.gradle\caches\8.9\transforms\c642a5d9ac33881d8bd0f44c83791f21\transformed\work-runtime-2.10.0\AndroidManifest.xml:140:25-85
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\rradw\.gradle\caches\8.9\transforms\871311ae2a56929cdcb73f16022ec1da\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.15.0] C:\Users\rradw\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -676,16 +696,6 @@ package#com.google.android.apps.common.testing.services
 ADDED from [androidx.test:runner:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\29dd7eacedea5f25955361f72e28397a\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
 	android:name
 		ADDED from [androidx.test:runner:1.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\29dd7eacedea5f25955361f72e28397a\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -728,3 +738,13 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\rradw\.gradle\caches\8.9\transforms\d5b21b588c6b69592c8b29b9a66a36ab\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\rradw\.gradle\caches\8.9\transforms\a924611a7178106044eb8b30f36c0aa0\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74

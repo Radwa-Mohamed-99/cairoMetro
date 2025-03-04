@@ -1,31 +1,20 @@
 package com.ramd.cairoMetro.ui
 
-import android.Manifest
-import com.google.android.gms.location.*
-import android.app.Activity
-import android.content.Context
+
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Build
 import android.os.Bundle
-import android.os.CountDownTimer
-import android.provider.ContactsContract
 import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import androidx.annotation.RequiresApi
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.work.Constraints
-import androidx.work.Data
-import androidx.work.NetworkType
-import androidx.work.OneTimeWorkRequest
-import androidx.work.WorkManager
 import com.ramd.cairoMetro.R
 import com.ramd.cairoMetro.pojo.StationItem
 import com.ramd.cairoMetro.databinding.ActivityTripProgressBinding
@@ -33,24 +22,33 @@ import com.ramd.cairoMetro.pojo.DataHandling
 import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.pojo.Direction
 import com.ramd.cairoMetro.pojo.LocationCalculations
-import com.ramd.cairoMetro.pojo.MyWork
+import com.ramd.cairoMetro.pojo.LocationService
+import com.ramd.cairoMetro.pojo.Permissions
 import com.ramd.cairoMetro.pojo.Price
 import com.xwray.groupie.GroupieAdapter
 import mumayank.com.airlocationlibrary.AirLocation
-import java.util.ArrayList
 
 
-class TripProgress : AppCompatActivity(), AirLocation.Callback {
+class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener{
 
     lateinit var binding: ActivityTripProgressBinding
     var items = mutableListOf<StationItem>()
     var adapter = GroupieAdapter()
     var path: List<String> = emptyList()
-    val location = LocationCalculations()
-    lateinit var airLocation: AirLocation
     var stationData = emptyArray<DataItem>()
-    var previousStation = ""
-   lateinit var countDownTimer:CountDownTimer
+    var previousStation =""
+    private val permissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        val allGranted = permissions.entries.all { it.value }
+
+        if (allGranted) {
+            startLocationService()
+        } else {
+            Toast.makeText(this, "Location permissions are required", Toast.LENGTH_LONG).show()
+        }
+    }
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,40 +67,45 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
             stationData = DataHandling().readUserFromAssets(this, "metro.json") as Array<DataItem>
         }
 
+
+
+
         previousStation = intent.getStringExtra("station").toString()
+
         var pathCheck = intent.getStringArrayListExtra("trip")
         if (!pathCheck.isNullOrEmpty()) {
             path = pathCheck
-            setRecyclerList(path,previousStation)
+            setDataInRecycler(previousStation)
         } else {
             pathCheck = intent.getStringArrayListExtra("path")
             if (!pathCheck.isNullOrEmpty()) {
                 path = pathCheck
-                setRecyclerList(path,previousStation)
+                setDataInRecycler(previousStation)
+            }
+            else
+            {
+                if(DataHandling().getListData(this,"path").isNotEmpty()){
+                path = DataHandling().getListData(this,"path").toList()}
+                Log.d("coordinates", "${path.size}")
             }
         }
 
+        val pathCount = path.size
+        val price = Price()
+        binding.stationNumbers.text = "Station no. \n${pathCount}"
+        binding.timeTrip.text = "Time \n${(pathCount * 3) / 60} hrs ${(pathCount * 3) % 60} mins"
+        binding.priceStation.text = "Price \n${price.calculatePrice(pathCount)}"
 
 
-        airLocation = AirLocation(this, this, true)
+        if (!DataHandling().getSimpleData(this,"indicator")) {
+            checkPermissionsAndStartService()
+            DataHandling().saveSimpleData(this, true, "indicator")
+        }
 
-        val context: Context = this
-        val timer = (path.size * 3 * 60 * 1000).toLong()
-        countDownTimer =  object : CountDownTimer(timer, 3000) {
-            override fun onTick(millisUntilFinished: Long) {
-                airLocation.start()
-            }
-
-            override fun onFinish() {
-                DataHandling().saveSimpleData(context,false,"indicator")
-
-            }
-        }.start()
 
     }
 
     override fun onDestroy() {
-        countDownTimer.cancel()
         items.clear()
         adapter.clear()
         stationData = emptyArray()
@@ -111,6 +114,7 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
 
 
     override fun onBackPressed() {
+
         DataHandling().saveListData(this, path.toTypedArray(), "path")
         val a = Intent(this, Home::class.java)
         startActivity(a)
@@ -119,78 +123,14 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
 
 
     fun cancel(view: View) {
-
+        stopLocationService()
         DataHandling().saveSimpleData(this, false, "indicator")
         val a = Intent(this, Home::class.java)
         startActivity(a)
     }
 
 
-    fun setRecyclerList(path: List<String>,currentStation:String) {
-        setDataInRecycler(currentStation)
-        val pathCount = path.size
-        val price = Price()
-        binding.stationNumbers.text = "Station no. \n${pathCount}"
-        binding.timeTrip.text = "Time \n${(pathCount * 3) / 60} hrs ${(pathCount * 3) % 60} mins"
-        binding.priceStation.text = "Price \n${price.calculatePrice(pathCount)}"
-    }
 
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        airLocation.onActivityResult(requestCode, resultCode, data)
-    }
-
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
-    ) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        airLocation.onRequestPermissionsResult(requestCode, permissions, grantResults)
-    }
-
-
-    override fun onSuccess(locations: ArrayList<Location>) {
-
-        val userLat = locations[0].latitude
-        val userLong = locations[0].longitude
-
-
-        val nearestStation = location.nearestStationPath(stationData, path, userLat, userLong)
-        Log.d("locationaddress", "User location: $userLat, $userLong")
-
-        if(nearestStation != previousStation && nearestStation.isNotEmpty()) {
-            setDataInRecycler(nearestStation)
-            Log.d("locationaddress", "$nearestStation")
-           notifyUsingDistance(nearestStation)
-            previousStation = nearestStation
-        }
-
-        if (nearestStation == path.last())
-        {
-            DataHandling().saveSimpleData(this,false,"indicator")
-
-        }
-
-
-    }
-
-    override fun onFailure(locationFailedEnum: AirLocation.LocationFailedEnum) {
-        showToast("$locationFailedEnum")
-    }
-
-    private fun notifyUsingDistance(station: String) {
-        val intersections = Direction(stationData).findIntersections(path)
-        if (station == path[0]) {
-            showNotification(this, station, "Start")
-        } else if (station == path[path.size - 1]) {
-            showNotification(this, station, "End")
-        } else if (station in intersections) {
-            showNotification(this, station, "Change")
-        }
-
-    }
 
 
     private fun setDataInRecycler(station: String) {
@@ -202,7 +142,7 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
             if (index == 0 ) {
                 if(station == path[index])
                     items.add(StationItem(path[index], start = true, stationState =true ))
-                 else items.add(StationItem(path[index], start = true))
+                else items.add(StationItem(path[index], start = true))
             } else if (index == path.size - 1) {
                 if(station == path[index])
                     items.add(StationItem(path[index], end = true, stationState =true ))
@@ -213,9 +153,9 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
                 else items.add(StationItem(path[index], change = true))
             } else {
                 if(station == path[index])
-                items.add(StationItem(path[index], stationState =true ))
+                    items.add(StationItem(path[index], stationState =true ))
                 else items.add(StationItem(path[index]))
-                }
+            }
         }
         adapter.clear()
         adapter.update(items)
@@ -224,43 +164,65 @@ class TripProgress : AppCompatActivity(), AirLocation.Callback {
         layoutManager.scrollToPosition(state)
     }
 
-    private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+
+    override fun onResume() {
+        super.onResume()
+        LocationService.setLocationUpdateListener(this)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        LocationService.setLocationUpdateListener(null)
+    }
+
+    private fun checkPermissionsAndStartService() {
+        if (Permissions(this).hasRequiredPermissions()) {
+            startLocationService()
+        } else {
+            Permissions(this).requestLocationPermissions(permissionLauncher)
+        }
     }
 
 
-    private fun showNotification(context: Context, stationName: String, stationType: String) {
-        if (ActivityCompat.checkSelfPermission(
-                context,
-                Manifest.permission.POST_NOTIFICATIONS
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            ActivityCompat.requestPermissions(
-                context as Activity,
-                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
-                1
-            )
-            return
+    private fun startLocationService() {
+        val serviceIntent = Intent(this, LocationService::class.java)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
         }
 
-
-        val constraints = Constraints.Builder()
-                .setRequiredNetworkType(NetworkType.CONNECTED)
-                .build()
-
-        val data = Data.Builder()
-                .putString("STATION_NAME", stationName)
-                .putString("STATION_TYPE", stationType)
-                .build()
-
-            val request = OneTimeWorkRequest.Builder(MyWork::class.java)
-                .setConstraints(constraints)
-                .setInputData(data)
-                .build()
-
-            WorkManager.getInstance(this).enqueue(request)
-
+        Toast.makeText(this, "Location service started", Toast.LENGTH_SHORT).show()
     }
+
+    private fun stopLocationService() {
+        val serviceIntent = Intent(this, LocationService::class.java)
+        stopService(serviceIntent)
+        Toast.makeText(this, "Location service stopped", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onLocationChanged(location: Location) {
+        runOnUiThread {
+            var stationData = emptyArray<DataItem>()
+            if (!DataHandling().readUserFromAssets(this, "metro.json").isNullOrEmpty()) {
+                stationData = DataHandling().readUserFromAssets(this, "metro.json") as Array<DataItem>
+            }
+            val nearestStation = LocationCalculations().nearestStationPath(stationData,1000F,path, location.latitude, location.longitude)
+            if (nearestStation != previousStation) {
+                setDataInRecycler(nearestStation)
+               previousStation= nearestStation
+            }
+            if (nearestStation == path[path.size-1] )
+            {
+                DataHandling().saveSimpleData(this,false,"indicator")
+                stopLocationService()
+            }
+
+        }
+    }
+
+
 
 
 }

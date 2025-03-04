@@ -7,7 +7,7 @@
     "intersection": false,
     "id": 1,
     "neighbourStations": ["el marg"],
-    "coordinates": [30.1636, 31.3382]
+    "coordinates": [30.16390834007935, 31.338396413653353]
   },
   {
     "name":"el marg",
@@ -15,7 +15,7 @@
     "intersection": false,
     "id": 2,
     "neighbourStations": ["ezbet el nakhl","new marg"],
-    "coordinates": [30.1522, 31.3357]
+    "coordinates": [30.16387213012298, 31.338373899999993]
   },
   {
     "name":"ezbet el nakhl",
@@ -23,7 +23,7 @@
     "intersection": false,
     "id": 3,
     "neighbourStations": ["ain shams","el marg"],
-    "coordinates": [30.1393, 31.3245]
+    "coordinates": [30.139909082028137, 31.324329276901647]
   },
   {
     "name":"ain shams",
@@ -31,7 +31,7 @@
     "intersection": false,
     "id": 4,
     "neighbourStations": ["el matareyya","ezbet el nakhl"],
-    "coordinates": [30.1311, 31.3466]
+    "coordinates": [30.131194536916304, 31.319149477599222]
   },
   {
     "name":"el matareyya",
@@ -39,7 +39,7 @@
     "intersection": false,
     "id": 5,
     "neighbourStations": ["helmeyet el zaitoun","ain shams"],
-    "coordinates": [30.1214, 31.3139]
+    "coordinates": [30.12161800317332, 31.31378505957707]
   },
   {
     "name":"helmeyet el zaitoun",
@@ -47,7 +47,7 @@
     "intersection": false,
     "id": 6,
     "neighbourStations": ["hadayeq el zaitoun","el matareyya"],
-    "coordinates": [30.1145, 31.3139]
+    "coordinates": [30.113423390618454, 31.313935263265353]
   },
   {
     "name":"hadayeq el zaitoun",
@@ -55,7 +55,7 @@
     "intersection": false,
     "id": 7,
     "neighbourStations": ["saray el qobba","helmeyet el zaitoun" ],
-    "coordinates": [30.1053, 31.3099]
+    "coordinates": [30.105945826265085, 31.310497808878953]
   },
   {
     "name":"saray el qobba",
@@ -63,7 +63,7 @@
     "intersection": false,
     "id": 8,
     "neighbourStations": ["hammamat el qobba","hadayeq el zaitoun" ],
-    "coordinates": [30.0981, 31.3048]
+    "coordinates": [30.097824171908353, 31.304554033734203]
   },
   {
     "name":"hammamat el qobba",
@@ -71,7 +71,7 @@
     "intersection": false,
     "id": 9,
     "neighbourStations": ["kobri el qobba","saray el qobba" ],
-    "coordinates":[30.0904, 31.2981]
+    "coordinates":[30.091289236386555, 31.29892139480632]
   },
   {
     "name":"kobri el qobba",
@@ -79,7 +79,7 @@
     "intersection": false,
     "id": 10,
     "neighbourStations": ["hammamat el qobba","mansheiet el sadr" ],
-    "coordinates":[30.087, 31.2939]
+    "coordinates":[30.08744691693159, 31.294092085922088]
   },
   {
     "name":"mansheiet el sadr",
@@ -87,7 +87,7 @@
     "intersection": false,
     "id": 11,
     "neighbourStations": ["el demerdash","kobri el qobba" ],
-    "coordinates":[30.0822, 31.2878]
+    "coordinates":[30.082127473700723, 31.28751530942225]
   },
   {
     "name":"el demerdash",
@@ -95,7 +95,7 @@
     "intersection": false,
     "id": 12,
     "neighbourStations": ["ghamra","mansheiet el sadr" ],
-    "coordinates":[30.0773, 31.2778]
+    "coordinates":[30.077485491938674, 31.277805712807016]
   },
   {
     "name":"ghamra",
@@ -103,7 +103,7 @@
     "intersection": false,
     "id": 13,
     "neighbourStations": [ "al shohadaa","el demerdash"],
-    "coordinates":[30.069, 31.2646]
+    "coordinates":[30.069296505098574, 31.2646199732985]
   },
   {
     "name":"al shohadaa",
@@ -111,7 +111,7 @@
     "intersection": true,
     "id": 14,
     "neighbourStations": ["orabi","ghamra"],
-    "coordinates":[30.0619, 31.2461]
+    "coordinates":[30.061069697686236, 31.24606981578609]
   },
   {
     "name":"orabi",
@@ -119,7 +119,7 @@
     "intersection": false,
     "id": 15,
     "neighbourStations": ["nasser","al shohadaa" ],
-    "coordinates":[30.0574,  31.2426]
+    "coordinates":[30.056836536500157, 31.24199630808251]
   },
   {
     "name":"nasser",
@@ -127,7 +127,7 @@
     "intersection": true,
     "id": 16,
     "neighbourStations": ["sadat","orabi" ],
-    "coordinates":[30.0536, 31.2389]
+    "coordinates":[30.053707065087725, 31.238724013089644]
   },
   {
     "name":"sadat",
@@ -135,7 +135,7 @@
     "intersection": true,
     "id": 17,
     "neighbourStations": ["saad zaghloul","nasser" ],
-    "coordinates":[30.0444, 31.2356]
+    "coordinates":[30.044123024096905, 31.234378834476384]
   },
   {
     "name":"saad zaghloul",
@@ -143,7 +143,7 @@
     "intersection": false,
     "id": 18,
     "neighbourStations": ["al sayeda zeinab","sadat" ],
-    "coordinates": [30.0366, 31.2382]
+    "coordinates": [30.037447412937567, 31.238293708257967]
   },
   {
     "name":"al sayeda zeinab",
@@ -151,7 +151,7 @@
     "intersection": false,
     "id": 19,
     "neighbourStations": ["el malek el saleh","saad zaghloul" ],
-    "coordinates": [30.0293, 31.2354]
+    "coordinates": [30.02965550255097, 31.23540917713055]
   },
   {
     "name":"el malek el saleh",
@@ -159,7 +159,7 @@
     "intersection": false,
     "id": 20,
     "neighbourStations": ["mar girgis","al sayeda zeinab" ],
-    "coordinates": [30.017, 31.231]
+    "coordinates": [30.01804155346186, 31.23120059889018]
   },
   {
     "name":"mar girgis",
@@ -167,7 +167,7 @@
     "intersection": false,
     "id": 21,
     "neighbourStations": [ "el zahraa","el malek el saleh"],
-    "coordinates": [30.0059, 31.2296]
+    "coordinates": [30.006303395757413, 31.229624352357774]
   },
   {
     "name":"el zahraa",
@@ -175,7 +175,7 @@
     "intersection": false,
     "id": 22,
     "neighbourStations": ["dar el salam","mar girgis" ],
-    "coordinates": [29.9953, 31.2315]
+    "coordinates": [29.995487999666768, 31.231131851890293]
   },
   {
     "name":"dar el salam",
@@ -183,7 +183,7 @@
     "intersection": false,
     "id": 23,
     "neighbourStations": ["hadayek el maadi","el zahraa" ],
-    "coordinates": [29.9821, 31.2423]
+    "coordinates": [29.9824645683445, 31.24216432189302]
   },
   {
     "name":"hadayek el maadi",
@@ -191,7 +191,7 @@
     "intersection": false,
     "id": 24,
     "neighbourStations": ["maadi","dar el salam" ],
-    "coordinates": [29.9702, 31.2507]
+    "coordinates": [29.970367179130818, 31.250581478331352]
   },
   {
     "name": "maadi",
@@ -199,7 +199,7 @@
     "intersection": false,
     "id": 25,
     "neighbourStations": ["sakanat el maadi","hadayek el maadi" ],
-    "coordinates": [29.9599, 31.2581]
+    "coordinates": [29.96048063410076, 31.25759577536756]
   },
   {
     "name": "sakanat el maadi",
@@ -207,7 +207,7 @@
     "intersection": false,
     "id": 26,
     "neighbourStations": ["tora el balad","maadi"],
-    "coordinates": [29.9529, 31.2634]
+    "coordinates": [29.95364452613168, 31.262893135580896]
   },
   {
     "name": "tora el balad",
@@ -215,7 +215,7 @@
     "intersection": false,
     "id": 27,
     "neighbourStations": [ "kozzika","sakanat el maadi"],
-    "coordinates": [29.9464, 31.2735]
+    "coordinates": [29.946990043547878, 31.27305634442901]
   },
   {
     "name": "kozzika",
@@ -223,7 +223,7 @@
     "intersection": false,
     "id": 28,
     "neighbourStations": ["tura el esmant","tora el balad" ],
-    "coordinates": [29.9363, 31.2818]
+    "coordinates": [29.93656845793134, 31.28180451271346]
   },
   {
     "name": "tura el esmant",
@@ -231,7 +231,7 @@
     "intersection": false,
     "id": 29,
     "neighbourStations": ["el maasraa","kozzika"],
-    "coordinates": [29.926, 31.2878]
+    "coordinates": [29.926264463026072, 31.287526955479887]
   },
   {
     "name": "el maasraa",
@@ -239,7 +239,7 @@
     "intersection": false,
     "id": 30,
     "neighbourStations": ["hadayek helwan","tura el esmant"],
-    "coordinates": [29.9062,  31.2998]
+    "coordinates": [29.906151562870363, 31.299519200254636]
   },
   {
     "name": "hadayek helwan",
@@ -247,7 +247,7 @@
     "intersection": false,
     "id": 31,
     "neighbourStations": ["wadi hof", "el maasraa"],
-    "coordinates": [29.8973, 31.3041]
+    "coordinates": [29.897464093104627, 31.304190214573747]
   },
   {
     "name": "wadi hof",
@@ -255,7 +255,7 @@
     "intersection": false,
     "id": 32,
     "neighbourStations": ["helwan university","hadayek helwan" ],
-    "coordinates": [29.8796, 31.3134]
+    "coordinates": [29.879342950828875, 31.31350583151044]
   },
   {
     "name": "helwan university",
@@ -263,7 +263,7 @@
     "intersection": false,
     "id": 33,
     "neighbourStations": [ "ain helwan","wadi hof"],
-    "coordinates": [29.8692,  31.3204]
+    "coordinates": [29.869693425172255, 31.320092205118847]
   },
   {
     "name": "ain helwan",
@@ -271,7 +271,7 @@
     "intersection": false,
     "id": 34,
     "neighbourStations": [ "helwan","helwan university"],
-    "coordinates": [29.8628, 31.325]
+    "coordinates": [29.86284091818019, 31.32476763678763]
   },
   {
     "name": "helwan",
@@ -279,7 +279,7 @@
     "intersection": false,
     "id": 35,
     "neighbourStations": ["ain helwan" ],
-    "coordinates": [29.8489, 31.3343]
+    "coordinates": [29.84921897554949, 31.334252431680213]
   },
   {
     "name": "shubra el khaimah",
@@ -287,7 +287,7 @@
     "intersection": false,
     "id": 1,
     "neighbourStations": [  "koliet el zeraa"],
-    "coordinates":  [30.1225, 31.2445]
+    "coordinates":  [30.122589931428383, 31.24449916118427]
   },
   {
     "name": "koliet el zeraa",
@@ -295,7 +295,7 @@
     "intersection": false,
     "id": 2,
     "neighbourStations": ["mezallat","shubra el khaimah" ],
-    "coordinates":  [30.1139, 31.2486]
+    "coordinates":  [30.11385711651997, 31.248683407283796]
   },
   {
     "name": "mezallat",
@@ -303,7 +303,7 @@
     "intersection": false,
     "id": 3,
     "neighbourStations": ["khalafawy","koliet el zeraa"],
-    "coordinates":  [30.1051,  31.2467]
+    "coordinates":  [30.104232493235813, 31.245647146670017]
   },
   {
     "name": "khalafawy",
@@ -311,7 +311,7 @@
     "intersection": false,
     "id": 4,
     "neighbourStations": ["st. teresa", "mezallat"],
-    "coordinates":  [30.098, 31.2454]
+    "coordinates":  [30.097419512425027, 31.245550587132325]
   },
   {
     "name": "st. teresa",
@@ -319,7 +319,7 @@
     "intersection": false,
     "id": 5,
     "neighbourStations": ["rod el farag", "khalafawy"],
-    "coordinates":  [30.0883,  31.2454]
+    "coordinates":  [30.088118200199023, 31.24548621413994]
   },
   {
     "name": "rod el farag",
@@ -327,7 +327,7 @@
     "intersection": false,
     "id": 6,
     "neighbourStations": ["masarra","st. teresa"],
-    "coordinates":  [30.0806, 31.2454]
+    "coordinates":  [30.080774929514526, 31.245368196931825]
   },
   {
     "name": "masarra",
@@ -335,7 +335,7 @@
     "intersection": false,
     "id": 7,
     "neighbourStations": ["al shohadaa","rod el farag" ],
-    "coordinates":  [30.0711, 31.245]
+    "coordinates":  [30.07097995899341, 31.245099976037768]
   },
   {
     "name":"al shohadaa",
@@ -343,7 +343,7 @@
     "intersection": true,
     "id": 8,
     "neighbourStations": ["ataba","masarra"],
-    "coordinates":[30.0619, 31.2461]
+    "coordinates":[30.0612675902003, 31.246044113595303]
   },
   {
     "name": "ataba",
@@ -351,7 +351,7 @@
     "intersection": true,
     "id": 9,
     "neighbourStations": ["mohamed naguib", "al shohadaa"],
-    "coordinates":  [30.0525, 31.2469]
+    "coordinates":  [30.052566504153496, 31.246784403285112]
   },
   {
     "name": "mohamed naguib",
@@ -359,7 +359,7 @@
     "intersection": false,
     "id": 10,
     "neighbourStations": ["sadat", "ataba"],
-    "coordinates":  [30.0455, 31.2442]
+    "coordinates":  [30.045554934098394, 31.244123651914116]
   },
   {
     "name":"sadat",
@@ -367,7 +367,7 @@
     "intersection": true,
     "id": 10,
     "neighbourStations": ["opera","mohamed naguib"],
-    "coordinates":[30.0444,  31.2356]
+    "coordinates":[30.044245433558945, 31.234403326492522]
   },
   {
     "name": "opera",
@@ -375,7 +375,7 @@
     "intersection": false,
     "id": 12,
     "neighbourStations": ["sadat","dokki" ],
-    "coordinates":[30.0421,  31.2253]
+    "coordinates":[30.04199788163627, 31.224951221893708]
   },
   {
     "name": "dokki",
@@ -383,7 +383,7 @@
     "intersection": false,
     "id": 13,
     "neighbourStations": ["opera" ,"el bohooth"],
-    "coordinates":[30.0383, 31.2121]
+    "coordinates":[30.03844070147971, 31.212237551232505]
   },
   {
     "name": "el bohooth",
@@ -391,7 +391,7 @@
     "intersection": false,
     "id": 14,
     "neighbourStations": ["dokki" ,"cairo university"],
-    "coordinates":[30.0359, 31.2002]
+    "coordinates":[30.03589579970286, 31.200167610643636]
   },
   {
     "name": "cairo university",
@@ -399,7 +399,7 @@
     "intersection": true,
     "id": 15,
     "neighbourStations": ["el bohooth","faisal"],
-    "coordinates":[30.0261, 31.2013]
+    "coordinates":[30.026003498722588, 31.201122477023866]
   },
   {
     "name": "faisal",
@@ -407,7 +407,7 @@
     "intersection": false,
     "id": 17,
     "neighbourStations": ["cairo university", "giza" ],
-    "coordinates":[30.0173, 31.204]
+    "coordinates":[30.017483982818987, 31.20390443924889]
   },
   {
     "name": "giza",
@@ -415,7 +415,7 @@
     "intersection": false,
     "id": 18,
     "neighbourStations": [ "faisal","omm el masryeen"],
-    "coordinates":[30.0106, 31.2071]
+    "coordinates":[30.01073467275148, 31.2070972827205]
   },
   {
     "name": "omm el masryeen",
@@ -423,7 +423,7 @@
     "intersection": false,
     "id": 19,
     "neighbourStations": ["giza" ,"saqiyet makky"],
-    "coordinates":[30.0053, 31.208]
+    "coordinates":[30.00568877260364, 31.208145071004214]
   },
   {
     "name": "saqiyet makky",
@@ -431,7 +431,7 @@
     "intersection": false,
     "id": 20,
     "neighbourStations": [ "el monib","omm el masryeen"],
-    "coordinates":[29.9956, 31.2086]
+    "coordinates":[29.995586942733755, 31.20865827342239]
   },
   {
     "name": "el monib",
@@ -439,7 +439,7 @@
     "intersection": false,
     "id": 21,
     "neighbourStations": ["saqiyet makky" ],
-    "coordinates":[29.9813, 31.2117]
+    "coordinates":[29.981196309856315, 31.21231484068156]
   },
   {
     "name": "adly mansour",
@@ -447,7 +447,7 @@
     "intersection": false,
     "id": 1,
     "neighbourStations": ["haykestep" ],
-    "coordinates":[30.1471, 31.4215]
+    "coordinates":[30.14712037929661, 31.421206208686606]
   },
   {
     "name": "haykestep",
@@ -455,7 +455,7 @@
     "intersection": false,
     "id": 2,
     "neighbourStations": ["adly mansour" ,"omar ibn el khattab"],
-    "coordinates":[30.1439, 31.4047]
+    "coordinates":[30.143833716292516, 31.40468434768364]
   },
   {
     "name": "omar ibn el khattab",
@@ -463,7 +463,7 @@
     "intersection": false,
     "id": 3,
     "neighbourStations": [ "haykestep","qubaa"],
-    "coordinates":[30.1405, 31.3942]
+    "coordinates":[30.140391572091005, 31.394351380406547]
   },
   {
     "name": "qubaa",
@@ -471,7 +471,7 @@
     "intersection": false,
     "id": 4,
     "neighbourStations": [ "omar ibn el khattab","hesham barakat"],
-    "coordinates":[30.1348, 31.3839]
+    "coordinates":[30.134852349112577, 31.383760194321127]
   },
   {
     "name": "hesham barakat",
@@ -479,7 +479,7 @@
     "intersection": false,
     "id": 5,
     "neighbourStations": ["qubaa" ,"el nozha"],
-    "coordinates":[30.1311, 31.3729]
+    "coordinates":[30.13080424625952, 31.372928402583753]
   },
   {
     "name": "el nozha",
@@ -487,7 +487,7 @@
     "intersection": false,
     "id": 6,
     "neighbourStations": [ "hesham barakat","nadi el shams"],
-    "coordinates":[30.1283, 31.36]
+    "coordinates":[30.12798112620501, 31.360232803921388]
   },
   {
     "name": "nadi el shams",
@@ -495,7 +495,7 @@
     "intersection": false,
     "id": 7,
     "neighbourStations": [ "el nozha","alf maskan"],
-    "coordinates":[30.1223, 31.3439]
+    "coordinates":[30.12566823010573, 31.348893185291324]
   },
   {
     "name": "alf maskan",
@@ -503,7 +503,7 @@
     "intersection": false,
     "id": 8,
     "neighbourStations": [ "nadi el shams","heliopolis square"],
-    "coordinates":[30.1182, 31.3398]
+    "coordinates":[30.119011198221273, 31.340188697953348]
   },
   {
     "name": "heliopolis square",
@@ -511,7 +511,7 @@
     "intersection": false,
     "id": 9,
     "neighbourStations": [ "alf maskan","haroun"],
-    "coordinates":[30.1081, 31.3382]
+    "coordinates":[30.10841678553546, 31.33825755942842]
   },
   {
     "name": "haroun",
@@ -519,7 +519,7 @@
     "intersection": false,
     "id": 10,
     "neighbourStations": ["heliopolis square" ,"al ahram"],
-    "coordinates":[30.1013, 31.3328]
+    "coordinates":[30.10142192196846, 31.33295918280869]
   },
   {
     "name": "al ahram",
@@ -527,7 +527,7 @@
     "intersection": false,
     "id": 11,
     "neighbourStations": ["haroun","koleyet el banat" ],
-    "coordinates":[30.0914, 31.3266]
+    "coordinates":[30.091718167539824, 31.32630490295478]
   },
   {
     "name": "koleyet el banat",
@@ -535,7 +535,7 @@
     "intersection": false,
     "id": 12,
     "neighbourStations": ["al ahram","stadium" ],
-    "coordinates": [30.0837,  31.3288]
+    "coordinates": [30.084063380768164, 31.329008136189614]
   },
   {
     "name": "stadium",
@@ -543,7 +543,7 @@
     "intersection": false,
     "id": 13,
     "neighbourStations": ["koleyet el banat", "fair zone"],
-    "coordinates":  [30.073,  31.3175]
+    "coordinates":  [30.07311764143083, 31.31712692530709]
   },
   {
     "name": "fair zone",
@@ -551,7 +551,7 @@
     "intersection": false,
     "id": 14,
     "neighbourStations": ["stadium","abbasseya" ],
-    "coordinates":  [30.0733, 31.3012]
+    "coordinates":  [30.07357678775154, 31.300796887062152]
   },
   {
     "name": "abbasseya",
@@ -559,7 +559,7 @@
     "intersection": false,
     "id": 15,
     "neighbourStations": ["fair zone" ,"abdou pasha"],
-    "coordinates": [30.0698, 31.2809]
+    "coordinates": [30.07215523857578, 31.283350249057815]
   },
   {
     "name": "abdou pasha",
@@ -567,7 +567,7 @@
     "intersection": false,
     "id": 16,
     "neighbourStations": ["abbasseya", "el geish"],
-    "coordinates": [30.0649, 31.2747]
+    "coordinates": [30.065011900393788, 31.274743185938753]
   },
   {
     "name": "el geish",
@@ -575,7 +575,7 @@
     "intersection": false,
     "id": 17,
     "neighbourStations": ["abdou pasha", "bab el shaaria"],
-    "coordinates": [30.062, 31.2668]
+    "coordinates": [30.061863813944427, 31.266877643958285]
   },
   {
     "name":"bab el shaaria",
@@ -583,7 +583,7 @@
     "intersection": false,
     "id": 18,
     "neighbourStations": ["el geish" ,"ataba"],
-    "coordinates": [30.054, 31.256]
+    "coordinates": [30.0543204820955, 31.255881203802293]
   },
   {
     "name": "ataba",
@@ -591,7 +591,7 @@
     "intersection": true,
     "id": 19,
     "neighbourStations": [ "nasser","bab el shaaria"],
-    "coordinates":  [30.0525,31.2469]
+    "coordinates":  [30.052544621939937, 31.24679607875267]
   },
   {
     "name":"nasser",
@@ -599,7 +599,7 @@
     "intersection": true,
     "id": 20,
     "neighbourStations": ["ataba","maspero"],
-    "coordinates":[30.0536, 31.2389]
+    "coordinates":[30.05346039759387, 31.238732912308336]
   },
   {
     "name": "maspero",
@@ -607,7 +607,7 @@
     "intersection": false,
     "id": 21,
     "neighbourStations": ["nasser","safa hegazy" ],
-    "coordinates": [30.0556, 31.2322]
+    "coordinates": [30.055711319249117, 31.23211219375498]
   },
   {
     "name": "safa hegazy",
@@ -615,7 +615,7 @@
     "intersection": false,
     "id": 22,
     "neighbourStations": ["maspero" ,"kit kat"],
-    "coordinates": [30.0625,  31.2225]
+    "coordinates": [30.062328640470874, 31.22329697551513]
   },
   {
     "name": "kit kat",
@@ -623,7 +623,7 @@
     "intersection": true,
     "id": 23,
     "neighbourStations": ["sudan","safa hegazy"],
-    "coordinates":[30.0668, 31.2129]
+    "coordinates":[30.066597585505427, 31.213013840330483]
   },
   {
     "name": "sudan",
@@ -631,7 +631,7 @@
     "intersection": false,
     "id": 24,
     "neighbourStations": ["kit kat","imbaba" ],
-    "coordinates": [30.0699, 31.2054]
+    "coordinates": [30.0700581510512, 31.204735552971062]
   },
   {
     "name": "imbaba",
@@ -639,7 +639,7 @@
     "intersection": false,
     "id": 25,
     "neighbourStations": ["sudan","el bohy" ],
-    "coordinates": [30.0759, 31.2074]
+    "coordinates": [30.07586168303746, 31.207470359419787]
   },
   {
     "name": "el bohy",
@@ -647,7 +647,7 @@
     "intersection": false,
     "id": 26,
     "neighbourStations": [ "imbaba","el qawmia"],
-    "coordinates": [30.0822, 31.2105]
+    "coordinates": [30.082152206003176, 31.21055540495042]
   },
   {
     "name": "el qawmia",
@@ -655,7 +655,7 @@
     "intersection": false,
     "id": 27,
     "neighbourStations": [ "el bohy","ring road"],
-    "coordinates": [30.0932, 31.2088]
+    "coordinates": [30.09325049030221, 31.208994507289464]
   },
   {
     "name": "ring road",
@@ -663,7 +663,7 @@
     "intersection": false,
     "id": 28,
     "neighbourStations": ["el qawmia","rod el farag corridor" ],
-    "coordinates": [30.0965,  31.1995]
+    "coordinates": [30.09642507727801, 31.199565251317367]
   },
   {
     "name": "rod el farag corridor",
@@ -671,7 +671,7 @@
     "intersection": false,
     "id": 29,
     "neighbourStations": ["ring road" ],
-    "coordinates":[30.102, 31.1841]
+    "coordinates":[30.10193197732157, 31.184402076205934]
   },
   {
     "name": "kit kat",
@@ -679,7 +679,7 @@
     "intersection": true,
     "id": 1,
     "neighbourStations": ["tawfikia","sudan","safa hegazy"],
-    "coordinates":[30.0668,  31.2129]
+    "coordinates":[30.0666443269399, 31.21300218873246]
   },
   {
     "name": "tawfikia",
@@ -687,7 +687,7 @@
     "intersection": false,
     "id": 2,
     "neighbourStations": ["kit kat","wadi el nile" ],
-    "coordinates":[30.0655, 31.2023]
+    "coordinates":[30.065036426729225, 31.20242747297661]
   },
   {
     "name": "wadi el nile",
@@ -695,7 +695,7 @@
     "intersection": false,
     "id": 3,
     "neighbourStations": ["tawfikia" ,"gamat el dowal"],
-    "coordinates":[30.0585, 31.2011]
+    "coordinates":[30.057094002353097, 31.20120657505059]
   },
   {
     "name": "gamat el dowal",
@@ -703,7 +703,7 @@
     "intersection": false,
     "id": 4,
     "neighbourStations": [ "wadi el nile","boulak el dakrour"],
-    "coordinates":[30.051, 31.1997]
+    "coordinates":[30.050125726771757, 31.198981999858955]
   },
   {
     "name": "boulak el dakrour",
@@ -711,7 +711,7 @@
     "intersection": false,
     "id": 5,
     "neighbourStations": ["gamat el dowal","cairo university" ],
-    "coordinates":[30.0363, 31.1965]
+    "coordinates":[30.03757827344112, 31.195593446747615]
   },
   {
     "name": "cairo university",
@@ -719,6 +719,6 @@
     "intersection": true,
     "id": 6,
     "neighbourStations": ["faisal","boulak el dakrour" ],
-    "coordinates":[30.0261, 31.2013]
+    "coordinates":[30.02600299748651, 31.20114985181208]
   }
 ]

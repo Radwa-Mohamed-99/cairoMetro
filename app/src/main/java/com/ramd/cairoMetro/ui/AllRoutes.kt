@@ -79,7 +79,7 @@ class AllRoutes : AppCompatActivity() {
             binding.priceText.text = "Price \n${price.calculatePrice(sorting[0].size)}"
 
 
-           binding.startBtn.isEnabled = tripAvailability
+          binding.startBtn.isEnabled = tripAvailability
 
 
     }
@@ -120,7 +120,7 @@ class AllRoutes : AppCompatActivity() {
     }
     fun start(view: View) {
 
-        dataHandling.saveSimpleData(this,true,"indicator")
+        dataHandling.saveListData(this, sorting[index] .toTypedArray(), "path")
         val b = Intent(this,TripProgress::class.java)
         b.putExtra("trip",sorting[index] as ArrayList<String>)
         startActivity(b)

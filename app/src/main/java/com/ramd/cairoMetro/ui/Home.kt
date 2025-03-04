@@ -18,6 +18,7 @@ import com.ramd.cairoMetro.databinding.ActivityHomeBinding
 import com.ramd.cairoMetro.pojo.DataHandling
 import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.pojo.LocationCalculations
+import com.ramd.cairoMetro.pojo.LocationService
 import mumayank.com.airlocationlibrary.AirLocation
 
 class Home : AppCompatActivity(),AirLocation.Callback {
@@ -26,7 +27,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     var stationData: Array<DataItem> = emptyArray()
     val location = LocationCalculations()
     lateinit var airLocation:AirLocation
-    val currentLocation = mutableListOf<Double>()
+    var currentLocation = mutableListOf<Double>()
     var path= emptyList<String>()
     var station =""
 
@@ -46,6 +47,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
             stationData = readData.readUserFromAssets(this,"metro.json") as Array<DataItem>
         }
 
+
         val stationNames = stationData.map { it.name }.toSet().toList()
         val adapter = ArrayAdapter(this, layout.simple_dropdown_item_1line, stationNames)
         binding.start.setAdapter(adapter)
@@ -53,17 +55,23 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         binding.arrival.setAdapter(adapter2)
 
 
-     airLocation = AirLocation(this, this, true)
-     airLocation.start()
 
+        airLocation = AirLocation(this, this, false,10000)
+        airLocation.start()
 
-        path = readData.getListData(this,"path") .toList()
+        path = DataHandling().getListData(this,"path").toList()
 
 
     }
 
+
+
     override fun onBackPressed() {
         stationData = emptyArray()
+        path =emptyList<String>()
+        currentLocation.clear()
+        airLocation = AirLocation(this, this, true)
+        airLocation.start()
         finishAffinity()
         super.onBackPressed()
     }
@@ -71,8 +79,8 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     fun exchangeStations(view: View) {
         val arrivalStation = binding.arrival.text.toString()
         val startStation =binding.start.text.toString()
-     binding.start.setText(arrivalStation,false)
-     binding.arrival.setText(startStation,false)
+        binding.start.setText(arrivalStation,false)
+        binding.arrival.setText(startStation,false)
 
     }
 
@@ -95,9 +103,9 @@ class Home : AppCompatActivity(),AirLocation.Callback {
 
     fun showNearest(view: View) {
         airLocation.start()
-        val station = location.nearestLocation(stationData,50F,currentLocation[0],currentLocation[1])
+        val station = location.nearestLocation(stationData,100F,currentLocation[0],currentLocation[1])
         if(station.isEmpty())
-                showToast("no near station from your location")
+            showToast("no near station from your location")
         else    binding.start.setText(station,false)
 
 
@@ -126,7 +134,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
             val station =location.nearestLocation(stationData,50F,startDetails.first,startDetails.second)
 
             if(station.isEmpty())
-                 showToast( "no near station to your destination")
+                showToast( "no near station to your destination")
             else binding.arrival.setText(station,false)
         }
     }
@@ -158,28 +166,37 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     }
 
     private fun stationDialog () {
-        var dataIndicator =  readData.getSimpleData(this,"indicator")
+        val dataIndicator =  readData.getSimpleData(this,"indicator")
+        Log.d("coordinates", "$dataIndicator")
+        Log.d("coordinates", "${path.size}")
         if(dataIndicator && path.isNotEmpty())
         {
-            station = location.nearestStationPath(stationData,path,currentLocation[0],currentLocation[1])
-            Log.d("locationaddress", "$station")
+            station = location.nearestStationPath(stationData,1000F,path,currentLocation[0],currentLocation[1])
+            Log.d("coordinates", "$station")
 
-            if (station == path[path.size-1] )
+            if (station == path.last() )
             {
-                readData.saveSimpleData(this,true,"indicator")
-                binding.status.isVisible = false
+                readData.saveSimpleData(this,false,"indicator")
+                val serviceIntent = Intent(this, LocationService::class.java)
+                stopService(serviceIntent)
+                Toast.makeText(this, "Location service stopped", Toast.LENGTH_SHORT).show()
+
             }
-            else if (station != path[path.size-1] && station.isNotEmpty()) {
+            if ( station.isNotEmpty()) {
                 binding.status.isVisible = true
 
-                    binding.currentStation.text = station
-                    val stationIndex = path.indexOf(station)
-                    if (stationIndex < path.size) {
-                        binding.nextStation.text = path[stationIndex + 1]
-                    }
-                    if (stationIndex > 0) {
-                        binding.perviousStation.text = path[stationIndex - 1]
-                    }
+                binding.currentStation.text = station
+                val stationIndex = path.indexOf(station)
+                if (stationIndex < path.size-1) {
+                    binding.nextStation.text = path[stationIndex + 1]
+                    Log.d("coordinates", "${path[stationIndex + 1]}")
+
+                }
+                else{binding.nextStation.text = ""}
+                if (stationIndex > 0) {
+                    binding.perviousStation.text = path[stationIndex - 1]
+                }
+                else{binding.perviousStation.text = ""}
 
 
             }
@@ -197,13 +214,16 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     }
 
     override fun onSuccess(locations: ArrayList<Location>) {
+        currentLocation.clear()
         currentLocation.add(locations[0].latitude)
         currentLocation.add(locations[0].longitude)
         stationDialog ()
+        Log.d("coordinates","${currentLocation[0]} + ${currentLocation[1]} ")
+
     }
 
     override fun onFailure(locationFailedEnum: AirLocation.LocationFailedEnum) {
-        showToast("$locationFailedEnum")
+//        showToast("$locationFailedEnum")
     }
 
 

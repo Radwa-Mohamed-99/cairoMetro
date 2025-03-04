@@ -9,7 +9,7 @@ import android.net.Uri
 class LocationCalculations {
 
     fun nearestLocation(data: Array<DataItem>, shortest:Float,lat: Double, long: Double): String {
-        var shortestDistance = 50F
+        var shortestDistance = shortest
         var station = ""
         val stationCoordinates = data.map { it.coordinates }
         for (stationCoordinate in stationCoordinates) {
@@ -28,8 +28,8 @@ class LocationCalculations {
         return station
     }
 
-    fun nearestStationPath(data: Array<DataItem>, path:List<String>,lat: Double, long: Double):String{
-        var shortestDistance = 1000F
+    fun nearestStationPath(data: Array<DataItem>, shortest:Float , path:List<String>,lat: Double, long: Double):String{
+        var shortestDistance = shortest
         var station = ""
         for (s in path) {
             val stationCoordinate = data.first { it.name == s }.coordinates

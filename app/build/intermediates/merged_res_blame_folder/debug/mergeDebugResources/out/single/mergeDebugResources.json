@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -56,18 +52,6 @@
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -86,10 +70,6 @@
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_small_icon.jpg.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/small_icon.jpg"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/xml_data_extraction_rules.xml.flat",
@@ -154,10 +134,6 @@
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_main.xml.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_exchange.png.flat",

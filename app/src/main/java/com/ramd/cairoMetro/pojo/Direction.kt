@@ -30,6 +30,7 @@ class Direction( val data:Array<DataItem> ) {
 
 
     fun findIntersections(path:List<String>):MutableList<String>{
+
         val intersections = mutableListOf<String>()
         var lineName = findLine(path[0],path[1])
         val intersectionStations = data.filter { it.intersection }.map { it.name }.toSet()
@@ -39,11 +40,16 @@ class Direction( val data:Array<DataItem> ) {
                 val station = path[index]
                 if (station in intersectionStations && !nextStation.contains(lineName)) {
                     intersections.add(station)
-                    lineName = findLine(station, path[index + 1])
+                    lineName = if ((index + 2 )< path.size) {
+                        findLine( path[index + 1],path[index + 2])
+                    } else {
+                        findLine(station, path[index + 1])
+                    }
                 }
             }
         }
         return intersections
+
     }
 
 
