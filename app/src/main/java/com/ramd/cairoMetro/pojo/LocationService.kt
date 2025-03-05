@@ -7,6 +7,8 @@ import android.app.PendingIntent
 import android.app.Service
 import android.content.Context
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.location.Location
 import android.media.RingtoneManager
@@ -173,7 +175,18 @@ class LocationService : Service() {
             .build()
 
 
-    private fun sendPushNotification(alertMessage: String) {
+    private fun sendPushNotification(alertMessage: String,stage:String) {
+        // Select the appropriate image based on the stage
+        val imageRes = when (stage) {
+            "start" -> R.drawable.start
+            "change" -> R.drawable.change
+            "end" -> R.drawable.end
+            else -> R.drawable.start // Default to start image
+        }
+
+        val bigPicture = BitmapFactory.decodeResource(resources, imageRes)
+        val resizedImage = Bitmap.createScaledBitmap(bigPicture, 600, 400, true)
+
         val notification = NotificationCompat.Builder(this, "push_notification_channel")
             .setSmallIcon(R.drawable.ic_stat_notificon)
             .setColor(Color.RED)
@@ -181,6 +194,13 @@ class LocationService : Service() {
             .setContentText(alertMessage)
             .setStyle(NotificationCompat.BigTextStyle()
                 .bigText(alertMessage))
+
+            .setStyle(
+                NotificationCompat.BigPictureStyle()
+                    .bigPicture(resizedImage) // Large image
+//                    .bigLargeIcon(null) // Hide large icon when expanded
+            )
+
             .setContentIntent(
                 PendingIntent.getActivity(
                     this,
@@ -201,13 +221,13 @@ class LocationService : Service() {
     }
         private fun notifyUsingDistance(station: String) {
         val intersections = Direction(stationData).findIntersections(path)
-        if (station == path[0]) {
-            sendPushNotification("starting trip soon in $station, have a nice                                               trip")
-        } else if (station == path[path.size - 1]) {
-            sendPushNotification("reaching destination soon in $station, have a nice day")
-        } else if (station in intersections) {
-            sendPushNotification("reaching an intersection soon in $station , be ready")
-        }
+            if (station == path[0]) {
+                sendPushNotification("starting trip soon in $station, have a nice trip","start")
+            } else if (station == path[path.size - 1]) {
+                sendPushNotification("reaching destination soon in $station, have a nice day","change")
+            } else if (station in intersections) {
+                sendPushNotification("reaching an intersection soon in $station, be ready","end")
+            }
 
         }
     private fun createNotificationChannel() {
