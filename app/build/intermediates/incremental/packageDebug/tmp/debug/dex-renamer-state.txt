@@ -1,10 +1,10 @@
-#Wed Mar 05 01:35:16 EET 2025
-base.0=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.4=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.5=C\:\\Users\\rradw\\AndroidStudioProjects\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Mar 05 21:09:19 EET 2025
+base.0=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.4=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=C\:\\Users\\rradw\\Documents\\GitHub\\cairoMetro\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex

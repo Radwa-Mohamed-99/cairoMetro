@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -8,72 +12,40 @@
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/station_image.jpg"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_map.png.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/map.png"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_station_progress.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/layout/station_progress.xml"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_circl.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/circl.xml"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_home.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_home.xml"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_launcher_foreground.xml.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_stat_notificon.png.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_stat_notificon.png"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_all_routes.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_all_routes.xml"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/font_allerta.xml.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/font/allerta.xml"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_start.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/start.webp"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/xml_backup_rules.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/xml/backup_rules.xml"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_circle_background.xml.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/circle_background.xml"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/xml_data_extraction_rules.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/xml/data_extraction_rules.xml"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/font_alatsi.xml.flat",
@@ -82,6 +54,10 @@
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_images.png.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/images.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_change.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/change.webp"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -96,32 +72,16 @@
         "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_trip_progress.xml"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_round_top.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/round_top.xml"
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_end.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/end.webp"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/color_radio_button.xml.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/color/radio_button.xml"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_station_image2.png.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/station_image2.png"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_language.png.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/language.png"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_round_bottom.xml.flat",
@@ -132,20 +92,96 @@
         "source": "com.ramd.cairoMetro.app-main-47:/font/akaya_kanadaka.xml"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_main.xml.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_exchange.png.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/exchange.png"
     },
     {
-        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_location.png.flat",
-        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_location.png"
-    },
-    {
         "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_notification.png.flat",
         "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_notification.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_map.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/map.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_station_progress.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/layout/station_progress.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_circl.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/circl.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_home.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_stat_notificon.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_stat_notificon.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_all_routes.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_all_routes.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/xml_backup_rules.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_small_icon.jpg.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/small_icon.jpg"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_round_top.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/round_top.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_station_image2.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/station_image2.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_language.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/language.png"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ramd.cairoMetro.app-debug-45:/drawable_ic_location.png.flat",
+        "source": "com.ramd.cairoMetro.app-main-47:/drawable/ic_location.png"
     },
     {
         "merged": "com.ramd.cairoMetro.app-debug-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
