@@ -9,6 +9,7 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<<<<<<< HEAD
 11-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:4:5-79
 11-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:4:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -28,6 +29,27 @@
 18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
 18-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:11:5-86
 18-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:11:22-83
+=======
+11-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:6:5-77
+13-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:7:5-77
+14-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:7:22-74
+15    <!-- For Android 10+ (API level 29+) -->
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:9:5-85
+16-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:9:22-82
+17    <!-- For Android 14+ (API level 34+) -->
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+18-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:11:5-86
+18-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:11:22-83
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 19-->[com.github.mumayank:AirLocation:2.5.2] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:11:5-79
 19-->[com.github.mumayank:AirLocation:2.5.2] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\17f69f14a6bbb5331464288f6cc8938c\transformed\AirLocation-2.5.2\AndroidManifest.xml:11:22-76
@@ -69,12 +91,19 @@
 35    </queries>
 36
 37    <application
+<<<<<<< HEAD
 37-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:13:5-55:19
 38        android:allowBackup="true"
 38-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:14:9-35
+=======
+37-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:15:5-57:19
+38        android:allowBackup="true"
+38-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:16:9-35
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 39-->[androidx.core:core:1.15.0] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\f452a6a47bc08baaa071868683489a04\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 40        android:dataExtractionRules="@xml/data_extraction_rules"
+<<<<<<< HEAD
 40-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:15:9-65
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
@@ -144,6 +173,77 @@
 76-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:53:13-43
 77            android:resource="@array/preloaded_fonts" />
 77-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:54:13-54
+=======
+40-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:17:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:18:9-54
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:19:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:20:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:21:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:22:9-35
+48        android:testOnly="true"
+49        android:theme="@style/Theme.CairoMetro" >
+49-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:23:9-48
+50        <service
+50-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:26:9-30:56
+51            android:name="com.ramd.cairoMetro.pojo.LocationService"
+51-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:27:13-49
+52            android:enabled="true"
+52-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:28:13-35
+53            android:exported="false"
+53-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:29:13-37
+54            android:foregroundServiceType="location" />
+54-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:30:13-53
+55
+56        <activity
+56-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:31:9-33:39
+57            android:name="com.ramd.cairoMetro.ui.AllRoutes"
+57-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:32:13-41
+58            android:exported="true" />
+58-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:33:13-36
+59        <activity
+59-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:35:9-43:20
+60            android:name="com.ramd.cairoMetro.ui.Home"
+60-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:36:13-36
+61            android:exported="true" >
+61-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:37:13-36
+62            <intent-filter>
+62-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:38:13-42:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:39:17-69
+63-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:39:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:17-77
+65-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:45:9-47:39
+69            android:name="com.ramd.cairoMetro.ui.TripProgress"
+69-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:46:13-44
+70            android:exported="true" />
+70-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:47:13-36
+71        <activity
+71-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:49:9-51:38
+72            android:name="com.ramd.cairoMetro.ui.MainActivity"
+72-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:50:13-44
+73            android:exported="true" />
+73-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:51:13-36
+74
+75        <meta-data
+75-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:54:9-56:57
+76            android:name="preloaded_fonts"
+76-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:55:13-43
+77            android:resource="@array/preloaded_fonts" />
+77-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:56:13-54
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 78
 79        <activity
 79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\76e7f1d3fb55393f6714dce13b364b9a\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
@@ -387,8 +487,13 @@
 202-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
 202-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 203                <category android:name="android.intent.category.LAUNCHER" />
+<<<<<<< HEAD
 203-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:17-77
 203-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:27-74
+=======
+203-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:17-77
+203-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:27-74
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 204            </intent-filter>
 205        </activity>
 206        <activity
@@ -403,8 +508,13 @@
 210-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
 210-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 211                <category android:name="android.intent.category.LAUNCHER" />
+<<<<<<< HEAD
 211-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:17-77
 211-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:27-74
+=======
+211-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:17-77
+211-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:27-74
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 212            </intent-filter>
 213        </activity>
 214        <activity
@@ -419,8 +529,13 @@
 218-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
 218-->[androidx.test:core:1.6.1] C:\Users\Laptop Market\.gradle\caches\8.9\transforms\385f86a3415abd53f98e44a3c2e3f546\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 219                <category android:name="android.intent.category.LAUNCHER" />
+<<<<<<< HEAD
 219-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:17-77
 219-->E:\me\mobile\Depi\material\projects\cairoMetro\app\src\main\AndroidManifest.xml:39:27-74
+=======
+219-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:17-77
+219-->C:\Users\rradw\Documents\GitHub\cairoMetro\app\src\main\AndroidManifest.xml:41:27-74
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 220            </intent-filter>
 221        </activity>
 222

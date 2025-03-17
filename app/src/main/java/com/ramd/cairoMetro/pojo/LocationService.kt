@@ -307,5 +307,6 @@ class LocationService : Service() {
     override fun onDestroy() {
         super.onDestroy()
         fusedLocationClient.removeLocationUpdates(locationCallback)
+
     }
 }

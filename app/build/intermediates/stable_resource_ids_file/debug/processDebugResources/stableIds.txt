@@ -1632,7 +1632,14 @@ com.ramd.cairoMetro:id/progress_horizontal = 0x7f0a0191
 com.ramd.cairoMetro:style/ThemeOverlay.Material3.TextInputEditText = 0x7f1202b9
 com.ramd.cairoMetro:id/price = 0x7f0a018d
 com.ramd.cairoMetro:id/pressed = 0x7f0a018c
+<<<<<<< HEAD
 com.ramd.cairoMetro:style/Widget.Material3.Button = 0x7f120353
+=======
+com.ramd.cairoMetro:styleable/PopupWindowBackgroundState = 0x7f130072
+com.ramd.cairoMetro:id/point_2 = 0x7f0a0189
+com.ramd.cairoMetro:id/perviousStation = 0x7f0a0187
+com.ramd.cairoMetro:id/pathRelative = 0x7f0a0183
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:id/path = 0x7f0a0182
 com.ramd.cairoMetro:integer/m3_sys_motion_duration_long1 = 0x7f0b0014
 com.ramd.cairoMetro:style/Widget.MaterialComponents.Slider = 0x7f120447
@@ -1944,6 +1951,7 @@ com.ramd.cairoMetro:id/META = 0x7f0a0006
 com.ramd.cairoMetro:id/CTRL = 0x7f0a0003
 com.ramd.cairoMetro:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f120108
 com.ramd.cairoMetro:id/ALT = 0x7f0a0000
+<<<<<<< HEAD
 com.ramd.cairoMetro:drawable/tooltip_frame_dark = 0x7f08010b
 com.ramd.cairoMetro:drawable/station_image = 0x7f080108
 com.ramd.cairoMetro:drawable/small_icon = 0x7f080106
@@ -1961,6 +1969,32 @@ com.ramd.cairoMetro:style/Widget.Material3.Button.Icon = 0x7f120356
 com.ramd.cairoMetro:id/action_bar_activity_content = 0x7f0a0037
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb_checked_pressed = 0x7f0800ea
 com.ramd.cairoMetro:dimen/m3_comp_filled_autocomplete_menu_container_elevation = 0x7f070121
+=======
+com.ramd.cairoMetro:font/alatsi = 0x7f090001
+com.ramd.cairoMetro:font/akaya_kanadaka = 0x7f090000
+com.ramd.cairoMetro:drawable/tooltip_frame_dark = 0x7f08010b
+com.ramd.cairoMetro:drawable/station_image = 0x7f080108
+com.ramd.cairoMetro:drawable/start = 0x7f080107
+com.ramd.cairoMetro:drawable/small_icon = 0x7f080106
+com.ramd.cairoMetro:drawable/round_bottom = 0x7f080103
+com.ramd.cairoMetro:macro/m3_comp_time_picker_period_selector_unselected_label_text_color = 0x7f0e015c
+com.ramd.cairoMetro:id/grouping = 0x7f0a00e3
+com.ramd.cairoMetro:drawable/notify_panel_notification_icon_bg = 0x7f080102
+com.ramd.cairoMetro:drawable/notification_tile_bg = 0x7f080101
+com.ramd.cairoMetro:drawable/notification_template_icon_low_bg = 0x7f080100
+com.ramd.cairoMetro:drawable/notification_template_icon_bg = 0x7f0800ff
+com.ramd.cairoMetro:drawable/notification_bg_normal_pressed = 0x7f0800fc
+com.ramd.cairoMetro:attr/iconEndPadding = 0x7f040235
+com.ramd.cairoMetro:color/m3_sys_color_dark_surface_container_high = 0x7f060180
+com.ramd.cairoMetro:drawable/notification_bg_low = 0x7f0800f8
+com.ramd.cairoMetro:drawable/mtrl_tabs_default_indicator = 0x7f0800f4
+com.ramd.cairoMetro:id/neverCompleteToStart = 0x7f0a0158
+com.ramd.cairoMetro:drawable/mtrl_switch_thumb_unchecked_pressed = 0x7f0800f1
+com.ramd.cairoMetro:drawable/mtrl_switch_thumb_pressed_checked = 0x7f0800ed
+com.ramd.cairoMetro:style/Widget.Material3.Button.Icon = 0x7f120356
+com.ramd.cairoMetro:id/action_bar_activity_content = 0x7f0a0037
+com.ramd.cairoMetro:drawable/mtrl_switch_thumb_checked_pressed = 0x7f0800ea
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/ShapeAppearance.M3.Comp.Switch.StateLayer.Shape = 0x7f120165
 com.ramd.cairoMetro:style/Base.Theme.Material3.Dark.DialogWhenLarge = 0x7f12005e
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb_checked = 0x7f0800e9
@@ -1968,6 +2002,7 @@ com.ramd.cairoMetro:style/Base.TextAppearance.AppCompat.SearchResult = 0x7f12002
 com.ramd.cairoMetro:drawable/mtrl_ic_arrow_drop_up = 0x7f0800de
 com.ramd.cairoMetro:color/material_personalized_color_on_tertiary_container = 0x7f060297
 com.ramd.cairoMetro:drawable/mtrl_dropdown_arrow = 0x7f0800dc
+<<<<<<< HEAD
 com.ramd.cairoMetro:attr/pivotAnchor = 0x7f040388
 com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0800d7
 com.ramd.cairoMetro:dimen/mtrl_shape_corner_size_large_component = 0x7f0702e2
@@ -1989,11 +2024,30 @@ com.ramd.cairoMetro:drawable/mtrl_checkbox_button = 0x7f0800d1
 com.ramd.cairoMetro:id/anticipate = 0x7f0a0056
 com.ramd.cairoMetro:drawable/material_ic_calendar_black_24dp = 0x7f0800c7
 com.ramd.cairoMetro:macro/m3_comp_top_app_bar_small_trailing_icon_color = 0x7f0e0174
+=======
+com.ramd.cairoMetro:color/dim_foreground_disabled_material_dark = 0x7f060061
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_unchecked_checked = 0x7f0800d8
+com.ramd.cairoMetro:attr/pivotAnchor = 0x7f040388
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_indeterminate_unchecked = 0x7f0800d7
+com.ramd.cairoMetro:id/overshoot = 0x7f0a017a
+com.ramd.cairoMetro:color/material_dynamic_neutral_variant99 = 0x7f060247
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_checked_unchecked = 0x7f0800d5
+com.ramd.cairoMetro:style/Widget.Compat.NotificationActionText = 0x7f120335
+com.ramd.cairoMetro:string/mtrl_switch_thumb_path_morphing = 0x7f1100a8
+com.ramd.cairoMetro:dimen/m3_toolbar_text_size_title = 0x7f070220
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon = 0x7f0800d3
+com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_surface_container = 0x7f0601c3
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button = 0x7f0800d1
+com.ramd.cairoMetro:macro/m3_comp_top_app_bar_small_trailing_icon_color = 0x7f0e0174
+com.ramd.cairoMetro:id/anticipate = 0x7f0a0056
+com.ramd.cairoMetro:drawable/material_ic_calendar_black_24dp = 0x7f0800c7
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/Widget.Material3.MaterialCalendar = 0x7f12039d
 com.ramd.cairoMetro:drawable/map = 0x7f0800c5
 com.ramd.cairoMetro:styleable/KeyCycle = 0x7f130041
 com.ramd.cairoMetro:attr/checkedIcon = 0x7f0400b6
 com.ramd.cairoMetro:drawable/m3_tabs_transparent_background = 0x7f0800c4
+<<<<<<< HEAD
 com.ramd.cairoMetro:color/m3_sys_color_light_on_secondary = 0x7f0601e3
 com.ramd.cairoMetro:drawable/m3_tabs_rounded_line_indicator = 0x7f0800c3
 com.ramd.cairoMetro:string/side_sheet_behavior = 0x7f1100be
@@ -2001,6 +2055,20 @@ com.ramd.cairoMetro:dimen/m3_comp_suggestion_chip_flat_outline_width = 0x7f07018
 com.ramd.cairoMetro:drawable/m3_bottom_sheet_drag_handle = 0x7f0800bc
 com.ramd.cairoMetro:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0 = 0x7f0c0002
 com.ramd.cairoMetro:color/mtrl_choice_chip_text_color = 0x7f0602d5
+=======
+com.ramd.cairoMetro:string/side_sheet_behavior = 0x7f1100be
+com.ramd.cairoMetro:color/m3_sys_color_light_on_secondary = 0x7f0601e3
+com.ramd.cairoMetro:drawable/m3_tabs_rounded_line_indicator = 0x7f0800c3
+com.ramd.cairoMetro:dimen/item_touch_helper_swipe_escape_max_velocity = 0x7f07009b
+com.ramd.cairoMetro:color/bright_foreground_material_light = 0x7f060027
+com.ramd.cairoMetro:drawable/m3_tabs_background = 0x7f0800c1
+com.ramd.cairoMetro:style/Widget.MaterialComponents.Tooltip = 0x7f120469
+com.ramd.cairoMetro:drawable/m3_selection_control_ripple = 0x7f0800c0
+com.ramd.cairoMetro:drawable/m3_popupmenu_background_overlay = 0x7f0800be
+com.ramd.cairoMetro:drawable/m3_password_eye = 0x7f0800bd
+com.ramd.cairoMetro:dimen/m3_comp_suggestion_chip_flat_outline_width = 0x7f07018d
+com.ramd.cairoMetro:drawable/m3_bottom_sheet_drag_handle = 0x7f0800bc
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/m3_avd_hide_password = 0x7f0800ba
 com.ramd.cairoMetro:drawable/language = 0x7f0800b9
 com.ramd.cairoMetro:drawable/images = 0x7f0800b7
@@ -2013,11 +2081,21 @@ com.ramd.cairoMetro:macro/m3_comp_secondary_navigation_tab_inactive_label_text_c
 com.ramd.cairoMetro:dimen/m3_comp_sheet_side_docked_container_width = 0x7f07017e
 com.ramd.cairoMetro:drawable/ic_keyboard_black_24dp = 0x7f0800a9
 com.ramd.cairoMetro:drawable/ic_clear_black_24 = 0x7f0800a7
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/ic_call_answer_video_low = 0x7f0800a4
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/ic_arrow_back_black_24 = 0x7f0800a0
 com.ramd.cairoMetro:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1202c6
 com.ramd.cairoMetro:drawable/googleg_standard_color_18 = 0x7f08009f
 com.ramd.cairoMetro:id/line1 = 0x7f0a0108
 com.ramd.cairoMetro:drawable/design_ic_visibility_off = 0x7f080099
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:attr/labelVisibilityMode = 0x7f040278
+com.ramd.cairoMetro:drawable/design_ic_visibility = 0x7f080098
+com.ramd.cairoMetro:drawable/common_google_signin_btn_text_light_normal = 0x7f080095
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:attr/colorOnSecondary = 0x7f040108
 com.ramd.cairoMetro:drawable/common_google_signin_btn_text_light = 0x7f080093
 com.ramd.cairoMetro:drawable/common_google_signin_btn_text_disabled = 0x7f080092
@@ -2030,9 +2108,18 @@ com.ramd.cairoMetro:drawable/common_google_signin_btn_icon_light_normal_backgrou
 com.ramd.cairoMetro:drawable/common_google_signin_btn_icon_light_normal = 0x7f08008c
 com.ramd.cairoMetro:drawable/common_google_signin_btn_icon_disabled = 0x7f080089
 com.ramd.cairoMetro:drawable/common_google_signin_btn_icon_dark_normal = 0x7f080087
+<<<<<<< HEAD
 com.ramd.cairoMetro:drawable/common_full_open_on_phone = 0x7f080084
 com.ramd.cairoMetro:attr/actionModeWebSearchDrawable = 0x7f040020
 com.ramd.cairoMetro:drawable/circle_background = 0x7f080083
+=======
+com.ramd.cairoMetro:dimen/mtrl_extended_fab_translation_z_pressed = 0x7f0702b5
+com.ramd.cairoMetro:drawable/common_google_signin_btn_icon_dark = 0x7f080085
+com.ramd.cairoMetro:drawable/common_full_open_on_phone = 0x7f080084
+com.ramd.cairoMetro:attr/actionModeWebSearchDrawable = 0x7f040020
+com.ramd.cairoMetro:drawable/circle_background = 0x7f080083
+com.ramd.cairoMetro:dimen/highlight_alpha_material_light = 0x7f070095
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/btn_checkbox_checked_mtrl = 0x7f080079
 com.ramd.cairoMetro:dimen/highlight_alpha_material_light = 0x7f070095
 com.ramd.cairoMetro:drawable/avd_hide_password = 0x7f080077
@@ -2065,8 +2152,13 @@ com.ramd.cairoMetro:drawable/ic_location = 0x7f0800ac
 com.ramd.cairoMetro:drawable/abc_popup_background_mtrl_mult = 0x7f080059
 com.ramd.cairoMetro:style/Widget.AppCompat.Button.Colored = 0x7f1202fa
 com.ramd.cairoMetro:style/Theme.Material3.DynamicColors.Dark = 0x7f120239
+<<<<<<< HEAD
 com.ramd.cairoMetro:style/Theme.MaterialComponents.DayNight.Bridge = 0x7f12024d
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb_pressed = 0x7f0800ec
+=======
+com.ramd.cairoMetro:drawable/mtrl_switch_thumb_pressed = 0x7f0800ec
+com.ramd.cairoMetro:color/m3_calendar_item_disabled_text = 0x7f060075
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:color/m3_sys_color_light_outline_variant = 0x7f0601ea
 com.ramd.cairoMetro:color/m3_calendar_item_disabled_text = 0x7f060075
 com.ramd.cairoMetro:drawable/abc_list_pressed_holo_dark = 0x7f080050
@@ -2086,10 +2178,13 @@ com.ramd.cairoMetro:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation = 
 com.ramd.cairoMetro:attr/extendMotionSpec = 0x7f0401c5
 com.ramd.cairoMetro:dimen/material_clock_face_margin_top = 0x7f070226
 com.ramd.cairoMetro:drawable/abc_edit_text_material = 0x7f08003c
+<<<<<<< HEAD
 com.ramd.cairoMetro:dimen/design_navigation_elevation = 0x7f070075
 com.ramd.cairoMetro:dimen/abc_text_size_button_material = 0x7f070041
 com.ramd.cairoMetro:string/icon_content_description = 0x7f110049
 com.ramd.cairoMetro:color/material_dynamic_primary30 = 0x7f06024c
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/ic_call_decline = 0x7f0800a5
 com.ramd.cairoMetro:drawable/abc_btn_radio_to_on_mtrl_000 = 0x7f080033
 com.ramd.cairoMetro:color/material_dynamic_secondary95 = 0x7f060260
@@ -2111,7 +2206,14 @@ com.ramd.cairoMetro:color/m3_ref_palette_tertiary60 = 0x7f060154
 com.ramd.cairoMetro:dimen/m3_alert_dialog_icon_size = 0x7f0700a2
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_dark_inverse_surface = 0x7f06018d
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_icon_indeterminate_unchecked__2 = 0x7f080016
+<<<<<<< HEAD
 com.ramd.cairoMetro:drawable/ic_call_answer_low = 0x7f0800a2
+=======
+com.ramd.cairoMetro:color/m3_sys_color_light_error = 0x7f0601d9
+com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_icon_indeterminate_unchecked__1 = 0x7f080015
+com.ramd.cairoMetro:drawable/ic_call_answer_low = 0x7f0800a2
+com.ramd.cairoMetro:color/bright_foreground_inverse_material_dark = 0x7f060024
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_icon_indeterminate_unchecked__0 = 0x7f080014
 com.ramd.cairoMetro:color/bright_foreground_inverse_material_dark = 0x7f060024
 com.ramd.cairoMetro:drawable/tooltip_frame_light = 0x7f08010c
@@ -2119,6 +2221,10 @@ com.ramd.cairoMetro:dimen/m3_comp_checkbox_selected_disabled_container_opacity =
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_icon_checked_unchecked__2 = 0x7f080012
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_icon_checked_unchecked__1 = 0x7f080011
 com.ramd.cairoMetro:drawable/indeterminate_static = 0x7f0800b8
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f1202a4
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_checked_unchecked__2 = 0x7f08000e
 com.ramd.cairoMetro:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f1202a4
 com.ramd.cairoMetro:drawable/$mtrl_checkbox_button_checked_unchecked__1 = 0x7f08000d
@@ -2147,9 +2253,12 @@ com.ramd.cairoMetro:dimen/mtrl_navigation_item_shape_vertical_margin = 0x7f0702c
 com.ramd.cairoMetro:string/call_notification_screening_text = 0x7f11002a
 com.ramd.cairoMetro:dimen/notification_small_icon_size_as_large = 0x7f070317
 com.ramd.cairoMetro:dimen/notification_small_icon_background_padding = 0x7f070316
+<<<<<<< HEAD
 com.ramd.cairoMetro:id/search_plate = 0x7f0a01b1
 com.ramd.cairoMetro:macro/m3_comp_switch_unselected_handle_color = 0x7f0e0134
 com.ramd.cairoMetro:style/Base.CardView = 0x7f120010
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb_checked_unchecked = 0x7f0800eb
 com.ramd.cairoMetro:dimen/notification_right_icon_size = 0x7f070314
 com.ramd.cairoMetro:style/Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f120443
@@ -2157,7 +2266,10 @@ com.ramd.cairoMetro:style/ThemeOverlay.Material3.NavigationRailView = 0x7f1202b2
 com.ramd.cairoMetro:dimen/notification_content_margin_start = 0x7f07030f
 com.ramd.cairoMetro:id/SHOW_PROGRESS = 0x7f0a000b
 com.ramd.cairoMetro:drawable/m3_avd_show_password = 0x7f0800bb
+<<<<<<< HEAD
 com.ramd.cairoMetro:dimen/notification_action_text_size = 0x7f07030d
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/TextAppearance.M3.Sys.Typescale.BodyMedium = 0x7f1201d5
 com.ramd.cairoMetro:dimen/m3_comp_text_button_hover_state_layer_opacity = 0x7f07019d
 com.ramd.cairoMetro:dimen/design_bottom_navigation_active_text_size = 0x7f070061
@@ -2169,6 +2281,10 @@ com.ramd.cairoMetro:dimen/mtrl_tooltip_minHeight = 0x7f070308
 com.ramd.cairoMetro:id/baseline = 0x7f0a0063
 com.ramd.cairoMetro:dimen/m3_back_progress_main_container_max_translation_y = 0x7f0700ae
 com.ramd.cairoMetro:drawable/notification_bg_normal = 0x7f0800fb
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/mtrl_tooltip_arrowSize = 0x7f070306
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:attr/fabAlignmentMode = 0x7f0401cd
 com.ramd.cairoMetro:dimen/mtrl_toolbar_default_height = 0x7f070305
 com.ramd.cairoMetro:id/mtrl_anchor_parent = 0x7f0a0136
@@ -2238,6 +2354,10 @@ com.ramd.cairoMetro:dimen/m3_sys_elevation_level3 = 0x7f0701f3
 com.ramd.cairoMetro:dimen/mtrl_fab_min_touch_target = 0x7f0702b7
 com.ramd.cairoMetro:drawable/ic_stat_notificon = 0x7f0800b6
 com.ramd.cairoMetro:string/material_timepicker_select_time = 0x7f11006f
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/ic_stat_notificon = 0x7f0800b6
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/mtrl_fab_elevation = 0x7f0702b6
 com.ramd.cairoMetro:dimen/mtrl_extended_fab_min_width = 0x7f0702af
 com.ramd.cairoMetro:style/TextAppearance.Design.Snackbar.Message = 0x7f1201d1
@@ -2254,6 +2374,11 @@ com.ramd.cairoMetro:macro/m3_comp_outlined_text_field_disabled_input_text_color 
 com.ramd.cairoMetro:dimen/m3_btn_elevation = 0x7f0700d0
 com.ramd.cairoMetro:id/clear_text = 0x7f0a007f
 com.ramd.cairoMetro:dimen/mtrl_calendar_year_vertical_padding = 0x7f070299
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/notification_action_background = 0x7f0800f6
+com.ramd.cairoMetro:dimen/m3_comp_primary_navigation_tab_active_focus_state_layer_opacity = 0x7f07015a
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/mtrl_calendar_year_horizontal_padding = 0x7f070298
 com.ramd.cairoMetro:dimen/m3_comp_primary_navigation_tab_active_focus_state_layer_opacity = 0x7f07015a
 com.ramd.cairoMetro:drawable/notification_action_background = 0x7f0800f6
@@ -2305,6 +2430,10 @@ com.ramd.cairoMetro:attr/tooltipForegroundColor = 0x7f0404b1
 com.ramd.cairoMetro:dimen/mtrl_alert_dialog_background_inset_start = 0x7f070248
 com.ramd.cairoMetro:dimen/material_time_picker_minimum_screen_height = 0x7f070244
 com.ramd.cairoMetro:mipmap/ic_launcher_round = 0x7f0f0002
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:color/switch_thumb_normal_material_dark = 0x7f06030f
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/material_textinput_min_width = 0x7f070243
 com.ramd.cairoMetro:color/switch_thumb_normal_material_dark = 0x7f06030f
 com.ramd.cairoMetro:dimen/material_textinput_max_width = 0x7f070242
@@ -2478,7 +2607,12 @@ com.ramd.cairoMetro:dimen/m3_comp_secondary_navigation_tab_active_indicator_heig
 com.ramd.cairoMetro:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f12002e
 com.ramd.cairoMetro:color/button_material_dark = 0x7f060028
 com.ramd.cairoMetro:dimen/m3_comp_primary_navigation_tab_with_icon_icon_size = 0x7f070161
+<<<<<<< HEAD
 com.ramd.cairoMetro:dimen/m3_comp_slider_disabled_inactive_track_opacity = 0x7f070186
+=======
+com.ramd.cairoMetro:attr/behavior_significantVelocityThreshold = 0x7f040071
+com.ramd.cairoMetro:drawable/ic_launcher_background = 0x7f0800aa
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/m3_comp_primary_navigation_tab_inactive_hover_state_layer_opacity = 0x7f07015f
 com.ramd.cairoMetro:drawable/ic_launcher_background = 0x7f0800aa
 com.ramd.cairoMetro:attr/behavior_significantVelocityThreshold = 0x7f040071
@@ -2487,6 +2621,10 @@ com.ramd.cairoMetro:id/openMap = 0x7f0a0169
 com.ramd.cairoMetro:drawable/mtrl_ic_arrow_drop_down = 0x7f0800dd
 com.ramd.cairoMetro:macro/m3_comp_navigation_drawer_inactive_pressed_state_layer_color = 0x7f0e0090
 com.ramd.cairoMetro:dimen/design_tab_text_size = 0x7f07008b
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/mtrl_ic_arrow_drop_down = 0x7f0800dd
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/m3_comp_outlined_card_outline_width = 0x7f070153
 com.ramd.cairoMetro:dimen/m3_comp_outlined_card_icon_size = 0x7f070152
 com.ramd.cairoMetro:color/mtrl_calendar_item_stroke_color = 0x7f0602cb
@@ -2502,6 +2640,13 @@ com.ramd.cairoMetro:style/Base.V21.ThemeOverlay.Material3.SideSheetDialog = 0x7f
 com.ramd.cairoMetro:dimen/m3_comp_navigation_rail_focus_state_layer_opacity = 0x7f070149
 com.ramd.cairoMetro:attr/reactiveGuide_applyToAllConstraintSets = 0x7f0403a5
 com.ramd.cairoMetro:attr/tabMode = 0x7f04042d
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/m3_comp_navigation_rail_focus_state_layer_opacity = 0x7f070149
+com.ramd.cairoMetro:dimen/m3_comp_navigation_rail_container_elevation = 0x7f070147
+com.ramd.cairoMetro:drawable/abc_ratingbar_indicator_material = 0x7f08005a
+com.ramd.cairoMetro:drawable/material_ic_keyboard_arrow_next_black_24dp = 0x7f0800cb
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:attr/badgeText = 0x7f040058
 com.ramd.cairoMetro:dimen/m3_comp_navigation_rail_active_indicator_width = 0x7f070146
 com.ramd.cairoMetro:style/Widget.AppCompat.RatingBar.Indicator = 0x7f120326
@@ -2532,6 +2677,10 @@ com.ramd.cairoMetro:dimen/m3_appbar_scrim_height_trigger_large = 0x7f0700a7
 com.ramd.cairoMetro:attr/staggered = 0x7f0403f4
 com.ramd.cairoMetro:drawable/m3_radiobutton_ripple = 0x7f0800bf
 com.ramd.cairoMetro:dimen/m3_comp_filled_text_field_disabled_active_indicator_opacity = 0x7f07012a
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/m3_comp_filled_card_pressed_state_layer_opacity = 0x7f070129
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/material_ic_edit_black_24dp = 0x7f0800c9
 com.ramd.cairoMetro:dimen/m3_comp_filled_card_focus_state_layer_opacity = 0x7f070126
 com.ramd.cairoMetro:dimen/m3_comp_filled_button_with_icon_icon_size = 0x7f070123
@@ -2552,6 +2701,11 @@ com.ramd.cairoMetro:style/ShapeAppearance.Material3.Corner.Large = 0x7f120172
 com.ramd.cairoMetro:style/Widget.Material3.FloatingActionButton.Small.Surface = 0x7f120395
 com.ramd.cairoMetro:styleable/ExtendedFloatingActionButton = 0x7f130031
 com.ramd.cairoMetro:dimen/m3_comp_extended_fab_primary_pressed_state_layer_opacity = 0x7f070114
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/m3_comp_extended_fab_primary_pressed_container_elevation = 0x7f070113
+com.ramd.cairoMetro:dimen/m3_comp_extended_fab_primary_hover_container_elevation = 0x7f070110
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:styleable/FloatingActionButton_Behavior_Layout = 0x7f130034
 com.ramd.cairoMetro:drawable/btn_radio_off_to_on_mtrl_animation = 0x7f08007e
 com.ramd.cairoMetro:color/material_dynamic_neutral70 = 0x7f060236
@@ -2562,9 +2716,23 @@ com.ramd.cairoMetro:dimen/mtrl_progress_circular_size_small = 0x7f0702dc
 com.ramd.cairoMetro:string/mtrl_picker_text_input_date_range_start_hint = 0x7f11009d
 com.ramd.cairoMetro:macro/m3_comp_top_app_bar_medium_headline_color = 0x7f0e016d
 com.ramd.cairoMetro:dimen/m3_comp_elevated_card_icon_size = 0x7f07010b
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:color/material_dynamic_primary0 = 0x7f060248
+com.ramd.cairoMetro:dimen/m3_comp_elevated_card_container_elevation = 0x7f07010a
+com.ramd.cairoMetro:drawable/mtrl_navigation_bar_item_background = 0x7f0800e5
+com.ramd.cairoMetro:dimen/m3_comp_elevated_button_disabled_container_elevation = 0x7f070109
+com.ramd.cairoMetro:dimen/m3_appbar_scrim_height_trigger = 0x7f0700a6
+com.ramd.cairoMetro:dimen/m3_comp_date_picker_modal_header_container_height = 0x7f070105
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/Base.V7.Theme.AppCompat.Light = 0x7f1200bd
 com.ramd.cairoMetro:dimen/m3_comp_date_picker_modal_date_today_container_outline_width = 0x7f070104
+<<<<<<< HEAD
 com.ramd.cairoMetro:id/parentPanel = 0x7f0a017e
+=======
+com.ramd.cairoMetro:drawable/tooltip_frame_light = 0x7f08010c
+com.ramd.cairoMetro:dimen/m3_comp_checkbox_selected_disabled_container_opacity = 0x7f070103
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/m3_comp_bottom_app_bar_container_height = 0x7f070102
 com.ramd.cairoMetro:dimen/m3_comp_bottom_app_bar_container_elevation = 0x7f070101
 com.ramd.cairoMetro:dimen/m3_comp_assist_chip_with_icon_icon_size = 0x7f0700fe
@@ -2612,9 +2780,22 @@ com.ramd.cairoMetro:dimen/m3_bottomappbar_fab_cradle_vertical_offset = 0x7f0700c
 com.ramd.cairoMetro:dimen/m3_bottomappbar_fab_cradle_margin = 0x7f0700c5
 com.ramd.cairoMetro:layout/material_clock_period_toggle_land = 0x7f0d003c
 com.ramd.cairoMetro:dimen/m3_bottom_sheet_elevation = 0x7f0700c3
+<<<<<<< HEAD
 com.ramd.cairoMetro:id/m3_side_sheet = 0x7f0a0110
 com.ramd.cairoMetro:style/Widget.AppCompat.CompoundButton.CheckBox = 0x7f1202fe
 com.ramd.cairoMetro:dimen/m3_bottom_nav_item_padding_bottom = 0x7f0700bf
+=======
+com.ramd.cairoMetro:drawable/ic_clock_black_24dp = 0x7f0800a8
+com.ramd.cairoMetro:dimen/abc_list_item_height_small_material = 0x7f070032
+com.ramd.cairoMetro:dimen/m3_bottom_nav_item_padding_top = 0x7f0700c0
+com.ramd.cairoMetro:style/Widget.AppCompat.CompoundButton.CheckBox = 0x7f1202fe
+com.ramd.cairoMetro:dimen/m3_bottom_nav_item_padding_bottom = 0x7f0700bf
+com.ramd.cairoMetro:attr/staggered = 0x7f0403f4
+com.ramd.cairoMetro:drawable/$mtrl_switch_thumb_checked_unchecked__1 = 0x7f080022
+com.ramd.cairoMetro:dimen/m3_appbar_scrim_height_trigger_large = 0x7f0700a7
+com.ramd.cairoMetro:drawable/m3_radiobutton_ripple = 0x7f0800bf
+com.ramd.cairoMetro:dimen/m3_badge_with_text_offset = 0x7f0700b8
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:string/mtrl_picker_range_header_unselected = 0x7f110098
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_primary_container = 0x7f0601be
 com.ramd.cairoMetro:dimen/m3_badge_size = 0x7f0700b5
@@ -2683,7 +2864,11 @@ com.ramd.cairoMetro:color/mtrl_outlined_icon_tint = 0x7f0602e7
 com.ramd.cairoMetro:string/material_timepicker_hour = 0x7f11006c
 com.ramd.cairoMetro:color/m3_ref_palette_secondary40 = 0x7f060145
 com.ramd.cairoMetro:dimen/compat_notification_large_icon_max_width = 0x7f07005c
+<<<<<<< HEAD
 com.ramd.cairoMetro:attr/numericModifiers = 0x7f040365
+=======
+com.ramd.cairoMetro:dimen/compat_notification_large_icon_max_height = 0x7f07005b
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/ic_launcher_foreground = 0x7f0800ab
 com.ramd.cairoMetro:dimen/compat_control_corner_material = 0x7f07005a
 com.ramd.cairoMetro:color/mtrl_card_view_ripple = 0x7f0602ce
@@ -2694,7 +2879,11 @@ com.ramd.cairoMetro:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f12027b
 com.ramd.cairoMetro:dimen/cardview_compat_inset_shadow = 0x7f070052
 com.ramd.cairoMetro:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f1201b6
 com.ramd.cairoMetro:dimen/abc_text_size_title_material_toolbar = 0x7f070050
+<<<<<<< HEAD
 com.ramd.cairoMetro:id/material_hour_tv = 0x7f0a0120
+=======
+com.ramd.cairoMetro:id/tag_transition_group = 0x7f0a01f2
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/circl = 0x7f080082
 com.ramd.cairoMetro:dimen/abc_text_size_small_material = 0x7f07004c
 com.ramd.cairoMetro:id/tag_transition_group = 0x7f0a01f2
@@ -2731,16 +2920,28 @@ com.ramd.cairoMetro:style/Widget.Material3.MaterialButtonToggleGroup = 0x7f12039
 com.ramd.cairoMetro:attr/dynamicColorThemeOverlay = 0x7f04019b
 com.ramd.cairoMetro:style/Base.V28.Theme.AppCompat = 0x7f1200b9
 com.ramd.cairoMetro:drawable/change = 0x7f080081
+<<<<<<< HEAD
 com.ramd.cairoMetro:style/Widget.MaterialComponents.ActionBar.Primary = 0x7f1203ec
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/mtrl_btn_text_btn_padding_right = 0x7f07026e
 com.ramd.cairoMetro:string/common_open_on_phone = 0x7f11003e
 com.ramd.cairoMetro:dimen/abc_list_item_height_large_material = 0x7f070030
 com.ramd.cairoMetro:dimen/abc_floating_window_z = 0x7f07002f
 com.ramd.cairoMetro:dimen/abc_edit_text_inset_horizontal_material = 0x7f07002d
+<<<<<<< HEAD
 com.ramd.cairoMetro:dimen/m3_navigation_rail_item_active_indicator_margin_horizontal = 0x7f0701cd
 com.ramd.cairoMetro:drawable/ic_call_answer = 0x7f0800a1
 com.ramd.cairoMetro:dimen/abc_edit_text_inset_bottom_material = 0x7f07002c
 com.ramd.cairoMetro:drawable/mtrl_ic_checkbox_unchecked = 0x7f0800e2
+=======
+com.ramd.cairoMetro:drawable/ic_call_answer = 0x7f0800a1
+com.ramd.cairoMetro:dimen/abc_edit_text_inset_bottom_material = 0x7f07002c
+com.ramd.cairoMetro:style/Base.TextAppearance.AppCompat.Menu = 0x7f120027
+com.ramd.cairoMetro:dimen/abc_dropdownitem_text_padding_left = 0x7f07002a
+com.ramd.cairoMetro:drawable/mtrl_ic_checkbox_unchecked = 0x7f0800e2
+com.ramd.cairoMetro:dimen/m3_comp_switch_selected_hover_state_layer_opacity = 0x7f070195
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/abc_dropdownitem_icon_width = 0x7f070029
 com.ramd.cairoMetro:dimen/m3_comp_switch_selected_hover_state_layer_opacity = 0x7f070195
 com.ramd.cairoMetro:dimen/abc_disabled_alpha_material_light = 0x7f070028
@@ -2785,6 +2986,13 @@ com.ramd.cairoMetro:id/accessibility_custom_action_17 = 0x7f0a001c
 com.ramd.cairoMetro:id/wrap = 0x7f0a0234
 com.ramd.cairoMetro:dimen/abc_action_button_min_height_material = 0x7f07000d
 com.ramd.cairoMetro:dimen/abc_action_bar_subtitle_top_margin_material = 0x7f07000c
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/abc_action_bar_subtitle_bottom_margin_material = 0x7f07000b
+com.ramd.cairoMetro:style/TextAppearance.AppCompat.Body2 = 0x7f120196
+com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_checked_indeterminate = 0x7f0800d4
+com.ramd.cairoMetro:color/error_color_material_light = 0x7f060066
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:dimen/abc_action_bar_stacked_tab_max_width = 0x7f07000a
 com.ramd.cairoMetro:drawable/mtrl_checkbox_button_icon_checked_indeterminate = 0x7f0800d4
 com.ramd.cairoMetro:color/error_color_material_light = 0x7f060066
@@ -2846,7 +3054,10 @@ com.ramd.cairoMetro:macro/m3_comp_slider_disabled_handle_color = 0x7f0e010d
 com.ramd.cairoMetro:color/mtrl_on_primary_text_btn_text_color_selector = 0x7f0602e5
 com.ramd.cairoMetro:color/m3_ref_palette_dynamic_neutral6 = 0x7f0600b6
 com.ramd.cairoMetro:color/mtrl_fab_ripple_color = 0x7f0602d9
+<<<<<<< HEAD
 com.ramd.cairoMetro:attr/passwordToggleContentDescription = 0x7f04037c
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb = 0x7f0800e8
 com.ramd.cairoMetro:color/mtrl_fab_bg_color_selector = 0x7f0602d7
 com.ramd.cairoMetro:attr/measureWithLargestChild = 0x7f04031c
@@ -2861,6 +3072,14 @@ com.ramd.cairoMetro:color/mtrl_chip_background_color = 0x7f0602cf
 com.ramd.cairoMetro:color/mtrl_card_view_foreground = 0x7f0602cd
 com.ramd.cairoMetro:drawable/mtrl_popupmenu_background = 0x7f0800e6
 com.ramd.cairoMetro:color/mtrl_btn_text_btn_bg_color_selector = 0x7f0602c6
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:styleable/ShapeAppearance = 0x7f13007c
+com.ramd.cairoMetro:attr/materialIconButtonFilledStyle = 0x7f040304
+com.ramd.cairoMetro:drawable/exchange = 0x7f08009d
+com.ramd.cairoMetro:color/mtrl_btn_ripple_color = 0x7f0602c4
+com.ramd.cairoMetro:color/mtrl_btn_bg_color_selector = 0x7f0602c3
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:attr/subtitleTextAppearance = 0x7f040413
 com.ramd.cairoMetro:color/material_slider_inactive_track_color = 0x7f0602bc
 com.ramd.cairoMetro:color/material_personalized_primary_inverse_text_disable_only = 0x7f0602b6
@@ -2882,6 +3101,14 @@ com.ramd.cairoMetro:id/mtrl_picker_text_input_range_start = 0x7f0a014a
 com.ramd.cairoMetro:style/ThemeOverlay.Material3.MaterialCalendar.Fullscreen = 0x7f1202ae
 com.ramd.cairoMetro:dimen/design_snackbar_padding_vertical = 0x7f070086
 com.ramd.cairoMetro:color/material_personalized_color_surface_container_low = 0x7f0602a8
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:color/material_personalized_color_surface_bright = 0x7f0602a4
+com.ramd.cairoMetro:drawable/navigation_empty_icon = 0x7f0800f5
+com.ramd.cairoMetro:color/mtrl_filled_background_color = 0x7f0602da
+com.ramd.cairoMetro:color/material_dynamic_primary50 = 0x7f06024e
+com.ramd.cairoMetro:color/material_personalized_color_surface = 0x7f0602a3
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:macro/m3_comp_navigation_rail_inactive_label_text_color = 0x7f0e009d
 com.ramd.cairoMetro:color/material_personalized_color_secondary_text_inverse = 0x7f0602a2
 com.ramd.cairoMetro:color/m3_tabs_ripple_color = 0x7f060208
@@ -2970,11 +3197,19 @@ com.ramd.cairoMetro:color/m3_navigation_rail_item_with_indicator_label_tint = 0x
 com.ramd.cairoMetro:color/material_dynamic_primary60 = 0x7f06024f
 com.ramd.cairoMetro:attr/trackDecorationTint = 0x7f0404bf
 com.ramd.cairoMetro:drawable/design_fab_background = 0x7f080097
+<<<<<<< HEAD
 com.ramd.cairoMetro:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f12044d
+=======
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:color/material_dynamic_primary100 = 0x7f06024a
 com.ramd.cairoMetro:color/material_dynamic_primary10 = 0x7f060249
 com.ramd.cairoMetro:bool/enable_system_alarm_service_default = 0x7f050002
 com.ramd.cairoMetro:drawable/material_ic_clear_black_24dp = 0x7f0800c8
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:dimen/m3_side_sheet_standard_elevation = 0x7f0701e7
+com.ramd.cairoMetro:color/material_dynamic_neutral_variant80 = 0x7f060244
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/Widget.AppCompat.TextView = 0x7f120330
 com.ramd.cairoMetro:style/ThemeOverlay.AppCompat.DayNight = 0x7f12027a
 com.ramd.cairoMetro:color/material_dynamic_neutral_variant70 = 0x7f060243
@@ -3039,6 +3274,13 @@ com.ramd.cairoMetro:macro/m3_comp_time_picker_period_selector_unselected_pressed
 com.ramd.cairoMetro:style/ShapeAppearance.Material3.Corner.ExtraLarge = 0x7f12016f
 com.ramd.cairoMetro:style/TextAppearance.AppCompat.Title = 0x7f1201ae
 com.ramd.cairoMetro:dimen/mtrl_progress_circular_size = 0x7f0702d9
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:color/m3_tabs_ripple_color = 0x7f060208
+com.ramd.cairoMetro:styleable/OnSwipe = 0x7f130070
+com.ramd.cairoMetro:color/material_dynamic_secondary95 = 0x7f060260
+com.ramd.cairoMetro:drawable/common_google_signin_btn_text_dark_normal_background = 0x7f080091
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:attr/actionModeTheme = 0x7f04001f
 com.ramd.cairoMetro:drawable/common_google_signin_btn_text_dark_normal_background = 0x7f080091
 com.ramd.cairoMetro:color/m3_sys_color_tertiary_fixed_dim = 0x7f060205
@@ -3088,8 +3330,20 @@ com.ramd.cairoMetro:color/m3_sys_color_dynamic_on_secondary_fixed_variant = 0x7f
 com.ramd.cairoMetro:layout/abc_list_menu_item_layout = 0x7f0d0010
 com.ramd.cairoMetro:dimen/notification_right_side_padding_top = 0x7f070315
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_tertiary_container = 0x7f0601cb
+<<<<<<< HEAD
 com.ramd.cairoMetro:attr/SharedValueId = 0x7f040001
 com.ramd.cairoMetro:macro/m3_comp_switch_selected_focus_icon_color = 0x7f0e0121
+=======
+com.ramd.cairoMetro:style/Widget.MaterialComponents.Button.TextButton = 0x7f120405
+com.ramd.cairoMetro:attr/values = 0x7f0404d5
+com.ramd.cairoMetro:dimen/mtrl_progress_circular_inset_medium = 0x7f0702d6
+com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_tertiary = 0x7f0601ca
+com.ramd.cairoMetro:drawable/round_box = 0x7f080104
+com.ramd.cairoMetro:attr/imageAspectRatioAdjust = 0x7f040240
+com.ramd.cairoMetro:dimen/m3_comp_radio_button_selected_focus_state_layer_opacity = 0x7f070167
+com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_surface_container_lowest = 0x7f0601c7
+com.ramd.cairoMetro:color/material_personalized_color_secondary_text = 0x7f0602a1
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_surface_bright = 0x7f0601c2
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_surface = 0x7f0601c1
 com.ramd.cairoMetro:color/m3_sys_color_dynamic_light_secondary = 0x7f0601bf
@@ -3122,6 +3376,10 @@ com.ramd.cairoMetro:color/m3_sys_color_dynamic_dark_surface_container_lowest = 0
 com.ramd.cairoMetro:macro/m3_comp_extended_fab_primary_container_color = 0x7f0e002c
 com.ramd.cairoMetro:attr/textBackgroundRotate = 0x7f040468
 com.ramd.cairoMetro:drawable/mtrl_switch_thumb_pressed_unchecked = 0x7f0800ee
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:styleable/AppBarLayout = 0x7f13000a
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:style/ShapeAppearance.Material3.Corner.None = 0x7f120174
 com.ramd.cairoMetro:styleable/AppBarLayout = 0x7f13000a
 com.ramd.cairoMetro:dimen/m3_fab_translation_z_hovered_focused = 0x7f0701b7
@@ -3172,10 +3430,20 @@ com.ramd.cairoMetro:dimen/m3_comp_extended_fab_primary_hover_state_layer_opacity
 com.ramd.cairoMetro:color/m3_sys_color_dark_secondary_container = 0x7f06017c
 com.ramd.cairoMetro:drawable/material_cursor_drawable = 0x7f0800c6
 com.ramd.cairoMetro:macro/m3_comp_search_view_docked_container_shape = 0x7f0e00f3
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/material_cursor_drawable = 0x7f0800c6
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:color/m3_sys_color_dark_primary_container = 0x7f06017a
 com.ramd.cairoMetro:string/common_google_play_services_unknown_issue = 0x7f110037
 com.ramd.cairoMetro:color/m3_sys_color_dark_outline = 0x7f060177
 com.ramd.cairoMetro:color/m3_sys_color_dark_on_tertiary_container = 0x7f060176
+<<<<<<< HEAD
+=======
+com.ramd.cairoMetro:drawable/ic_m3_chip_checked_circle = 0x7f0800ae
+com.ramd.cairoMetro:dimen/design_textinput_caption_translate_y = 0x7f07008d
+com.ramd.cairoMetro:string/mtrl_picker_day_of_week_column_header = 0x7f11008b
+>>>>>>> 484f04c64ab136c959312acc16b01df33eaf760c
 com.ramd.cairoMetro:drawable/abc_menu_hardkey_panel_mtrl_mult = 0x7f080058
 com.ramd.cairoMetro:string/mtrl_picker_day_of_week_column_header = 0x7f11008b
 com.ramd.cairoMetro:color/m3_sys_color_dark_on_tertiary = 0x7f060175
