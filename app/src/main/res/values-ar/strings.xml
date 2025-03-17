@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="getdetails">تفاصيل اكتر</string>
+    <string name="start">إبدأ</string>
+    <string name="enter_start_station">أدخل محطة البداية</string>
+    <string name="enter_arrival_station">أدخل محطة الوصول</string>
+    <string name="please_enter_your_destination_optional">من فضلك أدخل وجهتك (اختياري)</string>
+    <string name="address">العنوان</string>
+    <string name="search">إبحث</string>
+    <string name="less_transfer">أقل تحويلات</string>
+    <string name="less_stations">أقل محطات</string>
+    <string name="where_are_you_going_today">إلى أين أنت ذاهب اليوم؟</string>
+    <string name="welcome">مرحباً</string>
+    <string name="stations_view_all"> عرض الكل</string>
+    <string name="stations">المحطات</string>
+    <string name="no_near_station_from_your_location">لا توجد محطة قريبة من موقعك</string>
+    <string name="enter_station_in_start_station">أدخل المحطة في محطة البداية</string>
+    <string name="the_address_is_not_valid">العنوان غير صالح</string>
+    <string name="error_while_loading_the_data_try_again">خطأ أثناء تحميل البيانات، حاول مرة أخري</string>
+    <string name="no_near_station_to_your_destination">لا توجد محطة قريبة من وجهتك</string>
+    <string name="select_a_station">حدد المحطة</string>
+    <string name="arrival_and_start_station_can_t_be_the_same">لا يمكن أن تكون محطة الوصول ومحطة البداية هي نفسها</string>
+    <string name="location_service_stopped">تم إيقاف خدمة الموقع</string>
+    <string name="all_routes">كل الطرق</string>
+    <string name="shortest_route">أقصر طريق</string>
+    <string name="next">التالي</string>
+    <string name="back">السابق</string>
+    <string name="Start">إبدأ</string>
+    <string name="price">التكلفة \n%1$s</string>
+    <string name="station_no">عدد المحطات \n%1$s</string>
+    <string name="time_hrs_mins">الوقت \n%1$s ساعة %2$s دقيقة</string>
+    <string name="station">محطة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="tracking_your_location_during_the_trip">تتبع موقعك أثناء الرحلة</string>
+    <string name="station_alert">تنبيه المحطة!</string>
+    <string name="starting_trip_soon_in_have_a_nice_trip">ستبدأ رحلتك قريبا من  %1$s, رحلة ممتعة</string>
+    <string name="reaching_destination_soon_in_have_a_nice_day">الوصول إلى الوجهة قريبا في %1$s, طاب يومك</string>
+    <string name="reaching_an_intersection_soon_in_be_ready">الوصول إلى تقاطع قريبًا في %1$s, كن مستعدا</string>
+    <string name="location_service_channel">قناة خدمة الموقع</string>
+    <string name="location_permissions_are_required">مطلوب أذونات الموقع</string>
+    <string name="start2">%1$s (البداية)</string>
+    <string name="end">%1$s (النهاية)</string>
+    <string name="change">%1$s (التغير)</string>
+
+
 </resources>

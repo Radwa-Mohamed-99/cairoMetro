@@ -1,0 +1,722 @@
+[
+  {
+    "name":"المرج الجديدة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": ["المرج"],
+    "coordinates": [30.16390834007935, 31.338396413653353]
+  },
+  {
+    "name":"المرج",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["عزبة النخل","المرج الجديدة"],
+    "coordinates": [30.16387213012298, 31.338373899999993]
+  },
+  {
+    "name":"عزبة النخل",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["عين شمس","المرج"],
+    "coordinates": [30.139909082028137, 31.324329276901647]
+  },
+  {
+    "name":"عين شمس",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": ["المطرية","عزبة النخل"],
+    "coordinates": [30.131194536916304, 31.319149477599222]
+  },
+  {
+    "name":"المطرية",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["حلمية الزيتون","عين شمس"],
+    "coordinates": [30.12161800317332, 31.31378505957707]
+  },
+  {
+    "name":"حلمية الزيتون",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": ["حدائق الزيتون","المطرية"],
+    "coordinates": [30.113423390618454, 31.313935263265353]
+  },
+  {
+    "name":"حدائق الزيتون",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": ["سراي القبة","حلمية الزيتون" ],
+    "coordinates": [30.105945826265085, 31.310497808878953]
+  },
+  {
+    "name":"سراي القبة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 8,
+    "neighbourStations": ["حمامات القبة","حدائق الزيتون" ],
+    "coordinates": [30.097824171908353, 31.304554033734203]
+  },
+  {
+    "name":"حمامات القبة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 9,
+    "neighbourStations": ["كوبري القبةa","سراي القبة" ],
+    "coordinates":[30.091289236386555, 31.29892139480632]
+  },
+  {
+    "name":"كوبري القبة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["حمامات القبة","منشية الصدر" ],
+    "coordinates":[30.08744691693159, 31.294092085922088]
+  },
+  {
+    "name":"منشية الصدر",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 11,
+    "neighbourStations": ["الدمرداش","كوبري القبة" ],
+    "coordinates":[30.082127473700723, 31.28751530942225]
+  },
+  {
+    "name":"الدمرداش",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["غمرة","منشية الصدر" ],
+    "coordinates":[30.077485491938674, 31.277805712807016]
+  },
+  {
+    "name":"غمرة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": [ "الشهداء","الدمرداش"],
+    "coordinates":[30.069296505098574, 31.2646199732985]
+  },
+  {
+    "name":"الشهداء",
+    "line": "الخط الاول",
+    "intersection": true,
+    "id": 14,
+    "neighbourStations": ["عرابي","غمرة"],
+    "coordinates":[30.061069697686236, 31.24606981578609]
+  },
+  {
+    "name":"عرابي",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 15,
+    "neighbourStations": ["جمال عبد الناصر","الشهداء" ],
+    "coordinates":[30.056836536500157, 31.24199630808251]
+  },
+  {
+    "name":"جمال عبد الناصر",
+    "line": "الخط الاول",
+    "intersection": true,
+    "id": 16,
+    "neighbourStations": ["السادات","عرابي" ],
+    "coordinates":[30.053707065087725, 31.238724013089644]
+  },
+  {
+    "name":"السادات",
+    "line": "الخط الاول",
+    "intersection": true,
+    "id": 17,
+    "neighbourStations": ["سعد زغلول","جمال عبد الناصر" ],
+    "coordinates":[30.044123024096905, 31.234378834476384]
+  },
+  {
+    "name":"سعد زغلول",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": ["السيدة زينب","السادات" ],
+    "coordinates": [30.037447412937567, 31.238293708257967]
+  },
+  {
+    "name":"السيدة زينب",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 19,
+    "neighbourStations": ["الملك الصالح","سعد زغلول" ],
+    "coordinates": [30.02965550255097, 31.23540917713055]
+  },
+  {
+    "name":"الملك الصالح",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 20,
+    "neighbourStations": ["مار جرجس","السيدة زينب" ],
+    "coordinates": [30.01804155346186, 31.23120059889018]
+  },
+  {
+    "name":"مار جرجس",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": [ "الزهراء","الملك الصالح"],
+    "coordinates": [30.006303395757413, 31.229624352357774]
+  },
+  {
+    "name":"الزهراء",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 22,
+    "neighbourStations": ["دار السلام","مار جرجس" ],
+    "coordinates": [29.995487999666768, 31.231131851890293]
+  },
+  {
+    "name":"دار السلام",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 23,
+    "neighbourStations": ["حدائق المعادي","الزهراء" ],
+    "coordinates": [29.9824645683445, 31.24216432189302]
+  },
+  {
+    "name":"حدائق المعادي",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 24,
+    "neighbourStations": ["المعادي","دار السلام" ],
+    "coordinates": [29.970367179130818, 31.250581478331352]
+  },
+  {
+    "name": "المعادي",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 25,
+    "neighbourStations": ["ثكنات المعادي","حدائق المعادي" ],
+    "coordinates": [29.96048063410076, 31.25759577536756]
+  },
+  {
+    "name": "ثكنات المعادي",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 26,
+    "neighbourStations": ["طرة البلد","المعادي"],
+    "coordinates": [29.95364452613168, 31.262893135580896]
+  },
+  {
+    "name": "طرة البلد",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 27,
+    "neighbourStations": [ "كوتيسكا","ثكنات المعادي"],
+    "coordinates": [29.946990043547878, 31.27305634442901]
+  },
+  {
+    "name": "كوتيسكا",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 28,
+    "neighbourStations": ["طرة الاسمنت","طرة البلد" ],
+    "coordinates": [29.93656845793134, 31.28180451271346]
+  },
+  {
+    "name": "طرة الاسمنت",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 29,
+    "neighbourStations": ["المعصرة","كوتيسكا"],
+    "coordinates": [29.926264463026072, 31.287526955479887]
+  },
+  {
+    "name": "المعصرة",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 30,
+    "neighbourStations": ["حدائق حلوان","طرة الاسمنت"],
+    "coordinates": [29.906151562870363, 31.299519200254636]
+  },
+  {
+    "name": "حدائق حلوان",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 31,
+    "neighbourStations": ["وادي حوف", "المعصرة"],
+    "coordinates": [29.897464093104627, 31.304190214573747]
+  },
+  {
+    "name": "وادي حوف",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 32,
+    "neighbourStations": ["جامعة حلوان","حدائق حلوان" ],
+    "coordinates": [29.879342950828875, 31.31350583151044]
+  },
+  {
+    "name": "جامعة حلوان",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 33,
+    "neighbourStations": [ "عين حلوان","وادي حوف"],
+    "coordinates": [29.869693425172255, 31.320092205118847]
+  },
+  {
+    "name": "عين حلوان",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 34,
+    "neighbourStations": [ "حلوان","جامعة حلوان"],
+    "coordinates": [29.86284091818019, 31.32476763678763]
+  },
+  {
+    "name": "حلوان",
+    "line": "الخط الاول",
+    "intersection": false,
+    "id": 35,
+    "neighbourStations": ["عين حلوان" ],
+    "coordinates": [29.84921897554949, 31.334252431680213]
+  },
+  {
+    "name": "شبرا الخيمة",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": [  "كلية الزراعة"],
+    "coordinates":  [30.122589931428383, 31.24449916118427]
+  },
+  {
+    "name": "كلية الزراعة",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["المظلات","شبرا الخيمة" ],
+    "coordinates":  [30.11385711651997, 31.248683407283796]
+  },
+  {
+    "name": "المظلات",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["الخلفاوي","كلية الزراعة"],
+    "coordinates":  [30.104232493235813, 31.245647146670017]
+  },
+  {
+    "name": "الخلفاوي",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": ["سانت تريزا", "المظلات"],
+    "coordinates":  [30.097419512425027, 31.245550587132325]
+  },
+  {
+    "name": "سانت تريزا",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["روض الفرج", "الخلفاوي"],
+    "coordinates":  [30.088118200199023, 31.24548621413994]
+  },
+  {
+    "name": "روض الفرج",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": ["مسرة","سانت تريزا"],
+    "coordinates":  [30.080774929514526, 31.245368196931825]
+  },
+  {
+    "name": "مسرة",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": ["الشهداء","روض الفرج" ],
+    "coordinates":  [30.07097995899341, 31.245099976037768]
+  },
+  {
+    "name":"الشهداء",
+    "line": "الخط الثاني",
+    "intersection": true,
+    "id": 8,
+    "neighbourStations": ["العتبة","مسرة"],
+    "coordinates":[30.0612675902003, 31.246044113595303]
+  },
+  {
+    "name": "العتبة",
+    "line": "الخط الثاني",
+    "intersection": true,
+    "id": 9,
+    "neighbourStations": ["محمد نجيب", "الشهداء"],
+    "coordinates":  [30.052566504153496, 31.246784403285112]
+  },
+  {
+    "name": "محمد نجيب",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["السادات", "العتبة"],
+    "coordinates":  [30.045554934098394, 31.244123651914116]
+  },
+  {
+    "name":"السادات",
+    "line": "الخط الثاني",
+    "intersection": true,
+    "id": 10,
+    "neighbourStations": ["الاوبرا","محمد نجيب"],
+    "coordinates":[30.044245433558945, 31.234403326492522]
+  },
+  {
+    "name": "الاوبرا",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["السادات","الدقي" ],
+    "coordinates":[30.04199788163627, 31.224951221893708]
+  },
+  {
+    "name": "الدقي",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": ["الاوبرا" ,"البحوث"],
+    "coordinates":[30.03844070147971, 31.212237551232505]
+  },
+  {
+    "name": "البحوث",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 14,
+    "neighbourStations": ["الدقي" ,"جامعة القاهرة"],
+    "coordinates":[30.03589579970286, 31.200167610643636]
+  },
+  {
+    "name": "جامعة القاهرة",
+    "line": "الخط الثاني",
+    "intersection": true,
+    "id": 15,
+    "neighbourStations": ["البحوث","فيصل"],
+    "coordinates":[30.026003498722588, 31.201122477023866]
+  },
+  {
+    "name": "فيصل",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 17,
+    "neighbourStations": ["جامعة القاهرة", "الجيزة" ],
+    "coordinates":[30.017483982818987, 31.20390443924889]
+  },
+  {
+    "name": "الجيزة",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": [ "فيصل","أم المصريين"],
+    "coordinates":[30.01073467275148, 31.2070972827205]
+  },
+  {
+    "name": "أم المصريين",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 19,
+    "neighbourStations": ["الجيزة" ,"ساقية مكي"],
+    "coordinates":[30.00568877260364, 31.208145071004214]
+  },
+  {
+    "name": "ساقية مكي",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 20,
+    "neighbourStations": [ "المنيب","أم المصريين"],
+    "coordinates":[29.995586942733755, 31.20865827342239]
+  },
+  {
+    "name": "المنيب",
+    "line": "الخط الثاني",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": ["ساقية مكي" ],
+    "coordinates":[29.981196309856315, 31.21231484068156]
+  },
+  {
+    "name": "عدلي منصور",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 1,
+    "neighbourStations": ["الهايكستب" ],
+    "coordinates":[30.14712037929661, 31.421206208686606]
+  },
+  {
+    "name": "الهايكستب",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["عدلي منصور" ,"عمر بن الخطاب"],
+    "coordinates":[30.143833716292516, 31.40468434768364]
+  },
+  {
+    "name": "عمر بن الخطاب",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": [ "الهايكستب","قباء"],
+    "coordinates":[30.140391572091005, 31.394351380406547]
+  },
+  {
+    "name": "قباء",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": [ "عمر بن الخطاب","هشام بركات"],
+    "coordinates":[30.134852349112577, 31.383760194321127]
+  },
+  {
+    "name": "هشام بركات",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["قباء" ,"النزهة"],
+    "coordinates":[30.13080424625952, 31.372928402583753]
+  },
+  {
+    "name": "النزهة",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 6,
+    "neighbourStations": [ "هشام بركات","نادي الشمس"],
+    "coordinates":[30.12798112620501, 31.360232803921388]
+  },
+  {
+    "name": "نادي الشمس",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 7,
+    "neighbourStations": [ "النزهة","ألف مسكن"],
+    "coordinates":[30.12566823010573, 31.348893185291324]
+  },
+  {
+    "name": "ألف مسكن",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 8,
+    "neighbourStations": [ "نادي الشمس","هليوبوليس"],
+    "coordinates":[30.119011198221273, 31.340188697953348]
+  },
+  {
+    "name": "هليوبوليس",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 9,
+    "neighbourStations": [ "ألف مسكن","هارون"],
+    "coordinates":[30.10841678553546, 31.33825755942842]
+  },
+  {
+    "name": "هارون",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 10,
+    "neighbourStations": ["هليوبوليس" ,"الاهرام"],
+    "coordinates":[30.10142192196846, 31.33295918280869]
+  },
+  {
+    "name": "الاهرام",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 11,
+    "neighbourStations": ["هارون","كلية البنات" ],
+    "coordinates":[30.091718167539824, 31.32630490295478]
+  },
+  {
+    "name": "كلية البنات",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 12,
+    "neighbourStations": ["الاهرام","الاستاد" ],
+    "coordinates": [30.084063380768164, 31.329008136189614]
+  },
+  {
+    "name": "الاستاد",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 13,
+    "neighbourStations": ["كلية البنات", "أرض المعارض"],
+    "coordinates":  [30.07311764143083, 31.31712692530709]
+  },
+  {
+    "name": "أرض المعارض",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 14,
+    "neighbourStations": ["الاستاد","العباسية" ],
+    "coordinates":  [30.07357678775154, 31.300796887062152]
+  },
+  {
+    "name": "العباسية",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 15,
+    "neighbourStations": ["أرض المعارض" ,"عبده باشا"],
+    "coordinates": [30.07215523857578, 31.283350249057815]
+  },
+  {
+    "name": "عبده باشا",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 16,
+    "neighbourStations": ["العباسية", "الجيش"],
+    "coordinates": [30.065011900393788, 31.274743185938753]
+  },
+  {
+    "name": "الجيش",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 17,
+    "neighbourStations": ["عبده باشا", "باب الشعرية"],
+    "coordinates": [30.061863813944427, 31.266877643958285]
+  },
+  {
+    "name":"باب الشعرية",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 18,
+    "neighbourStations": ["الجيش" ,"العتبة"],
+    "coordinates": [30.0543204820955, 31.255881203802293]
+  },
+  {
+    "name": "العتبة",
+    "line": "الخط الثالث",
+    "intersection": true,
+    "id": 19,
+    "neighbourStations": [ "جمال عبد الناصر","باب الشعرية"],
+    "coordinates":  [30.052544621939937, 31.24679607875267]
+  },
+  {
+    "name":"جمال عبد الناصر",
+    "line": "الخط الثالث",
+    "intersection": true,
+    "id": 20,
+    "neighbourStations": ["العتبة","ماسبيرو"],
+    "coordinates":[30.05346039759387, 31.238732912308336]
+  },
+  {
+    "name": "ماسبيرو",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 21,
+    "neighbourStations": ["جمال عبد الناصر","صفاء حجازي" ],
+    "coordinates": [30.055711319249117, 31.23211219375498]
+  },
+  {
+    "name": "صفاء حجازي",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 22,
+    "neighbourStations": ["ماسبيرو" ,"الكيت كات"],
+    "coordinates": [30.062328640470874, 31.22329697551513]
+  },
+  {
+    "name": "الكيت كات",
+    "line": "الخط الثالث",
+    "intersection": true,
+    "id": 23,
+    "neighbourStations": ["السودان","صفاء حجازي"],
+    "coordinates":[30.066597585505427, 31.213013840330483]
+  },
+  {
+    "name": "السودان",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 24,
+    "neighbourStations": ["الكيت كات","إمبابة" ],
+    "coordinates": [30.0700581510512, 31.204735552971062]
+  },
+  {
+    "name": "إمبابة",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 25,
+    "neighbourStations": ["السودان","البوهي" ],
+    "coordinates": [30.07586168303746, 31.207470359419787]
+  },
+  {
+    "name": "البوهي",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 26,
+    "neighbourStations": [ "إمبابة","القومية"],
+    "coordinates": [30.082152206003176, 31.21055540495042]
+  },
+  {
+    "name": "القومية",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 27,
+    "neighbourStations": [ "البوهي","الطريق الدائري"],
+    "coordinates": [30.09325049030221, 31.208994507289464]
+  },
+  {
+    "name": "الطريق الدائري",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 28,
+    "neighbourStations": ["القومية","محور روض الفرج" ],
+    "coordinates": [30.09642507727801, 31.199565251317367]
+  },
+  {
+    "name": "محور روض الفرج",
+    "line": "الخط الثالث",
+    "intersection": false,
+    "id": 29,
+    "neighbourStations": ["الطريق الدائري" ],
+    "coordinates":[30.10193197732157, 31.184402076205934]
+  },
+  {
+    "name": "الكيت كات",
+    "line": "الخط الثالث1",
+    "intersection": true,
+    "id": 1,
+    "neighbourStations": ["التوفيقية","السودان","صفاء حجازي"],
+    "coordinates":[30.0666443269399, 31.21300218873246]
+  },
+  {
+    "name": "التوفيقية",
+    "line": "الخط الثالث1",
+    "intersection": false,
+    "id": 2,
+    "neighbourStations": ["الكيت كات","وادي النيل" ],
+    "coordinates":[30.065036426729225, 31.20242747297661]
+  },
+  {
+    "name": "وادي النيل",
+    "line": "الخط الثالث1",
+    "intersection": false,
+    "id": 3,
+    "neighbourStations": ["التوفيقية" ,"جامعة الدول"],
+    "coordinates":[30.057094002353097, 31.20120657505059]
+  },
+  {
+    "name": "جامعة الدول",
+    "line": "الخط الثالث1",
+    "intersection": false,
+    "id": 4,
+    "neighbourStations": [ "وادي النيل","بولاق الدكرور"],
+    "coordinates":[30.050125726771757, 31.198981999858955]
+  },
+  {
+    "name": "بولاق الدكرور",
+    "line": "الخط الثالث1",
+    "intersection": false,
+    "id": 5,
+    "neighbourStations": ["جامعة الدول","جامعة القاهرة" ],
+    "coordinates":[30.03757827344112, 31.195593446747615]
+  },
+  {
+    "name": "جامعة القاهرة",
+    "line":"الخط الثالث1",
+    "intersection": true,
+    "id": 6,
+    "neighbourStations": ["فيصل","بولاق الدكرور" ],
+    "coordinates":[30.02600299748651, 31.20114985181208]
+  }
+]

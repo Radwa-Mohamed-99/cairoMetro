@@ -4,7 +4,7 @@
             "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-43:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\811e2b2dfa40fa4932e27925a15d49b7\\transformed\\material-1.12.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\811e2b2dfa40fa4932e27925a15d49b7\\transformed\\material-1.12.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\f452a6a47bc08baaa071868683489a04\\transformed\\core-1.15.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\f452a6a47bc08baaa071868683489a04\\transformed\\core-1.15.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\76e7f1d3fb55393f6714dce13b364b9a\\transformed\\play-services-base-17.0.0\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\76e7f1d3fb55393f6714dce13b364b9a\\transformed\\play-services-base-17.0.0\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\475ac2a65794720b8e29f49b2ac80889\\transformed\\play-services-basement-17.0.0\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\475ac2a65794720b8e29f49b2ac80889\\transformed\\play-services-basement-17.0.0\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

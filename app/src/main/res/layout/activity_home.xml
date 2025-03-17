@@ -34,6 +34,7 @@
                 android:layout_height="30dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="0dp"
+                android:onClick="changeLanguage"
                 app:srcCompat="@drawable/language" />
 
         </RelativeLayout>
@@ -42,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome"
+            android:text="@string/welcome"
             android:textColor="#FFA500"
             android:textSize="24sp" />
 
@@ -50,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Where are you going Today?"
+            android:text="@string/where_are_you_going_today"
             android:textColor="#000000"
             android:textSize="20sp" />
 
@@ -70,19 +71,55 @@
                 android:background="#F4F1F2"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/viewAll"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="34dp"
-                    android:layout_marginBottom="4dp"
-                    android:background="#FBFBFD"
-                    android:gravity="center"
-                    android:linksClickable="false"
-                    android:onClick="viewAll"
-                    android:text="stations                                                                    view all   "
-                    android:textAlignment="textEnd"
-                    android:textColor="#FCA513"
-                    android:textStyle="bold" />
+                    android:layout_height="wrap_content"
+                    android:background="#FDFDFE"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/stations"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:background="#FBFBFD"
+                        android:gravity="center"
+                        android:linksClickable="false"
+                        android:text="@string/stations"
+                        android:textAlignment="textStart"
+                        android:textColor="#FCA513"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/viewAll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FBFBFD"
+                        android:gravity="center"
+                        android:linksClickable="false"
+                        android:onClick="viewAll"
+                        android:text="@string/stations_view_all"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FCA513"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/viewAll"-->
+                <!--                    android:layout_width="34dp"-->
+                <!--                    android:layout_height="34dp"-->
+                <!--                    android:layout_marginBottom="4dp"-->
+                <!--                    android:background="#FBFBFD"-->
+                <!--                    android:gravity="center"-->
+                <!--                    android:linksClickable="false"-->
+                <!--                    android:onClick="viewAll"-->
+                <!--                    android:text="@string/stations_view_all"-->
+                <!--                    android:textAlignment="textEnd"-->
+                <!--                    android:textColor="#FCA513"-->
+                <!--                    android:textStyle="bold" />-->
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -201,7 +238,7 @@
                         android:layout_height="wrap_content"
                         android:buttonTint="#FEA613"
                         android:checked="false"
-                        android:text="less stations" />
+                        android:text="@string/less_stations" />
 
                     <RadioButton
                         android:id="@+id/lessTransfer"
@@ -210,7 +247,7 @@
                         android:layout_marginEnd="164dp"
                         android:layout_marginBottom="1dp"
                         android:gravity="center|start"
-                        android:text="Less Transfer" />
+                        android:text="@string/less_transfer" />
 
                 </RadioGroup>
 
@@ -221,7 +258,7 @@
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="#FEA613"
                     android:onClick="start"
-                    android:text="Start"
+                    android:text="@string/start"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -234,7 +271,7 @@
                     android:layout_marginTop="8dp"
                     android:background="#F5F5F5"
                     android:gravity="center_vertical"
-                    android:hint=" Enter start station"
+                    android:hint="@string/enter_start_station"
                     android:popupBackground="#F5F5F5"
                     app:layout_constraintEnd_toEndOf="@+id/arrival"
                     app:layout_constraintStart_toStartOf="@+id/arrival"
@@ -250,7 +287,7 @@
                     android:layout_marginBottom="8dp"
                     android:background="#F5F5F5"
                     android:gravity="center_vertical"
-                    android:hint=" Enter arrival station"
+                    android:hint="@string/enter_arrival_station"
                     android:popupBackground="#F5F5F5"
                     app:layout_constraintBottom_toTopOf="@+id/lessTransfer"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -314,7 +351,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Please enter your destination (optional)"
+                    android:text="@string/please_enter_your_destination_optional"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -325,7 +362,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:background="#F5F5F5"
-                    android:hint="Address"
+                    android:hint="@string/address"
                     android:padding="12dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/textView"
@@ -339,7 +376,7 @@
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="#FEA613"
                     android:onClick="search"
-                    android:text="Search"
+                    android:text="@string/search"
                     android:textColor="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

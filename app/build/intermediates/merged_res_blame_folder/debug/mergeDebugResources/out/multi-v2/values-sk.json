@@ -4,7 +4,7 @@
             "outputFile": "com.ramd.cairoMetro.app-mergeDebugResources-43:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\e3299ab6c10df2d3e1bd311a2d5068b4\\transformed\\appcompat-1.7.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\811e2b2dfa40fa4932e27925a15d49b7\\transformed\\material-1.12.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\811e2b2dfa40fa4932e27925a15d49b7\\transformed\\material-1.12.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +40,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\76e7f1d3fb55393f6714dce13b364b9a\\transformed\\play-services-base-17.0.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\f452a6a47bc08baaa071868683489a04\\transformed\\core-1.15.0\\res\\values-sk\\values-sk.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,541,663,771,986,1112,1251,1378,1606,1715,1916,2044,2266,2456,2550,2643",
-                        "endColumns": "103,191,121,107,214,125,138,126,227,108,200,127,221,189,93,92,111",
-                        "endOffsets": "348,540,662,770,985,1111,1250,1377,1605,1714,1915,2043,2265,2455,2549,2642,2754"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,354,452,562,670,792",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "146,248,349,447,557,665,787,888"
                     },
                     "to": {
-                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4581,4689,4881,5007,5119,5334,5464,5607,5936,6164,6277,6478,6610,6832,7026,7124,7221",
-                        "endColumns": "107,191,125,111,214,129,142,130,227,112,200,131,221,193,97,96,115",
-                        "endOffsets": "4684,4876,5002,5114,5329,5459,5602,5733,6159,6272,6473,6605,6827,7021,7119,7216,7332"
+                        "startLines": "40,41,42,43,44,45,46,136",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3543,3639,3741,3842,3940,4050,4158,12711",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "3634,3736,3837,3935,4045,4153,4275,12807"
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\475ac2a65794720b8e29f49b2ac80889\\transformed\\play-services-basement-17.0.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\475ac2a65794720b8e29f49b2ac80889\\transformed\\play-services-basement-17.0.0\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -74,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rradw\\.gradle\\caches\\8.9\\transforms\\f452a6a47bc08baaa071868683489a04\\transformed\\core-1.15.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Laptop Market\\.gradle\\caches\\8.9\\transforms\\76e7f1d3fb55393f6714dce13b364b9a\\transformed\\play-services-base-17.0.0\\res\\values-sk\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,354,452,562,670,792",
-                        "endColumns": "95,101,100,97,109,107,121,100",
-                        "endOffsets": "146,248,349,447,557,665,787,888"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,541,663,771,986,1112,1251,1378,1606,1715,1916,2044,2266,2456,2550,2643",
+                        "endColumns": "103,191,121,107,214,125,138,126,227,108,200,127,221,189,93,92,111",
+                        "endOffsets": "348,540,662,770,985,1111,1250,1377,1605,1714,1915,2043,2265,2455,2549,2642,2754"
                     },
                     "to": {
-                        "startLines": "40,41,42,43,44,45,46,136",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3543,3639,3741,3842,3940,4050,4158,12711",
-                        "endColumns": "95,101,100,97,109,107,121,100",
-                        "endOffsets": "3634,3736,3837,3935,4045,4153,4275,12807"
+                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4581,4689,4881,5007,5119,5334,5464,5607,5936,6164,6277,6478,6610,6832,7026,7124,7221",
+                        "endColumns": "107,191,125,111,214,129,142,130,227,112,200,131,221,193,97,96,115",
+                        "endOffsets": "4684,4876,5002,5114,5329,5459,5602,5733,6159,6272,6473,6605,6827,7021,7119,7216,7332"
                     }
                 }
             ]

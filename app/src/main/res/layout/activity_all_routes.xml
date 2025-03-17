@@ -43,7 +43,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#FEA613"
         android:onClick="start"
-        android:text="Start"
+        android:text="@string/Start"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:background="#FFFFFF"
-            android:text="All routes"
+            android:text="@string/all_routes"
             android:textAlignment="center"
             android:textColor="#FEA613"
             android:textSize="20sp"
@@ -77,7 +77,7 @@
             android:layout_height="31dp"
             android:background="#BAF1BC"
             android:gravity="center"
-            android:text="Shortest Route"
+            android:text="@string/shortest_route"
             android:textAlignment="center"
             android:textColor="#F4F3F3"
             android:textSize="20sp"
@@ -103,7 +103,7 @@
                 android:layout_marginBottom="19dp"
                 android:backgroundTint="#FEA613"
                 android:onClick="next"
-                android:text="Next"
+                android:text="@string/next"
                 android:textStyle="bold" />
 
             <TextView
@@ -140,7 +140,7 @@
                 android:backgroundTint="#FEA613"
                 android:enabled="false"
                 android:onClick="back"
-                android:text="back"
+                android:text="@string/back"
                 android:textStyle="bold"
                 tools:layout_editor_absoluteX="130dp"
                 tools:layout_editor_absoluteY="112dp" />

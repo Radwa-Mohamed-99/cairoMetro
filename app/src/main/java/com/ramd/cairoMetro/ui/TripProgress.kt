@@ -1,7 +1,11 @@
 package com.ramd.cairoMetro.ui
 
 
+import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
+import android.content.res.Configuration
 import android.location.Location
 import android.os.Build
 import android.os.Bundle
@@ -10,6 +14,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -27,16 +32,20 @@ import com.ramd.cairoMetro.pojo.Permissions
 import com.ramd.cairoMetro.pojo.Price
 import com.xwray.groupie.GroupieAdapter
 import mumayank.com.airlocationlibrary.AirLocation
+import java.util.Locale
 
 
 class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener{
 
     lateinit var binding: ActivityTripProgressBinding
+    val readData = DataHandling()
     var items = mutableListOf<StationItem>()
     var adapter = GroupieAdapter()
     var path: List<String> = emptyList()
     var stationData = emptyArray<DataItem>()
     var previousStation =""
+    var language=""
+
     private val permissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestMultiplePermissions()
     ) { permissions ->
@@ -45,13 +54,16 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
         if (allGranted) {
             startLocationService()
         } else {
-            Toast.makeText(this, "Location permissions are required", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,
+                getString(R.string.location_permissions_are_required), Toast.LENGTH_LONG).show()
         }
     }
 
 
 
+    @SuppressLint("SetTextI18n", "StringFormatMatches")
     override fun onCreate(savedInstanceState: Bundle?) {
+        loadLocale()
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         binding = ActivityTripProgressBinding.inflate(layoutInflater)
@@ -63,12 +75,15 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
             insets
         }
 
-        if (!DataHandling().readUserFromAssets(this, "metro.json").isNullOrEmpty()) {
-            stationData = DataHandling().readUserFromAssets(this, "metro.json") as Array<DataItem>
+
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        language = prefs.getString("My_Lang", "en") ?: "en"
+        Log.d("lan=>","$language")
+
+
+        if(!readData.readUserFromAssets(this,"metro_$language.json").isNullOrEmpty()) {
+            stationData = readData.readUserFromAssets(this,"metro_$language.json") as Array<DataItem>
         }
-
-
-
 
         previousStation = intent.getStringExtra("station").toString()
 
@@ -92,17 +107,35 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
 
         val pathCount = path.size
         val price = Price()
-        binding.stationNumbers.text = "Station no. \n${pathCount}"
-        binding.timeTrip.text = "Time \n${(pathCount * 3) / 60} hrs ${(pathCount * 3) % 60} mins"
-        binding.priceStation.text = "Price \n${price.calculatePrice(pathCount)}"
+//        binding.stationNumbers.text = "Station no. \n${pathCount}"
+//        binding.timeTrip.text = "Time \n${(pathCount * 3) / 60} hrs ${(pathCount * 3) % 60} mins"
+//        binding.priceStation.text = "Price \n${price.calculatePrice(pathCount)}"
 
+        binding.stationNumbers.text = getString(R.string.station_no, pathCount)
+        binding.timeTrip.text = getString(R.string.time_hrs_mins, (pathCount * 3) / 60, (pathCount * 3) % 60)
+        binding.priceStation.text =
+            getString(R.string.price, price.calculatePrice(pathCount))
 
         if (!DataHandling().getSimpleData(this,"indicator")) {
             checkPermissionsAndStartService()
             DataHandling().saveSimpleData(this, true, "indicator")
         }
 
+    }
+    private fun loadLocale() {
 
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        val language = prefs.getString("My_Lang", "en") ?: "en"
+
+        val locale = Locale(language)
+        Locale.setDefault(locale)
+
+        val config = Configuration(resources.configuration)
+        config.setLocale(locale)
+        config.setLayoutDirection(locale)
+
+        resources.updateConfiguration(config, resources.displayMetrics)
+        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
     }
 
     override fun onDestroy() {
@@ -129,10 +162,6 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
         startActivity(a)
     }
 
-
-
-
-
     private fun setDataInRecycler(station: String) {
         val layoutManager = binding.recyclerView.layoutManager as LinearLayoutManager
         items.clear()
@@ -141,20 +170,20 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
         for (index in path.indices) {
             if (index == 0 ) {
                 if(station == path[index])
-                    items.add(StationItem(path[index], start = true, stationState =true ))
-                else items.add(StationItem(path[index], start = true))
+                    items.add(StationItem(path[index], start = true, stationState =true, context = this.applicationContext ))
+                else items.add(StationItem(path[index], start = true, context = this.applicationContext))
             } else if (index == path.size - 1) {
                 if(station == path[index])
-                    items.add(StationItem(path[index], end = true, stationState =true ))
-                else items.add(StationItem(path[index], end = true))
+                    items.add(StationItem(path[index], end = true, stationState =true , context = this.applicationContext))
+                else items.add(StationItem(path[index], end = true, context = this.applicationContext))
             } else if (path[index] in intersections) {
                 if(station == path[index])
-                    items.add(StationItem(path[index], change = true, stationState =true ))
-                else items.add(StationItem(path[index], change = true))
+                    items.add(StationItem(path[index], change = true, stationState =true , context = this.applicationContext))
+                else items.add(StationItem(path[index], change = true, context = this.applicationContext))
             } else {
                 if(station == path[index])
-                    items.add(StationItem(path[index], stationState =true ))
-                else items.add(StationItem(path[index]))
+                    items.add(StationItem(path[index], stationState =true , context = this.applicationContext))
+                else items.add(StationItem(path[index], context = this.applicationContext))
             }
         }
         adapter.clear()
@@ -199,15 +228,21 @@ class TripProgress : AppCompatActivity(), LocationService.LocationUpdateListener
     private fun stopLocationService() {
         val serviceIntent = Intent(this, LocationService::class.java)
         stopService(serviceIntent)
-        Toast.makeText(this, "Location service stopped", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, getString(R.string.location_service_stopped), Toast.LENGTH_SHORT).show()
     }
 
     override fun onLocationChanged(location: Location) {
         runOnUiThread {
             var stationData = emptyArray<DataItem>()
-            if (!DataHandling().readUserFromAssets(this, "metro.json").isNullOrEmpty()) {
-                stationData = DataHandling().readUserFromAssets(this, "metro.json") as Array<DataItem>
+
+            val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+            language = prefs.getString("My_Lang", "en") ?: "en"
+            Log.d("lan=>","$language")
+
+            if(!readData.readUserFromAssets(this,"metro_$language.json").isNullOrEmpty()) {
+                stationData = readData.readUserFromAssets(this,"metro_$language.json") as Array<DataItem>
             }
+
             val nearestStation = LocationCalculations().nearestStationPath(stationData,1000F,path, location.latitude, location.longitude)
             if (nearestStation != previousStation) {
                 setDataInRecycler(nearestStation)

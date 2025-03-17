@@ -1,12 +1,15 @@
 package com.ramd.cairoMetro.pojo
 
 
+import android.annotation.SuppressLint
 import android.app.NotificationChannel
 import android.app.NotificationManager
+import android.content.res.Configuration
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
@@ -20,6 +23,7 @@ import androidx.core.app.NotificationCompat
 import com.google.android.gms.location.*
 import com.ramd.cairoMetro.R
 import com.ramd.cairoMetro.ui.TripProgress
+import java.util.Locale
 
 
 class LocationService : Service() {
@@ -37,7 +41,8 @@ class LocationService : Service() {
     var nearestStation =""
     var previous =  ""
     var stationData = emptyArray<DataItem>()
-
+    val readData = DataHandling()
+    var language=""
 
 
     // Interface for communication with activities
@@ -54,11 +59,21 @@ class LocationService : Service() {
     }
 
     override fun onCreate() {
+
+        loadLocale()
+
         super.onCreate()
 
-        if (!DataHandling().readUserFromAssets(this, "metro.json").isNullOrEmpty()) {
-            stationData = DataHandling().readUserFromAssets(this, "metro.json") as Array<DataItem>
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        language = prefs.getString("My_Lang", "en") ?: "en"
+        Log.d("lan=>","$language")
+
+
+        if(!readData.readUserFromAssets(this,"metro_$language.json").isNullOrEmpty()) {
+            stationData = readData.readUserFromAssets(this,"metro_$language.json") as Array<DataItem>
         }
+
+
         path = DataHandling().getListData(this,"path") .toList()
 
         notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
@@ -90,6 +105,25 @@ class LocationService : Service() {
             }
         }
     }
+
+
+    private fun loadLocale() {
+
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        val language = prefs.getString("My_Lang", "en") ?: "en"
+
+        val locale = Locale(language)
+        Locale.setDefault(locale)
+
+        val config = Configuration(resources.configuration)
+        config.setLocale(locale)
+        config.setLayoutDirection(locale)
+
+        resources.updateConfiguration(config, resources.displayMetrics)
+        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
+    }
+
+
 
     private fun createLocationRequest() {
         locationRequest = LocationRequest.create().apply {
@@ -154,8 +188,8 @@ class LocationService : Service() {
         NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_notificon)
             .setColor(Color.RED)
-            .setContentTitle(" Station Alert ")
-            .setContentText("Tracking your location during the trip")
+            .setContentTitle(getString(R.string.station_alert))
+            .setContentText(getString(R.string.tracking_your_location_during_the_trip))
             .setPriority(NotificationCompat.PRIORITY_LOW)
             .setAutoCancel(true)
             .setWhen(System.currentTimeMillis())
@@ -166,7 +200,7 @@ class LocationService : Service() {
                         getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
                     val channel = NotificationChannel(
                         CHANNEL_ID,
-                        "Location Service Channel",
+                        getString(R.string.location_service_channel),
                         NotificationManager.IMPORTANCE_DEFAULT
                     )
                     notificationManager.createNotificationChannel(channel)
@@ -190,7 +224,7 @@ class LocationService : Service() {
         val notification = NotificationCompat.Builder(this, "push_notification_channel")
             .setSmallIcon(R.drawable.ic_stat_notificon)
             .setColor(Color.RED)
-            .setContentTitle("Station Alert!")
+            .setContentTitle(getString(R.string.station_alert))
             .setContentText(alertMessage)
             .setStyle(NotificationCompat.BigTextStyle()
                 .bigText(alertMessage))
@@ -219,14 +253,27 @@ class LocationService : Service() {
 
         notificationManager.notify(2001, notification)
     }
+        @SuppressLint("SuspiciousIndentation")
         private fun notifyUsingDistance(station: String) {
         val intersections = Direction(stationData).findIntersections(path)
             if (station == path[0]) {
-                sendPushNotification("starting trip soon in $station, have a nice trip","start")
+                sendPushNotification(
+                    getString(
+                        R.string.starting_trip_soon_in_have_a_nice_trip,
+                        station
+                    ), "start")
             } else if (station == path[path.size - 1]) {
-                sendPushNotification("reaching destination soon in $station, have a nice day","change")
+                sendPushNotification(
+                    getString(
+                        R.string.reaching_destination_soon_in_have_a_nice_day,
+                        station
+                    ), "change")
             } else if (station in intersections) {
-                sendPushNotification("reaching an intersection soon in $station, be ready","end")
+                sendPushNotification(
+                    getString(
+                        R.string.reaching_an_intersection_soon_in_be_ready,
+                        station
+                    ), "end")
             }
 
         }

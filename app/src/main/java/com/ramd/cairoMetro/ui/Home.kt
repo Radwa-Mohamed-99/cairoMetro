@@ -2,6 +2,7 @@ package com.ramd.cairoMetro.ui
 
 import android.R.layout
 import android.content.Intent
+import android.content.SharedPreferences
 import android.location.Location
 import android.os.Bundle
 import android.util.Log
@@ -20,6 +21,9 @@ import com.ramd.cairoMetro.pojo.DataItem
 import com.ramd.cairoMetro.pojo.LocationCalculations
 import com.ramd.cairoMetro.pojo.LocationService
 import mumayank.com.airlocationlibrary.AirLocation
+import java.util.Locale
+import android.content.res.Configuration
+import androidx.appcompat.app.AlertDialog
 
 class Home : AppCompatActivity(),AirLocation.Callback {
     lateinit var binding: ActivityHomeBinding
@@ -30,8 +34,11 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     var currentLocation = mutableListOf<Double>()
     var path= emptyList<String>()
     var station =""
+    var language=""
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        loadLocale()
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         binding= ActivityHomeBinding.inflate(layoutInflater)
@@ -43,18 +50,22 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         }
 
 
-        if(!readData.readUserFromAssets(this,"metro.json").isNullOrEmpty()) {
-            stationData = readData.readUserFromAssets(this,"metro.json") as Array<DataItem>
-        }
+//        this.setContentView(R.layout.activity_home)
 
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+         language = prefs.getString("My_Lang", "en") ?: "en"
+        Log.d("lan=>","$language")
+
+
+        if(!readData.readUserFromAssets(this,"metro_$language.json").isNullOrEmpty()) {
+            stationData = readData.readUserFromAssets(this,"metro_$language.json") as Array<DataItem>
+        }
 
         val stationNames = stationData.map { it.name }.toSet().toList()
         val adapter = ArrayAdapter(this, layout.simple_dropdown_item_1line, stationNames)
         binding.start.setAdapter(adapter)
         val adapter2 = ArrayAdapter(this, layout.simple_dropdown_item_1line, stationNames)
         binding.arrival.setAdapter(adapter2)
-
-
 
         airLocation = AirLocation(this, this, false,10000)
         airLocation.start()
@@ -63,6 +74,63 @@ class Home : AppCompatActivity(),AirLocation.Callback {
 
 
     }
+
+
+    fun changeLanguage(view: View) {
+        showLanguageDialog()
+    }
+
+    private fun showLanguageDialog() {
+        val languages = arrayOf("\uD83C\uDDFA\uD83C\uDDF8 English", "\uD83C\uDDE6\uD83C\uDDEA العربية")
+        val languageCodes = arrayOf("en", "ar")
+
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Choose Language")
+
+        builder.setItems(languages) { _, which ->
+            val selectedLanguage = languageCodes[which]
+            switchLanguage(selectedLanguage)
+        }
+
+        builder.show()
+    }
+
+    private fun switchLanguage(lang: String) {
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        val editor: SharedPreferences.Editor = prefs.edit()
+        editor.putString("My_Lang", lang)
+        editor.apply()
+
+        setLocale(lang)
+    }
+    private fun setLocale(lang: String) {
+        val locale = Locale(lang)
+        Locale.setDefault(locale)
+        val config = Configuration()
+        config.setLocale(locale)
+        resources.updateConfiguration(config, resources.displayMetrics)
+        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
+        val intent = Intent(this, Home::class.java)
+        startActivity(intent)
+        finish()
+    }
+
+    private fun loadLocale() {
+
+        val prefs: SharedPreferences = getSharedPreferences("Settings", MODE_PRIVATE)
+        val language = prefs.getString("My_Lang", "en") ?: "en"
+
+        val locale = Locale(language)
+        Locale.setDefault(locale)
+
+        val config = Configuration(resources.configuration)
+        config.setLocale(locale)
+        config.setLayoutDirection(locale)
+
+        resources.updateConfiguration(config, resources.displayMetrics)
+        baseContext.resources.updateConfiguration(config, baseContext.resources.displayMetrics)
+    }
+
 
 
 
@@ -105,7 +173,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         airLocation.start()
         val station = location.nearestLocation(stationData,100F,currentLocation[0],currentLocation[1])
         if(station.isEmpty())
-            showToast("no near station from your location")
+            showToast(getString(R.string.no_near_station_from_your_location))
         else    binding.start.setText(station,false)
 
 
@@ -119,7 +187,7 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         }
         else
         {
-            showToast("enter station in start station")
+            showToast(getString(R.string.enter_station_in_start_station))
         }
     }
 
@@ -127,14 +195,14 @@ class Home : AppCompatActivity(),AirLocation.Callback {
         val address = binding.address.text.toString()
         val startDetails = location.getLatAndLong(this,address)
         if (startDetails == Pair(0.0, 0.0))
-            showToast("the address is not valid")
+            showToast(getString(R.string.the_address_is_not_valid))
         else if (startDetails == Pair(-1.0, -1.0) )
-            showToast(" error while loading the data, try again")
+            showToast(getString(R.string.error_while_loading_the_data_try_again))
         else {
             val station =location.nearestLocation(stationData,50F,startDetails.first,startDetails.second)
 
             if(station.isEmpty())
-                showToast( "no near station to your destination")
+                showToast(getString(R.string.no_near_station_to_your_destination))
             else binding.arrival.setText(station,false)
         }
     }
@@ -149,11 +217,11 @@ class Home : AppCompatActivity(),AirLocation.Callback {
     private fun validateStations(): Boolean {
         return when {
             binding.start.text.isNullOrEmpty() || binding.arrival.text.isNullOrEmpty() -> {
-                showToast("Select a station")
+                showToast(getString(R.string.select_a_station))
                 false
             }
             binding.start.text.toString() == binding.arrival.text.toString() -> {
-                showToast("Arrival and start station can't be the same")
+                showToast(getString(R.string.arrival_and_start_station_can_t_be_the_same))
                 false
             }
             else -> true
@@ -179,7 +247,8 @@ class Home : AppCompatActivity(),AirLocation.Callback {
                 readData.saveSimpleData(this,false,"indicator")
                 val serviceIntent = Intent(this, LocationService::class.java)
                 stopService(serviceIntent)
-                Toast.makeText(this, "Location service stopped", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,
+                    getString(R.string.location_service_stopped), Toast.LENGTH_SHORT).show()
 
             }
             if ( station.isNotEmpty()) {
